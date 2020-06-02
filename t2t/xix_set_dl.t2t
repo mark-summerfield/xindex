@@ -6,8 +6,13 @@ Download and Run
 
 ~B[Setup xix_setup.html]~E
 
-One way to setup the software is to download the .zip and unzip it
-somewhere convenient. Then run (or double-click) XindeX.pyw.
+First install Python (>= 3.6), and then the Python packages, PySide (i.e.,
+PySide1 for Qt 4.8), APSW, and roman, then download and unzip (or clone).
+
+Then run `bin/doc.sh` to generate the documentation. (This requires
+txt2tags.)
+
+Then run (or double-click) XindeX.pyw.
 
 (There is no functional difference between the 32- and 64-bit versions
 of ~X, apart from the 64-bit version download files being bigger, and the
