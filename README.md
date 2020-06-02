@@ -13,6 +13,11 @@ Then cd into the XindeX folder and run:
 (This will generate the online help accessible by clicking Help→Help or
 pressing F1 from inside XindeX.)
 
+Then run:
+`rcc.sh`
+(This will create the Qt resource file that contains the application's
+images.)
+
 Then run (or double-click) `XindeX.pyw`.
 
 It should run fine on Windows but nowadays we only test on Linux.
