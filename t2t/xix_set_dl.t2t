@@ -17,9 +17,12 @@ Then cd into the XindeX folder and run:
 pressing F1 from inside XindeX.)
 
 Then run:
-`rcc.sh`
+`bash rcc.sh`
 (This will create the Qt resource file that contains the application's
-images.)
+images; on Windows run `rcc.bat`.)
+
+Then (only on Unix):
+`chmod +x XindeX.pyw`
 
 Then run (or double-click) XindeX.pyw.
 
