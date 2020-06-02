@@ -1,0 +1,160 @@
+Add Entries
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_add.html
+
+~B[Tutorial xix_tu.html]~E
+
+New entries are added in the
+[Main Window Entry Panel xix_ref_panel_entry.html] by invoking one of
+the ~KEntry→Add...~E options.
+
+To add a new main (top-level) entry, invoke the
+[Entry→Add Main Entry action xix_ref_act_y_add.html] using ~KF7~E or
+~KEntr__y__→Add __M__ain Entry~E or [images/add-toplevel.png].
+
+It is also possible to add a new entry as a subentry of the current
+entry, or as a sibling of the current entry. (See the
+[Entry→Add Entry actions xix_ref_act_y_addsib.html] and the examples
+below.)
+
+Why not create one or more new entries now. Once you are in //Adding//
+mode, enter a term (style with **bold**, //italic// or however you like)
+in the ~KTerm~E editor, and enter one or more pages in the ~KPages~E
+editor, again styled as you wish.
+
+For example, add these terms and pages~~~comments (not to be typed in)
+are shown in ~C«chevrons»~E, and an explanation of exactly how to
+add them follows:
+
+~CChess knight, black, 21~E
+
+~Creferences~E
+
+~Cobject, 64-67 «subentry of references»~E
+
+~Cfunction, 60-62, 70, 87 «subentry of references»~E
+
+~Cglobal modal, 235-37~E
+
+~Cglobal grab, 236~E
+
+~Cimage, 256 «subentry of references»~E
+
+- First make sure that you have opened ~FTutorial.xix~E.
+
+- Use ~KF7~E or ~KEntr__y__→Add __M__ain Entry~E
+  or [images/add-toplevel.png] to add a new main entry, and enter the
+  text ~CChess knight, black~E in the ~KTerm~E editor. Now click or
+  ~KTab~E to the ~KPages~E editor (at which point the entry will
+  automatically be saved), and enter ~C21~E.
+
+- Use ~KF7~E or ~KEntr__y__→Add __M__ain Entry~E
+  or [images/add-toplevel.png] to add another main entry (at which point
+  the ~CChess knight, black~E entry will be saved with its page number),
+  and enter ~Creferences~E in the ~KTerm~E editor.
+
+- Use ~KShift+F7~E or ~KEntr__y__→Add __S__ubentry~E
+  or [images/add-child.png] to create a subentry of the current entry
+  (~Creferences~E, which will be automatically saved), and enter
+  ~Cobject~E in the ~KTerm~E editor. Now click or ~KTab~E to the
+  ~KPages~E editor (at which point the entry will automatically be
+  saved), and enter ~C64-7~E.
+
+- Use ~KCtrl+F7~E or ~KEntr__y__→Add Sibling __E__ntry~E
+  or [images/add.png] to add another entry as a sibling of the
+  ~Cobject~E entry (i.e., as a subentry of the ~Creferences~E entry),
+  and enter ~Cfunction~E in the ~KTerm~E editor. Now click or ~KTab~E to
+  the ~KPages~E editor, and enter ~C60-2,70,87~E.
+
+- Use ~KF7~E or ~KEntr__y__→Add __M__ain Entry~E
+  or [images/add-toplevel.png] to add a new main entry, and enter
+  ~Cglobal modal~E in the ~KTerm~E editor, then click or ~KTab~E to the
+  ~KPages~E editor, and enter ~C235-7~E.
+
+- Use ~KF7~E or ~KEntr__y__→Add __M__ain Entry~E
+  or [images/add-toplevel.png] to add another main entry, and enter
+  ~Cglobal grab~E in the ~KTerm~E editor, and enter a page number of
+  ~C236~E.
+
+- Navigate to the ~Creferences~E entry by clicking it in the
+  [Main Window Index Panel xix_ref_panel_index.html]. Or use ~KAlt+I~E
+  to move the focus to the index panel, and then the ~KDown~E arrow key
+  to move to the entry. Once the ~Creferences~E entry is the current
+  entry (i.e., has a solid black bullet beside it and highlighted in
+  yellow), use ~KShift+F7~E or ~KEntr__y__→Add __S__ubentry~E
+  or [images/add-child.png] to add another subentry, and enter ~Cimage~E
+  in the ~KTerm~E editor and then page ~C256~E. Use ~KCtrl+S~E
+  or [images/filesave.png] to save this last change immediately~~~if you
+  forget to save it will still be saved automatically at some point.
+
+
+If you are using the ~cms //word-by-word// sort rules and the ~cms
+Compact page range rules the index fragment shown in the
+[Main Window Index Panel xix_ref_panel_index.html] should look like
+this:
+
+~CChess knight, black, 21~E
+
+~Cglobal grab, 236~E
+
+~Cglobal modal, 235-37~E
+
+~Creferences~E
+
+    ~C_function, 60-62, 70, 87~E
+
+    ~C_image, 256~E
+
+    ~C_object, 64-67~E
+
+The entries and subentries are in the correct order and the page ranges
+have been changed to satisfy the page range rules.
+
+''<table bgcolor="lightyellow"><tr><td>''
+The pattern for adding new entries is: ~KF7~E or ~KEntr__y__→Add
+__M__ain Entry~E or [images/add-toplevel.png] (or ~KShift+F7~E or
+~KEntr__y__→Add __S__ubentry~E or [images/add-child.png], or ~KCtrl+F7~E
+or ~KEntr__y__→Add Sibling __E__ntry~E or [images/add.png]~~~or click
+one of the ~KEntry→Add ...~E menu options), then enter the term text
+(styled as required), then click or ~KTab~E to the ~KPages~E editor, and
+enter pages. Repeat as often as necessary. (And each time you use ~KF7~E
+or ~KEntr__y__→Add __M__ain Entry~E or [images/add-toplevel.png] or
+similar, or click or ~KTab~E to the ~KPages~E editor, ~X will save.)
+''</td></tr></table>''
+
+''<table bgcolor="#FFE9EC"><tr><td>''
+When you start adding a new entry by typing in its term text, whenever
+possible, ~X will show the main entry whose term starts with what you've
+typed in so far, above the [Entry Panel xix_ref_panel_entry.html]'s
+~KTerm~E editor. So~~~especially for a large index~~~you may discover
+that you've already added the entry you're adding. In such cases, invoke
+the [Entry→Cancel Add action xix_ref_act_y_add.html] with ~KCtrl+0~E
+(//control// //zero//), or ~KEntr__y__→Ca__n__cel Add~E
+or [images/canceladd.png], which will not only cancel the add, but will
+also navigate to the existing entry.
+''</td></tr></table>''
+
+''<table bgcolor="lightyellow"><tr><td>''
+(See [Edit Entries I (Double-Posting) xix_tu_edit1.html] for the pattern
+for adding entries with synchronized pages.)
+''</td></tr></table>''
+
+Of course, sometimes you'll want to add a new subentry elsewhere than
+the current entry, in which case you'll need to navigate to its parent
+entry. Once the index grows beyond a few scores of entries this is most
+easily achieved by using ~X's navigation facilities~~~this is covered
+later in this tutorial ([Finding Entries xix_tu_nav.html]).
+
+For more about the ~KTerm~E and ~KPages~E editors, see the
+[Main Window Entry Panel xix_ref_panel_entry.html]. For more on using
+the editors, see [Text Editing actions xix_ref_acttxt.html]. And for
+more about entering page numbers and page ranges, see
+[Pages xix_ref_pages.html].
+
+Once you have added some index entries, you'll want to modify them: add
+extra pages, edit their terms and pages, add cross-references, delete
+redundant entries, and move subentries to be main entries or vice versa.
+
+~= [Edit Entries I (Double-Posting) xix_tu_edit1.html]

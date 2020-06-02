@@ -1,0 +1,75 @@
+Entry→Add Entry actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_y_add.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Entry Menu xix_ref_actentry.html]~E
+
+These actions are used to add new entries to the index. You can also add
+entries by copying them: see the
+[Entry→Copy action xix_ref_act_y_copy.html].
+
+When adding, whenever possible, ~X will show the first main entry that
+starts with the term text entered so far, above the
+[Entry Panel xix_ref_panel_entry.html]'s ~KTerm~E editor. Also, the
+[Status Bar xix_ref_status.html] will ~X's current mode, i.e.,
+//Adding//.
+
+
+====Entry→Add Main Entry action====
+
+To add a new entry as a main entry, use ~KF7~E or ~KEntr__y__→Add
+__M__ain Entry~E or [images/add-toplevel.png].
+
+====Entry→Add Subentry action====
+
+To add a new entry as a subentry of the current entry, use
+~KShift+F7~E or ~KEntr__y__→Add __S__ubentry~E or [images/add-child.png].
+
+====Entry→Add Sibling Entry action====
+
+To add a new entry at the same level in the index as the current
+entry~~~i.e., as a main entry, if the current entry is a main entry (or
+if this is the index's first entry), or as a subentry of the current
+entry's parent entry~~~use ~KCtrl+F7~E or ~KEntr__y__→Add Sibling
+__E__ntry~E or [images/add.png].
+
+====Entry→Cancel Add action====
+
+If you change your mind, and don't want to create a new entry while in
+the middle of //Adding//~~~for example, because you can see that you
+already have this entry, as shown above the
+[Entry Panel xix_ref_panel_entry.html]'s ~KTerm~E editor~~~use
+~KCtrl+0~E (//control// //zero//), or ~KEntr__y__→Ca__n__cel Add~E
+or [images/canceladd.png] to cancel.
+
+When you cancel, whenever possible, ~X will navigate to the main entry
+that starts with whatever term you had started to enter~~~as shown above
+the ~KTerm~E editor~~~and will move the keyboard focus to the ~KPages~E
+editor, with the cursor at the end. (Even if you want to add a page
+number that is lower than the last one, you can simply enter a comma and
+then the number, since ~X will put the page in the correct position.)
+
+-------------------------
+You can undo adding a new entry immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+It is very easy to move any subentry to be a main entry, or any main or
+subentry to be a subentry of some other entry. (See the
+[Entry→Move action xix_ref_act_y_mv.html].)
+
+''<table bgcolor="lightyellow"><tr><td>''
+The general pattern for adding new entries is: press ~KF7~E
+or [images/add-toplevel.png] (or
+~KShift+F7~E or [images/add-child.png] or ~KCtrl+F7~E
+or [images/add.png]~~~or click one of the ~KEntry→Add ...~E menu
+options), then enter the term text (styled as required), then press
+~KTab~E or click the ~KPages~E editor, then enter pages. Repeat as often
+as necessary, starting with ~KF7~E or [images/add-toplevel.png] or
+similar. (And each time you add a new entry, or press ~KTab~E, or click
+another editor, ~X will automatically save.)
+''</td></tr></table>''
+
+~= [Entry→Copy action xix_ref_act_y_copy.html]

@@ -1,0 +1,22 @@
+Main Window
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_mainwin.html
+
+~B[Reference xix_ref.html]~E
+
+- [Menu Actions xix_ref_actions.html] ~~~
+[Toolbars xix_ref_tb.html]
+    - [Text Editing actions xix_ref_acttxt.html]
+- [Panels xix_ref_panels.html]
+    - [Entry Panel xix_ref_panel_entry.html]
+    - [Filtered Panel xix_ref_panel_filter.html]
+    - [Groups Panel xix_ref_panel_grp.html]
+    - [Index Panel xix_ref_panel_index.html]
+    - [Search and Replace Panel xix_ref_panel_replace.html]
+    - [Suggestions Panel xix_ref_panel_sug.html]
+- [Status Bar xix_ref_status.html]
+
+
+~= [Menu Actions xix_ref_actions.html]

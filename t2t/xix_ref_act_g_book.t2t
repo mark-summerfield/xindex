@@ -1,0 +1,43 @@
+Goto→Bookmark actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_g_book.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Goto Menu xix_ref_actgoto.html]~E
+
+These actions are used to add, remove, and navigate to //bookmarks//. A
+bookmark identifies a particular entry, and the bookmarks are stored in
+the index's ~F.xix~E file, so they are preserved across sessions.
+
+====Goto→Add Bookmark action====
+
+To add a bookmark to the current entry, use ~KF4~E or
+~K__G__oto→__A__dd Bookmark~E or [images/bookmark-new.png].
+
+====Goto→Remove Bookmark action====
+
+To remove a bookmark to the current entry, use ~KShift+F4~E or
+~K__G__oto→__R__emove Bookmark~E or [images/bookmark-remove.png].
+
+====Goto→Bookmarks action====
+
+To visit a bookmark, use ~KAlt+G,B,//b//~E (where //b// is the
+underlined number or letter in the ~KBookmarks~E submenu that's beside
+the entry you want to visit), or
+~K__G__oto→__B__ookmarks→//__b__//~E. Alternatively,
+use [images/bookmark.png] to pop up the ~KBookmarks~E
+submenu, and then press or click the underlined number of letter.
+
+When a visit bookmark action is invoked, the bookmarked entry becomes the
+//current// entry, so it will be shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html] where it can be
+edited, and it will also be shown highlighted in the
+[Main Window Index Panel xix_ref_panel_index.html].
+
+-------------------------
+See also the [Tutorial xix_tu.html]'s
+[Finding Entries xix_tu_nav.html] page.
+
+~= [Entry Menu's actions xix_ref_actentry.html]

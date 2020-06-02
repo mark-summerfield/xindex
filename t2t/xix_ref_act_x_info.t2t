@@ -1,0 +1,18 @@
+Index→Information action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_info.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Information action====
+
+This action is used to pop up the
+[Information Dialog xix_ref_dlg_info.html] which shows basic information
+about the current index.
+
+To invoke, use ~KInde__x__→__I__nformation~E.
+
+~= [Index→Show Suggestions and Groups action xix_ref_act_l_show.html]

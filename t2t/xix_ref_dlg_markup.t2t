@@ -1,0 +1,25 @@
+Custom Markup Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_markup.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Index→Custom Markup action xix_ref_act_x_mark.html].
+
+This dialog is used to edit the built-in ~F.ucp~E custom markup, and to
+add, edit, and delete other custom markups.
+
+Every custom markup must have its own unique file extension~~~and this
+must not be the same as any of ~X's standard ones (e.g., not ~F.rtf~E or
+~F.docx~E; see the [File→Output As action xix_ref_act_f_oas.html] for
+the full list).
+
+In general, if ~C{nl}~E appears in one of the dialog's editors, it will
+be replaced by a newline in the output. Also, note that if you want to
+include braces in the output, you must double them up~~~that is,
+~C{{~E to get ~C{~E and, ~C}}~E to get ~C}~E.
+
+~= [Delete or Unlink Linked Group Dialog xix_ref_dlg_unlink.html]

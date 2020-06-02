@@ -1,0 +1,38 @@
+File→Backup action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_bak.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Backup action====
+
+This action saves a copy of the current index by popping up a ~KBackup
+Index~E save file chooser dialog from which you can choose a folder and
+filename for the backup index~~~or you can accept the defaults of the
+current index's folder and the current index's name with a number
+appended in parentheses. Click the ~KSave~E button to make the backup;
+you can then continue working on the current index.
+
+For example, if you have an index called ~FPearson - Python in
+Practice.xix~E, the first time you invoke this action the default name
+that will be presented is ~FPearson - Python in Practice (1).xix~E.
+Assuming that this default is accepted, the second time the action is
+invoked, the default name will be ~FPearson - Python in Practice
+(2).xix~E, and so on.
+
+Prior to saving, ~X will also optimize the index to ensure that it is
+fast in use and takes as little space as possible.
+
+To invoke, use ~K__F__ile→__B__ackup~E.
+
+-------------------------
+If you want to save an index under a different name or in a different
+folder, use the [File→Save As action xix_ref_act_f_saveas.html].
+
+See also the [Tutorial xix_tu.html]'s
+[Save and Backup an Index xix_tu_save.html].
+
+~= [File→Save action xix_ref_act_f_save.html]

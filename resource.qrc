@@ -1,0 +1,141 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+    <file alias="xindex.svg">images/xindex.svg</file>
+    <file alias="splash.png">images/splash.png</file>
+    <!-- File actions -->
+    <file alias="document-new.svg">images/document-new.svg</file>
+    <file alias="document-open.svg">images/document-open.svg</file>
+    <file alias="filesaveas.svg">images/filesaveas.svg</file>
+    <file alias="export.svg">images/export.svg</file>
+    <file alias="exportrtf.svg">images/exportrtf.svg</file>
+    <file alias="exportdocx.svg">images/exportdocx.svg</file>
+    <file alias="fileprint.svg">images/fileprint.svg</file>
+    <file alias="filesave.svg">images/filesave.svg</file>
+    <file alias="shutdown.svg">images/shutdown.svg</file>
+    <!-- Edit actions -->
+    <file alias="editor-undo.svg">images/editor-undo.svg</file>
+    <file alias="editor-redo.svg">images/editor-redo.svg</file>
+    <file alias="edit-cut.svg">images/edit-cut.svg</file>
+    <file alias="edit-copy.svg">images/edit-copy.svg</file>
+    <file alias="edit-paste.svg">images/edit-paste.svg</file>
+    <file alias="edit-find.svg">images/edit-find.svg</file>
+    <file alias="edit-find-replace.svg">images/edit-find-replace.svg</file>
+    <!-- Insert actions -->
+    <file alias="quote.svg">images/quote.svg</file>
+    <file alias="doublequote.svg">images/doublequote.svg</file>
+    <file alias="endash.svg">images/endash.svg</file>
+    <file alias="emdash.svg">images/emdash.svg</file>
+    <file alias="ellipsis.svg">images/ellipsis.svg</file>
+    <file alias="accessories-character-map.svg">images/accessories-character-map.svg</file>
+    <!-- Spelling actions -->
+    <file alias="spelling-add.svg">images/spelling-add.svg</file>
+    <file alias="spelling-remove.svg">images/spelling-remove.svg</file>
+    <file alias="spelling-ignore.svg">images/spelling-ignore.svg</file>
+    <file alias="spelling.svg">images/spelling.svg</file>
+    <file alias="autoreplace.svg">images/autoreplace.svg</file>
+    <file alias="complete.svg">images/complete.svg</file>
+    <!-- Format actions -->
+    <file alias="format-text-bold.svg">images/format-text-bold.svg</file>
+    <file alias="format-text-italic.svg">images/format-text-italic.svg</file>
+    <file alias="format-text-underline.svg">images/format-text-underline.svg</file>
+    <file alias="superscript.svg">images/superscript.svg</file>
+    <file alias="subscript.svg">images/subscript.svg</file>
+    <file alias="nosupersubscript.svg">images/nosupersubscript.svg</file>
+    <file alias="font-std.svg">images/font-std.svg</file>
+    <file alias="font-alt.svg">images/font-alt.svg</file>
+    <file alias="font-mono.svg">images/font-mono.svg</file>
+    <!-- Goto actions -->
+    <file alias="go-top.svg">images/go-top.svg</file>
+    <file alias="go-bottom.svg">images/go-bottom.svg</file>
+    <file alias="goto-found.svg">images/goto-found.svg</file>
+    <file alias="goto-circled.svg">images/goto-circled.svg</file>
+    <file alias="goto-xref.svg">images/goto-xref.svg</file>
+    <file alias="go-next.svg">images/go-next.svg</file>
+    <file alias="go-previous.svg">images/go-previous.svg</file>
+    <file alias="goto-letter.svg">images/goto-letter.svg</file>
+    <file alias="bookmark-new.svg">images/bookmark-new.svg</file>
+    <file alias="bookmark-remove.svg">images/bookmark-remove.svg</file>
+    <file alias="bookmark.svg">images/bookmark.svg</file>
+    <!-- Entry actions -->
+    <file alias="edit-undo.svg">images/edit-undo.svg</file>
+    <file alias="edit-redo.svg">images/edit-redo.svg</file>
+    <file alias="add.svg">images/add.svg</file>
+    <file alias="add-toplevel.svg">images/add-toplevel.svg</file>
+    <file alias="add-child.svg">images/add-child.svg</file>
+    <file alias="canceladd.svg">images/canceladd.svg</file>
+    <file alias="copy.svg">images/copy.svg</file>
+    <file alias="move.svg">images/move.svg</file>
+    <file alias="recreate.svg">images/recreate.svg</file>
+    <file alias="delete.svg">images/delete.svg</file>
+    <file alias="circle.svg">images/circle.svg</file>
+    <file alias="chain.svg">images/chain.svg</file>
+    <file alias="chain-disabled.svg">images/chain-disabled.svg</file>
+    <file alias="xref-add.svg">images/xref-add.svg</file>
+    <file alias="xref-change.svg">images/xref-change.svg</file>
+    <file alias="xref-delete.svg">images/xref-delete.svg</file>
+
+    <!-- Modify actions -->
+    <file alias="swapacronym.svg">images/swapacronym.svg</file>
+    <file alias="copypages.svg">images/copypages.svg</file>
+    <file alias="mergepages.svg">images/mergepages.svg</file>
+    <file alias="swap-term-with-found.svg">images/swap-term-with-found.svg</file>
+    <file alias="swap-term-with-circled.svg">images/swap-term-with-circled.svg</file>
+    <file alias="swap-entry-with-found.svg">images/swap-entry-with-found.svg</file>
+    <file alias="swap-entry-with-circled.svg">images/swap-entry-with-circled.svg</file>
+    <file alias="merge-into-parent.svg">images/merge-into-parent.svg</file>
+    <file alias="merge-sub-entries.svg">images/merge-sub-entries.svg</file>
+    <!-- Index actions -->
+    <file alias="groups.svg">images/groups.svg</file>
+    <file alias="groupaddto.svg">images/groupaddto.svg</file>
+    <file alias="groupaddtolink.svg">images/groupaddtolink.svg</file>
+    <file alias="grouplink.svg">images/grouplink.svg</file>
+    <file alias="groupremovefrom.svg">images/groupremovefrom.svg</file>
+    <file alias="groupset.svg">images/groupset.svg</file>
+    <file alias="wordbyword.svg">images/wordbyword.svg</file>
+    <file alias="letterbyletter.svg">images/letterbyletter.svg</file>
+    <file alias="format-justify-right.svg">images/format-justify-right.svg</file>
+    <file alias="markup.svg">images/markup.svg</file>
+    <!-- We need both png and svg for flags -->
+    <file alias="American.png">images/American.png</file>
+    <file alias="Australian.png">images/Australian.png</file>
+    <file alias="British.png">images/British.png</file>
+    <file alias="Canadian.png">images/Canadian.png</file>
+    <file alias="South_African.png">images/South_African.png</file>
+    <file alias="American.svg">images/American.svg</file>
+    <file alias="Australian.svg">images/Australian.svg</file>
+    <file alias="British.svg">images/British.svg</file>
+    <file alias="Canadian.svg">images/Canadian.svg</file>
+    <file alias="South_African.svg">images/South_African.svg</file>
+
+    <file alias="preferences-system.svg">images/preferences-system.svg</file>
+    <file alias="preferences-desktop.svg">images/preferences-desktop.svg</file>
+    <file alias="about.svg">images/about.svg</file>
+    <file alias="combinepages.svg">images/combinepages.svg</file>
+    <file alias="renumberpages.svg">images/renumberpages.svg</file>
+
+    <!-- Help actions -->
+    <file alias="help.svg">images/help.svg</file>
+    <file alias="license.svg">images/license.svg</file>
+    <file alias="unlock.svg">images/unlock.svg</file>
+    <file alias="go-back.svg">images/go-back.svg</file>
+    <file alias="go-forward.svg">images/go-forward.svg</file>
+    <file alias="go-home.svg">images/go-home.svg</file>
+    <file alias="go-home.svg">images/go-home.svg</file>
+    <file alias="format-justify-left.svg">images/format-justify-left.svg</file>
+    <file alias="zoomin.svg">images/zoomin.svg</file>
+    <file alias="zoomout.svg">images/zoomout.svg</file>
+    <!-- Other actions -->
+    <file alias="dialog-close.svg">images/rodentia-icons_application-exit.svg</file>
+    <file alias="edit.svg">images/edit.svg</file>
+    <file alias="ok.svg">images/kuba-icon-ok.svg</file>
+    <file alias="free-trial.svg">images/free-trial.svg</file>
+    <file alias="money.svg">images/n-kamil-Money-banknotes-and-coin.svg</file>
+    <file alias="skip.svg">images/skip.svg</file>
+    <file alias="skip-entry.svg">images/skip-entry.svg</file>
+    <file alias="process-stop.svg">images/process-stop.svg</file>
+    <file alias="hide.svg">images/hide.svg</file>
+    <file alias="showpanel.svg">images/showpanel.svg</file>
+    <file alias="check.svg">images/check.svg</file>
+</qresource>
+</RCC>

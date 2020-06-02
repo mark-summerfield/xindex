@@ -1,0 +1,35 @@
+Modify→Merge and Copy Pages actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_m_cpp.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Modify Menu xix_ref_actmod.html]~E
+
+====Modify→Merge Pages action====
+
+This action merges the most recently added or edited pages into the
+current entry's pages, and combine any pages that overlap. (See the
+[Modify→Combine Pages action xix_ref_act_m_comb.html].)
+
+To invoke the action, use ~KF6~E or ~K__M__odify→Merge __P__ages~E
+or [images/mergepages.png].
+
+No change is applied if there are no previously added or edited pages.
+
+====Modify→Copy Pages action====
+
+This action copies the most recently added or edited pages into the
+current entry's pages~~~replacing any existing pages.
+
+To invoke the action, use ~KF6~E or ~K__M__odify→C__o__py Pages~E
+or [images/copypages.png].
+
+No change is applied if there are no previously added or edited pages.
+
+-------------------------
+You can undo copying pages immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+~= [Modify→Combine Pages action xix_ref_act_m_comb.html]

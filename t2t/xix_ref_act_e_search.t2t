@@ -1,0 +1,30 @@
+Edit→Search and Replace action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_e_search.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Edit Menu xix_ref_actedit.html]~E
+
+====Edit→Search and Replace action====
+
+This action is used to make the
+[Main Window Search and Replace Panel xix_ref_panel_replace.html]
+visible, and puts the cursor in the ~KSearch and Replace~E panel's
+~KSearch For~E editor.
+
+To invoke, use ~KCtrl+H~E or ~K__E__dit→__S__earch and Replace~E
+or [images/edit-find-replace.png].
+
+-------------------------
+See the
+[Main Window Search and Replace Panel xix_ref_panel_replace.html] for
+how to perform search and replace.
+
+If you want to filter entries, e.g., to view those that contain
+particular words or pages, use the
+[Main Window Filtered Panel xix_ref_panel_filter.html], which is made
+visible by the [Edit→Filter action xix_ref_act_e_filter.html].
+
+~= [Insert Menu's actions xix_ref_actins.html]

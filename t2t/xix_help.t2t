@@ -1,0 +1,45 @@
+XindeX Help
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_help.html
+
+                                [images/xix-icon.png]
+
+~X //is an easy to learn and use application for creating,//
+//editing, and outputting indexes (e.g., for books).//
+
+== Contents ==
+- [Setup xix_setup.html]
+- [Tutorial xix_tu.html] ~~~ [Finding Entries xix_tu_nav.html]
+~~~ [Key Concepts xix_key_con.html]
+- [Reference xix_ref.html]
+    - [General xix_ref_gen.html]
+        - [Keyboard Shortcuts xix_ref_keys.html] ~~~
+[Mouse Actions xix_ref_mouse.html]
+        - [Sort As Text xix_ref_sortas.html] ~~~
+[Sort As Rules xix_ref_sortas_rules.html]
+        - [Pages xix_ref_pages.html] ~~~
+[Page Range Rules xix_ref_prange_rules.html]
+        - [Pre-Publication Checks xix_ref_checks.html]
+    - [Main Window xix_ref_mainwin.html]
+        - [Menu Actions xix_ref_actions.html] ~~~
+[Toolbars xix_ref_tb.html]
+        - [Panels xix_ref_panels.html] ~~~
+[Entry Panel xix_ref_panel_entry.html] ~~~
+[Filtered Panel xix_ref_panel_filter.html] ~~~
+[Index Panel xix_ref_panel_index.html]
+        - [Status Bar xix_ref_status.html]
+    - [Dialogs xix_ref_dlgs.html]
+- [Tips xix_tip1.html]
+- [Support xix_supp.html] ~~~ [Third-Party Products xix_3rdparty.html]
+   ~~~ [License xix_license.html]
+
+
+//You can read all the online documentation right through by following//
+//the ~= links at the end of each page.//
+
+~= [Setup xix_setup.html]
+---------------------------------------------
+''<small>''Copyright © 2015-%%date(%Y) Qtrac Ltd. All Rights Reserved.
+''</small>''

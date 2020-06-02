@@ -1,0 +1,27 @@
+Status Bar
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_status.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]~E
+
+The status bar at the bottom of the main window has an information area
+on the left, and status indicators on the right.
+
+The information area gives a very brief~~~and temporary~~~description of
+any recent action (e.g., opening a ~F.xix~E file). It also shows the
+progress of any potentially long-running action (including those that
+are caused by dialog actions).
+
+The status indicators show the current mode (e.g., Viewing), the
+[Sort As Rules xix_ref_sortas_rules.html] and
+[Page Range Rules xix_ref_prange_rules.html] that are in force, the
+total number of entries, the number of main entries, the number of new
+entries created in this session, the number of filtered entries, how
+long the index has been worked on, and what the current language is.
+(The language is used for spell checking and suggestions; see the
+[Options Dialog's General Tab xix_ref_dlg_opt_gen.html]'s ~KLanguage~E
+drop-down list).
+
+~= [Dialogs xix_ref_dlgs.html]

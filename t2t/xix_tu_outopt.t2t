@@ -1,0 +1,60 @@
+Set Output Options
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_outopt.html
+
+~B[Tutorial xix_tu.html]~E
+
+
+Once your index is complete you will need to output it in a format
+suitable for your customer.
+
+Before creating the final output, it might be worth performing a few
+[Pre-Publication Checks xix_ref_checks.html]. These will help you find
+any incorrectly overlapping pages, any entries with no pages,
+subentries, or cross-references, and so on.
+
+~X offers many output options, all of which have sensible defaults. To
+see and edit these options, invoke the
+[Index→Output Options action xix_ref_act_x_outopt.html] using
+~KInde__x__→Ou__t__put Options~E. This will pop up the
+[Output Options Dialog xix_ref_dlg_output.html].
+
+The purpose and use of most of this dialog's options should be
+self-evident, and all the dialog's editors have tooltips (unless you've
+switched off tooltips). The output fonts are initially the same as the
+display fonts (which are set in the
+[Options Dialog's Display Tab xix_ref_dlg_opt_disp.html]), but you can
+change them and ~X will respect this when it outputs the index.
+
+Regarding the ~KGeneral~E tab, in ~X terminology a //section// is a part
+of the index which starts with a unique letter of the alphabet or the
+part which precedes the alphabetical parts. If you check the ~KOutput
+Titles~E checkbox, then section titles, “A”, “B”, ..., “Z”, will be
+output for non-empty sections, preceded by the ~KSpecial Section Title~E
+if any entries appear before the “A” section.
+
+Probably the most important option is the ~KStyle~E, i.e., whether the
+index should be output indented or run-in, and if run-in, at what level.
+
+In some editors such as the ~KTerm-Pages Separator~E editor, you will
+see one or more cyan bullets~~~each of these will appear as a space in
+the output but are shown as bullets to make it easier to see leading and
+trailing spaces in the dialog's editors.
+
+The ~KEntry Cross-references~E and ~KSubentry Cross-references~E tabs
+are used to set the optional prefix, text, separator, and optional
+suffix for //see// and //see// //also// cross-references, as well as for
+setting the position for //see// //also// cross-references
+
+The ~KFormat Specific~E tab is used to set options specific to certain
+output formats, but notably does not include any options for the
+~F.rtf~E or ~F.docx~E formats. This is because when these formats are
+output they will inherit the word-processor's defaults for page size,
+margins, and so on.
+
+Once you've performed any final checks and set the output options, you
+are ready to output your index.
+
+~= [Output an Index xix_tu_out.html]

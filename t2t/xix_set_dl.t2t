@@ -1,0 +1,16 @@
+Download and Run
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_set_dl.html
+
+~B[Setup xix_setup.html]~E
+
+One way to setup the software is to download the .zip and unzip it
+somewhere convenient. Then run (or double-click) XindeX.pyw.
+
+(There is no functional difference between the 32- and 64-bit versions
+of ~X, apart from the 64-bit version download files being bigger, and the
+64-bit versions using more memory.)
+
+~= [Tutorial xix_tu.html]

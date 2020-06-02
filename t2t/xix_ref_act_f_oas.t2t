@@ -1,0 +1,119 @@
+File→Output As action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_oas.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Output As action====
+
+This action will pop up an ~KOutput As~E save file chooser dialog
+through which you can choose the folder, filename, and extension to
+output your index into. If the file already exists, you will be asked if
+you want to replace it.
+
+To invoke, use ~K__F__ile→Ou__t__put As~E.
+
+If the ~F.docx~E file already exists, you will be asked if you want to
+replace it.
+
+~WIf the output file is //open// in another application (e.g., a
+word-processor), you must close it before using this action
+[(Note) xix_file_footnote.html].~E
+
+-------------------------
+% DUPLICATED IN xix_tu_out.t2t
+~X can output indexes in the following formats:
+
+'''
+<table>
+<tr>
+<th class="th_kb">Format</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Extension</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Notes</th>
+</tr>
+
+<tr>
+<td class="td_kb1a">Rich Text Format</td>
+<td class="td_kbs"></td>
+<td class="td_kb1x">.rtf</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Word Format (OOXML)</td>
+<td class="td_kbs"></td>
+<td class="td_kb2x">.docx</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Plain Text</td>
+<td class="td_kbs"></td>
+<td class="td_kb1x">.txt</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">No styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Portable Document Format</td>
+<td class="td_kbs"></td>
+<td class="td_kb2x">.pdf</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">HyperText Markup Language</td>
+<td class="td_kbs"></td>
+<td class="td_kb1x">.html</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">XindeX XML Format</td>
+<td class="td_kbs"></td>
+<td class="td_kb2x">.ximl</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Index Data Exchange Format</td>
+<td class="td_kbs"></td>
+<td class="td_kb1x">.ixml</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">Text styling is mostly preserved</td>
+</tr>
+
+</table>
+'''
+
+It is also possible to output using custom markup; see the
+[Index→Custom Markup action xix_ref_act_x_mark.html] and the
+[Custom Markup Dialog xix_ref_dlg_markup.html]. To output in a custom
+markup invoke this action, and type the custom markup's custom extension
+(e.g., ~F.ucp~E), after the filename in the file chooser dialog.
+
+If you want to import an index (in ~X's XML Interchange Format
+~F.ximl~E, or in Index Data Exchange Format ~F.ixml~E), see the
+[File→Import action xix_ref_act_f_imp.html].
+
+Some output formats have format-specific output options that can be set,
+for which, see the
+[Output Options Dialog's Format Specific Tab xix_ref_dlg_out_fmt.html].
+
+-------------------------
+Note that some other tools use the terms “save as” or “generate” for
+outputting an index.
+
+See also [Third-Party Products xix_3rdparty.html].
+
+~= [File→Print action xix_ref_act_f_prn.html]

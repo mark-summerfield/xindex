@@ -1,0 +1,32 @@
+Spelling→Ignore Word action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_l_ig.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Spelling Menu xix_ref_actspell.html]~E
+
+====Spelling→Ignore Word action====
+
+This action is used to stop the unrecognized word that's nearest the
+cursor's left in the ~KTerm~E editor, being indicated with a red wavy
+underline. An unrecognized word is a word that isn't in the dictionary
+for the current index's language, and isn't in the current index's
+custom dictionary.
+
+Ignoring only works in the current session. If you want to ignore a word
+across sessions, then the word needs to be remembered with the
+[Spelling→Remember Word action xix_ref_act_l_rem.html].
+
+To invoke, use ~KSpe__l__ling→__I__gnore Word~E
+or [images/spelling-ignore.png].
+
+-------------------------
+If you don't want an ignored word to be ignored anymore, it can be
+forgotten using the
+[Spelling→Forget Words action xix_ref_act_l_forg.html]. (It will also be
+forgotten when you end the session by quitting ~X, or by creating or
+opening another index.)
+
+~= [Spelling→Forget Words action xix_ref_act_l_forg.html]

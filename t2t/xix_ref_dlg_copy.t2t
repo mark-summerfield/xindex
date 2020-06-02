@@ -1,0 +1,65 @@
+Copy Entry Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_copy.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Entry→Copy action xix_ref_act_y_copy.html].
+
+This dialog is used to copy an entry (optionally its subentries,
+subsubentries, and so on), with the copy becoming a main entry, or a
+subentry of another entry.
+
+[images/copydlg.png]
+
+When an entry is copied, its term, [Sort As Text xix_ref_sortas.html],
+and notes are always copied, and with one exception, its pages are
+copied too.
+
+If you copy an entry to be a main entry, any leading ignored subentry
+function words are removed from copied entry's term. (See the
+[Ignored Subentry Function Words Dialog xix_ref_dlg_subignore.html].)
+
+You can also choose to copy the entry's cross-references, its groups,
+and its subentries (and subsubentries, and so on).
+
+If you copy subentries, the same options will apply to each copied
+subentry (i.e., if you've checked the ~K__Gr__oups~E checkbox, then each
+subentry's groups will also be copied, and so on).
+
+If you want to copy everything, then check the ~KCopy __A__ll~E
+checkbox~~~doing so will automatically check the
+~KCross-re__f__erences~E, ~K__Gr__oups~E, and ~KS__u__bentries~E
+checkboxes.
+
+If you check the ~K__L__ink Pages...~E checkbox, the current entry
+and its copy will automatically have their pages synchronized as
+follows. If the current entry already belongs to a linked group (see the
+[Edit Groups Dialog xix_ref_dlg_groups.html]), then its copy is simply
+added to that linked group. But if the current entry doesn't belong to a
+linked group, ~X will create a new linked group~~~whose name will be
+based on the current entry's term~~~and add both the current entry and
+its copy to this new linked group. Whichever way it is done, the current
+entry and its copy are guaranteed to have their pages synchronized from
+now on. (You can always stop synchronizing by unlinking or deleting the
+relevant linked group in the
+[Edit Groups Dialog xix_ref_dlg_groups.html].)
+
+If you copy subentries, //their// pages will not be synchronized with
+their originals~~~unless they already belong to linked groups //and//
+you check the ~K__Gr__oups~E checkbox as well as the ~KS__u__bentries~E
+checkbox.
+
+If you check the ~KAdd a //see// cross-reference...~E checkbox, all the
+other checkboxes are unchecked and disabled. Use this option to copy
+just the current entry, //without// its pages, cross-references, groups,
+or subentries, and instead, with a //see// cross-reference from the copy
+back to the original.
+
+-------------------------
+To move rather than copy, see the [Move Entry Dialog xix_ref_dlg_move.html].
+
+~= [Custom Markup Dialog xix_ref_dlg_markup.html]

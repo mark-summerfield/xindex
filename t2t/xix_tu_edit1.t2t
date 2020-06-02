@@ -1,0 +1,131 @@
+Edit Entries I (Double-Posting)
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_edit1.html
+
+~B[Tutorial xix_tu.html]~E
+
+Now that we have a few entries in our ~FTutorial.xix~E index, we'll make
+some changes to illustrate some of ~X's features.
+
+Firstly, we would like to double-post ~Cglobal modal~E with a new entry
+whose term is ~Cmodality, global~E. Naturally, we want ~X to
+automatically synchronize their page numbers.
+
+- Navigate to the ~Cglobal modal~E entry. For example, click it in the
+  [Main Window Index Panel xix_ref_panel_index.html], or or press
+  ~KCtrl+G,G~E to go to the first main entry starting with ~CG~E, or
+  press ~KAlt+I~E to move the focus to the index panel and use the
+  ~KUp~E and ~KDown~E arrow keys to move to it.
+- Copy the ~Cglobal modal~E entry, and link its pages to the copy.
+  Invoke the [Entry→Copy action xix_ref_act_y_copy.html] using
+  ~KF8~E or ~KEntr__y__→__C__opy~E or [images/copy.png]. This will pop
+  up the [Copy Entry Dialog xix_ref_dlg_copy.html]. Check the ~KLink
+  Pages...~E checkbox, then click the ~KC__o__py~E button.
+
+  Because the ~Cglobal modal~E entry isn't in a linked group, ~X will
+  create a new linked group (called “global modal”), and add both the
+  ~Cglobal modal~E entry and its copy to this new linked group.
+
+- Navigate to the ~KTerm~E editor (e.g., press ~KAlt+T~E or click the
+  ~KTerm~E editor), then select all of its text (e.g., press ~KCtrl+A~E
+  or triple-click it) and type in the new term text of ~Cmodality,
+  global~E.
+- Now invoke the [File→Save action xix_ref_act_f_save.html]
+  using ~KCtrl+S~E or ~K__F__ile→__S__ave~E or [images/filesave.png] to
+  save and see the effects in the index panel.
+
+
+At this point the ~Cglobal modal~E and ~Cmodality, global~E entries have
+identical pages because one was just copied from the other. However,
+since they are also in the same linked group, any changes to the pages
+of one will be automatically applied to the other. Furthermore, you can
+add additional entries to the same linked group for triple-posting or
+more.
+
+- Navigate to either the ~Cglobal modal~E or the ~Cmodality, global~E
+  entry (it doesn't matter which one), then go to the ~KPages~E editor
+  (e.g., by pressing ~KAlt+P~E or by clicking the ~KPages~E editor). If
+  the cursor is at the start, type in ~C119-6,~E (note the final comma),
+  or if the cursor is at the end, enter ~C,119-6~E (note the leading
+  comma). Now save (~KCtrl+S~E or ~K__F__ile→__S__ave~E
+  or [images/filesave.png]) to see the effect.
+
+
+What if you wanted to triple-post? Maybe the index has a subentry whose
+term is ~Cglobal modalities~E? The answer is to navigate to the entry
+whose pages you want to synchronize, and then add the entry to the
+appropriate linked group. Here's one way to do this.
+
+- Navigate to the ~Creferences~E entry. Add a subentry by invoking the
+  [Entry→Add Subentry action xix_ref_act_y_add.html] using ~KShift+F7~E
+  or ~KEntr__y__→Add __S__ubentry~E or [images/add-child.png]. Enter the
+  term ~Cglobal modalities~E, but don't bother entering
+  any page numbers.
+- Invoke the [Entry→Add to Linked Group action xix_ref_act_y_grp.html]
+  using ~KShift+F5~E or ~KEntr__y__→Add to __L__inked Group~E
+  or [images/groupaddtolink.png], and add the entry to the “global
+  modal” linked group. Notice that the subentry's pages now match those
+  of the other entries in the linked group.
+
+
+Now, the ~Cglobal modal~E and ~Cmodality, global~E main entries, and the
+~Creferences~E's ~Cglobal modalities~E subentry, all have the same pages,
+so now the index looks like this:
+
+~CChess knight, black, 21~E
+
+~Cglobal grab, 236~E
+
+~Cglobal modal, 119-26, 235-37~E
+
+~Cmodality, global, 119-26, 235-37~E
+
+~Creferences~E
+
+    ~C_function, 60-62, 70, 87~E
+
+    ~C_global modalities, 119-26, 235-37~E
+
+    ~C_image, 256~E
+
+    ~C_object, 64-67~E
+
+Any number of entries may belong to a linked group, so you can easily
+have double-posting, triple-posting, and more, confident that any
+changes to the pages of any entry in a linked group, will
+automatically be applied to any other entries in the same linked group.
+The only constraint~~~obviously~~~is that an entry may only belong to at
+most one linked group.
+
+And, of course, if you have an entry in a linked group whose pages you
+later decide should diverge from the pages of the other entries in the
+group, simply remove the entry from the linked group~~~its pages will be
+left intact, and changes to them will no longer affect any other entry.
+
+''<table bgcolor="lightyellow"><tr><td>''
+The pattern for adding new entries with pages synchronized with an
+existing entry is: navigate to the existing entry, then ~KF8~E or
+~KEntr__y__→__C__opy~E or [images/copy.png] to pop up the
+[Copy Entry Dialog xix_ref_dlg_copy.html]. Check the ~KLink Pages...~E
+checkbox, and click the ~KC__o__py~E button. And then, edit the ~KTerm~E
+text to suit. See [Add Entries xix_tu_add.html] for the pattern for
+adding entries without synchronized pages.
+''</td></tr></table>''
+
+To add, change, link, unlink, or delete groups use the
+[Edit Groups Dialog xix_ref_dlg_groups.html]. To add or remove an entry
+to or from a group, use the
+[Entry→Group actions xix_ref_act_y_grp.html]. And to view all the
+entries in a linked group, use the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s
+[Linked Group xix_ref_p_filt_cust.html#linked] filter.
+
+It is also possible to create normal groups. Entries that belong to a
+normal group are not synchronized or affected in any way. Any entry may
+belong to any number of normal groups. Normal groups are useful when you
+want to view a set of entries all together using the
+[Normal Group xix_ref_p_filt_cust.html#normal] filter.
+
+~= [Edit Entries II (Styling and Special Characters) xix_tu_edit2.html]

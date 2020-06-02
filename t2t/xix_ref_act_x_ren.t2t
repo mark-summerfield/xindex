@@ -1,0 +1,19 @@
+Index→Renumber Pages action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_ren.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Renumber Pages action====
+
+This action is used to pop up the
+[Renumber Pages Dialog xix_ref_dlg_renumpages.html] which is used to
+renumber Roman and decimal page numbers within given ranges and by given
+amounts to account for last-minute pagination changes.
+
+To invoke, use ~KInde__x__→Renumber __P__ages~E.
+
+~= [Index→Information action xix_ref_act_x_info.html]

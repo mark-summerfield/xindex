@@ -1,0 +1,24 @@
+Edit Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actedit.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to edit text in ~X's editors (e.g., the ~KTerm~E
+or ~KPages~E editor), and to show the filter and search and replace
+panels.
+
+- [Text Editing actions xix_ref_acttxt.html]
+- [Edit→Undo action xix_ref_act_e_do.html] [images/editor-undo.png] 
+- [Edit→Redo action xix_ref_act_e_do.html] [images/editor-redo.png] 
+- [Edit→Copy action xix_ref_act_e_clip.html] [images/edit-copy.png] 
+- [Edit→Cut action xix_ref_act_e_clip.html] [images/edit-cut.png] 
+- [Edit→Paste action xix_ref_act_e_clip.html] [images/edit-paste.png] 
+- [Edit→Filter action xix_ref_act_e_filter.html] [images/edit-find.png] 
+- [Edit→Search and Replace action xix_ref_act_e_search.html] [images/edit-find-replace.png] 
+
+
+~= [Text Editing actions xix_ref_acttxt.html]

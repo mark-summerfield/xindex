@@ -1,0 +1,16 @@
+Information Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_info.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Index→Information action xix_ref_act_x_info.html].
+
+This dialog is used to show basic information about the current index.
+
+[images/infodlg.png]
+
+~= [Move Entry Dialog xix_ref_dlg_move.html]

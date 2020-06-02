@@ -1,0 +1,54 @@
+Goto→Navigation actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_g_nav.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Goto Menu xix_ref_actgoto.html]~E
+
+These actions are used to navigate to particular parts of the index.
+
+When one of these actions is invoked, the navigated-to entry will become
+the current entry. This current entry will be shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html] where it can be
+edited, and it will also be shown highlighted in the
+[Main Window Index Panel xix_ref_panel_index.html].
+
+====Goto→First action====
+
+To visit the index's first entry, use ~KCtrl+Home~E or
+~K__G__oto→F__i__rst~E or [images/go-top.png].
+
+====Goto→Previous action====
+
+To visit the entry before the current one, use ~KCtrl+Up~E arrow or
+~K__G__oto→__P__revious~E or [images/go-previous.png].
+
+====Goto→Next action====
+
+To visit the entry after the current one, use ~KCtrl+Down~E arrow or
+~K__G__oto→__N__ext~E or [images/go-next.png].
+
+====Goto→Last action====
+
+To visit the index's last entry, use ~KCtrl+End~E or
+~K__G__oto→La__s__t~E or [images/go-bottom.png].
+
+-------------------------
+If the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s ~KFiltered
+view~E or the
+[Main Window Index Panel xix_ref_panel_index.html]'s ~KIndex view~E have
+the keyboard focus, in addition to the above key presses which all work
+as described, some simpler navigation key presses also work.
+
+In particular, you can navigate forward and backward (visually, up and
+down) the index, simply using the ~KUp~E and ~KDown~E arrow keys. You can
+also use the the ~KPage Up~E and ~KPage Down~E keys to move one screen
+page up or down, or ~KCtrl+Page Up~E and ~KCtrl+Page Down~E to move to
+the top or bottom entry visible in the view, or ~KHome~E and ~KEnd~E to
+move to the view's first or last entry. (See
+[Keyboard Shortcuts xix_ref_keys.html].)
+
+~= [Goto→Letter action xix_ref_act_g_let.html]

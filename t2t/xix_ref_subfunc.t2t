@@ -1,0 +1,50 @@
+Ignoring Subentry Function Words
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_subfunc.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]~E
+
+Should function words~~~articles, prepositions, and conjunctions~~~be
+ignored for sorting purposes, when they are the first word of a subentry?
+This depends on which sorting rules you are using, or your publisher's
+preference.
+
+: Chicago Manual of Style (CMS)
+If you are using the ~cms rules for sorting, then you should ignore
+function words at the start of subentries (see the 16th edition, 16.68).
+
+: National Information Standards Organization (NISO)
+If you are using the NISO TR03-1999 rules, then you should //not//
+ignore function words at the start of subentries (see 4.6).
+
+: International Standards Organization (ISO)
+If you are using the ISO 999 rules, you'll need to ask your publisher or
+choose for yourself, since these rules allow for ignoring or not
+ignoring (see 8.6).
+
+
+To control whether ~X ignores subentry function words, check or uncheck
+the ~KIgnore Subentry Function Words~E checkbox in the
+[Options Dialog's Rules Tab xix_ref_dlg_opt_rules.html]. If this
+checkbox is checked, then the first word of a subentry's (or
+subsubentry's, and so on's) [Sort As Text xix_ref_sortas.html] will be
+ignored for sorting purposes, if it is one of the words in the index's
+list of ignored subentry function words.
+
+By default, ~X comes with a ready-made list of ignored subentry function
+words. You can add or delete words to or from this list~~~for the
+current index~~~using the
+[Ignored Subentry Function Words Dialog xix_ref_dlg_subignore.html]. (If
+you want to propagate an edited list to a new index, use a
+template~~~see [Creating and Using Templates xix_ref_template.html].)
+
+-------------------------
+For a discussion of the issues, See //Indexing Books// second edition,
+by Nancy C. Mulvany, “Function Words: Articles, Prepositions, and
+Conjunctions”.
+
+See also [Sort As Rules xix_ref_sortas_rules.html].
+
+~= [Pages xix_ref_pages.html]

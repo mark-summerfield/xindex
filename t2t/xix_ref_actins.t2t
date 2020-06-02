@@ -1,0 +1,19 @@
+Insert Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actins.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to insert text into an editor (e.g., the ~KTerm~E
+or ~KPages~E editor).
+
+- [Insert→Ellipsis action xix_ref_act_r_ichar.html]
+- [Insert→En-dash action xix_ref_act_r_ichar.html]
+- [Insert→Em-dash action xix_ref_act_r_ichar.html]
+- [Insert→Copy Character action xix_ref_act_r_char.html]
+
+
+~= [Insert→Character actions xix_ref_act_r_ichar.html]

@@ -1,0 +1,22 @@
+File→Quit action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_quit.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Quit action====
+
+This action saves the current index (if any), and then quits ~X.
+
+To invoke, use ~KCtrl+Q~E or ~K__F__ile→__Q__uit~E.
+
+-------------------------
+~X's file format is very robust, but given how much hard work goes into
+making an index, we strongly recommend that you make regular backups.
+See the [Tutorial xix_tu.html]'s
+[Save and Backup an Index xix_tu_save.html] for more about this.
+
+~= [Edit Menu's actions xix_ref_actedit.html]

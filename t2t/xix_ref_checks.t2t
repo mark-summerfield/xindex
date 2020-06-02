@@ -1,0 +1,78 @@
+Pre-Publication Checks
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_checks.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]~E
+
+Before creating the final output, it might be worth performing a few
+pre-publication checks. We recommend the following:
+
++ See if there are any incorrectly overlapping pages using the
+  [Combine Overlapping Pages Dialog xix_ref_dlg_combpages.html], or
+  using the
+  [Index→Check→Overlapping Pages action xix_ref_act_x_check.html#overlap],
+  and editing manually and/or using the
+  [Modify→Combine Pages action xix_ref_act_m_comb.html].
++ See if there are any entries that have a page number that's too high,
+  or too large a page range, or too many pages, using the
+  [Index→Check→Too High Page Number action xix_ref_act_x_check.html#high],
+  the
+  [Index→Check→Too Large Page Range action xix_ref_act_x_check.html#large],
+  and the
+  [Index→Check→Too Many Pages action xix_ref_act_x_check.html#many].
+  (Note that all the ~KIndex→Check~E actions can be invoked in one go
+  using the
+  [Index→Check→All the Checks action xix_ref_act_x_check.html#all].)
++ See if there are any entries that don't have pages, subentries, or
+  cross-references, using the
+  [Main Window Filtered Panel xix_ref_panel_filter.html]'s
+  [Without Pages or Subentries or Cross-References xix_ref_p_filt_pre.html#bare]
+  filter.
++ See if there are any entries with both pages and one or more //see//
+  cross-references, using the
+  [Main Window Filtered Panel xix_ref_panel_filter.html]'s
+  [Pages and See cross-reference(s) xix_ref_p_filt_pre.html#pagesee]
+  filter.
++ See if there are any entries with just one subentry (e.g., maybe the
+  subentry could be merged using the
+  [Modify→Merge into Parent action xix_ref_act_m_mrg_p.html]), using the
+  [Main Window Filtered Panel xix_ref_panel_filter.html]'s
+  [Has One Subentry xix_ref_p_filt_pre.html#sub1] filter.
++ See if there are any entries (at the same level, i.e., both main
+  entries, or both subentries of the same parent entry), whose terms are
+  the same (even if their [Sort As Text xix_ref_sortas.html]s are
+  different), regardless of their case and text styling, using the
+  [Index→Check→Same Term Texts action xix_ref_act_x_check.html#same].
++ Review any double- or triple-posted (or more) entries, in case you want
+  to turn any into cross-references. Use the
+  [Main Window Filtered Panel xix_ref_panel_filter.html]'s
+  [Linked Group xix_ref_p_filt_cust.html#linked] filter to see each
+  linked groups entries in turn. If you unlink a linked group you'll be
+  given the choice of leaving the pages intact for all entries in the
+  group, or leaving one entry's pages and replacing the pages in the
+  other entries with //see// cross-references to the one with pages.
+  See the
+  [Delete or Unlink Linked Group Dialog xix_ref_dlg_unlink.html].
+
+
+''<table bgcolor="lightyellow"><tr><td>''
+A useful pattern for adding missing cross-references shown in the
+[Main Window Filtered Panel xix_ref_panel_filter.html] (e.g., with the
+[Without Pages or Subentries or Cross-References xix_ref_p_filt_pre.html#bare]
+filter), is to navigate to the target entry you want the cross-reference
+to refer to, then use the [Goto→Filtered action xix_ref_act_g_filt.html]
+to return to the original entry, and then use the
+[Entry→Add Cross-reference action xix_ref_act_y_xref.html] to pop up the
+[Add Cross-reference Dialog xix_ref_dlg_addxref.html]. The target entry
+should be shown as the ~KRecent~E entry. (If this isn't the case you can
+always circle the target using the
+[Entry→Circle action xix_ref_act_y_circ.html].)
+''</td></tr></table>''
+
+If the output doesn't match your expectations in some way, review the
+settings in all the [Output Options Dialog xix_ref_dlg_output.html]'s
+tabs.
+
+~= [Creating and Using Templates xix_ref_template.html]

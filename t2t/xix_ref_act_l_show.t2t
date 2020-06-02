@@ -1,0 +1,19 @@
+Index→Show Suggestions and Groups action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_l_show.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Show Suggestions and Groups action====
+
+This action is used to make the
+[Main Window Suggestions Panel xix_ref_panel_sug.html] and
+[Main Window Groups Panel xix_ref_panel_grp.html] visible, if either (or
+both) is (are) hidden.
+
+To invoke, use ~KInde__x__→Sho__w__ Suggestions and Groups~E.
+
+~= [Index→Show Toolbars action xix_ref_act_x_tb.html]

@@ -1,0 +1,109 @@
+Sort As Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_sortas.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+~@
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]→
+[Sort As Text xix_ref_sortas.html]~E
+
+//This dialog pops up when you edit a term, or check (or uncheck, then//
+//check), the//
+//[Main Window Entry Panel xix_ref_panel_entry.html]'s//
+//~KAutomatically Calculate Sort As~E checkbox, and there//
+//is more than one possible ~KSort As Text~E.//
+
+This dialog is used to choose the [Sort As Text xix_ref_sortas.html] for
+a newly added or edited term, when human intervention is needed, such as
+when a term is entered or edited which contains a decimal number or text
+which could be a Roman number.
+
+[images/xix_sortasdlg.png]
+
+According the the ~cms (16.65) an entry whose term begins with a number
+should be sorted as if the number were spelled out. This is easily
+achieved in ~X by choosing the spelled out phrase offered by this
+dialog, or by entering a custom ~KSort As Text~E if preferred.
+
+On the other hand, the ~niso rules (3.5) specifically state
+that numbers should //not// be spelled out. And the ~iso rules (8.3a)
+specify that numbers should be sorted numerically at the start of the
+index before the alphabetical entries. However, ~iso also //permits//
+the spelling out of numbers (8.3b).
+
+To get numbers to sort correctly in relation to each other they need to
+be 0-padded so that they always have the same number of digits. By
+default ~X pads numbers to four digits which works well for years and
+monarchs. You can use more than four pad digits, but we don't recommend
+using fewer. The number of pad digits is set in the
+[Options Dialog's Rules Tab xix_ref_dlg_opt_rules.html].
+
+If you never want numbers spelled out (e.g., you are using ~niso rules),
+then you can //uncheck// the ~KSuggest Spelled Out Numbers when
+Appropriate~E, ~KFor This Index~E checkbox, to ensure that this dialog
+never offers a spelled out option. (See the
+[Options Dialog's Rules Tab xix_ref_dlg_opt_rules.html].)
+
+===Example===
+
+Here is an index fragment with the ~KSort As Text~Es shown in
+~C«chevrons»~E and using the ~niso //word-by-word//
+[Sort As Rules xix_ref_sortas_rules.html] (although the technique shown
+below works for all sort as rules).
+
+In this first fragment we have mistakenly chosen to treat the Roman
+numbers as literals rather than as numbers, every time this dialog asked
+us:
+
+~CPlan CIV «plan civ»~E
+
+~CPlan LV «plan lv»~E
+
+~CPlan XIX «plan xix»~E
+
+
+One way to fix this is by customizing the ~KSort As Text~Es ourselves,
+but the obvious solution is still incorrect:
+
+~CPlan CIV «plan 104»~E
+
+~CPlan XIX «plan 19»~E
+
+~CPlan LV «plan 55»~E
+
+The right approach is to choose the padded numbers that ~X offers, since
+this will produce the correct ordering:
+
+~CPlan XIX «plan 0019.0000»~E
+
+~CPlan LV «plan 0055.0000»~E
+
+~CPlan CIV «plan 0104.0000»~E
+
+You can force ~X to pop up this dialog (for terms that have numbers), by
+unchecking and then checking the
+[Main Window Entry Panel xix_ref_panel_entry.html]'s ~KAutomatically
+Calculate Sort As~E checkbox.
+
+(The ~C.0000~E at the end of each number is for when dotted numbers are
+ordered using the ~niso rules. Some other rules only produce whole
+numbers.)
+
+Naturally, you could customize them all yourself to achieve a correct
+ordering:
+
+~CPlan XIX «plan 019»~E
+
+~CPlan LV «plan 055»~E
+
+~CPlan CIV «plan 104»~E
+
+However, customizing the ~KSort As Text~E like this shouldn't really be
+necessary for numbers, since this dialog should always offer
+sensible choices. But, of course, you may need custom ~KSort As Text~Es
+in some cases, for which, see the
+[Force A Particular Sort Order xix_ref_sortas_force.html]'s examples.
+
+~= [Tips xix_tip1.html]

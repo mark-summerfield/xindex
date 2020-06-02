@@ -1,0 +1,21 @@
+Output Options Dialog's Format Specific Tab
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_out_fmt.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]→
+[Output Options Dialog xix_ref_dlg_output.html]~E
+
+~@ [General xix_ref_dlg_out_gen.html]
+~@ [Entry Cross-references xix_ref_dlg_out_xref.html]
+~@ [Subentry Cross-references xix_ref_dlg_out_subxref.html]
+~@ Format Specific
+
+This tab is used to set any output-format-specific options.
+(To see which output formats ~X supports, see the
+[File→Output As action xix_ref_act_f_oas.html].)
+
+[images/outfmttab.png]
+
+~= [Recreate Entries Dialog xix_ref_dlg_recreate.html]

@@ -1,0 +1,23 @@
+File→Open Recent action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_rec.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Open Recent action====
+
+This action's submenu actions save and close the current index (if any),
+then open the chosen submen action's index (~F.xix~E) file.
+
+To invoke, use ~K__F__ile→Open Re__c__ent→//__n__ filename.xix//~E
+where //n// is the number beside the name of the index you want to open.
+
+-------------------------
+If this action is unavailable (e.g., no recently opened indexes can be
+found), or if you want to open an index that isn't in the submenu, use
+the [File→Open action xix_ref_act_f_open.html] instead.
+
+~= [File→Import action xix_ref_act_f_imp.html]

@@ -1,0 +1,17 @@
+Help Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_acthelp.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions provide help and information about ~X.
+
+- ~KHelp→Help~E ~~~ //Show this online help browser//
+- ~KHelp→About~E ~~~ //Pop up ~X's About box for version and copyright information//
+- [Help→License action xix_license.html] ~~~ //Click to see the license//
+
+
+~= [Main Window Toolbars xix_ref_tb.html]

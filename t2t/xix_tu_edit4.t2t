@@ -1,0 +1,91 @@
+Edit Entries IV (Cross-references)
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_edit4.html
+
+~B[Tutorial xix_tu.html]~E
+
+~X supports adding cross-references to entries, whether //see// or //see//
+//also//, and whether to a specific “target” entry or generic.
+
+To add a cross-reference from one entry to another, you need ~X to be aware
+of the “source” and “target” entries. The source entry is the current
+entry; the target is usually a filtered or circled entry. Once these are
+set you can invoke the
+[Entry→Add Cross-reference action xix_ref_act_y_xref.html].
+
+For example, let's add a //see// //also// cross-reference from the ~Cglobal
+modal~E main entry to the ~Cglobal grab~E subsubentry.
+
+- Set the target entry. Use the
+  [Main Window Filtered Panel xix_ref_panel_filter.html]'s
+  [Terms Matching xix_ref_p_filt_cust.html#terms] filter with a filter
+  text of ~Cgrab~E to make the ~Cglobal grab~E subsubentry the filtered
+  entry
+- Set the source entry. Navigate to the ~Cglobal modal~E main entry if
+  it isn't already the current entry.
+- Invoke the [Entry→Add Cross-reference action xix_ref_act_y_xref.html]
+  using ~KCtrl+K~E or ~KEntr__y__→__A__dd Cross-reference~E
+  or [images/xref-add.png] This will pop up
+  the [Add Cross-reference Dialog xix_ref_dlg_addxref.html].
+- Check the ~KSee __A__lso~E radio button to tell ~X we want a //see//
+  //also// cross-reference Now check the ~K__F__iltered~E radio button
+  (if it isn't checked already), to choose the ~Cglobal grab~E entry as
+  the target. And finally, add the cross-reference using the ~KA__d__d~E
+  button.
+
+
+The cross-reference is shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html]'s ~KCross-references~E
+list.
+
+Once you have a cross-reference you can change it from //see// to //see//
+//also//, or vice versa with the
+[Entry→Change Cross-reference action xix_ref_act_y_xref.html], using
+~KEntr__y__→C__h__ange Cross-reference~E or [images/xref-change.png].
+You can also delete a cross-reference with the
+[Entry→Delete Cross-reference action xix_ref_act_y_xref.html], using
+~KEntr__y__→Delete Cr__o__ss-reference~E or [images/xref-delete.png]. And you
+can navigate to the cross-reference's target~~~unless it is a generic
+cross-reference which of course has no target~~~with the
+[Goto→Cross-reference action xix_ref_act_g_xref.html] using ~KCtrl+F3~E or
+~K__G__oto→Cr__o__ss-reference~E or [images/goto-xref.png].
+(You can go back to the source entry with the
+[Goto Menu's previously visited action xix_ref_actgoto.html] using
+~KAlt+Left~E arrow or ~K__G__oto→__1__~E.)
+
+See the [Entry→Cross-reference actions xix_ref_act_y_xref.html] and the
+[Goto→Cross-reference action xix_ref_act_g_xref.html].
+
+Naturally, you can undo and redo these actions~~~see the
+[Index→Undo and Redo actions xix_ref_act_x_do.html].
+
+If you want to add a generic cross-reference, that is, a cross-reference to a word
+or phrase that is not another entry's term (e.g., //see// //under//
+specific countries), simply navigate to the source entry, invoke the
+[Entry→Add Cross-reference action xix_ref_act_y_xref.html], then check the
+~K__G__eneric Term~E radio button and enter the text you want, e.g.,
+~C//under// specific countries~E, then use the ~KA__d__d~E button.
+
+''<table bgcolor="lightyellow"><tr><td>''
+Probably the quickest and most convenient approach to adding a
+cross-reference to a term you've just added or edited is as follows. Make
+sure the [Main Window Filtered Panel xix_ref_panel_filter.html] is
+visible with the [Edit→Filter action xix_ref_act_e_filter.html] using
+~KCtrl+F~E or ~K__E__dit→__F__ilter~E or [images/edit-find.png].
+Now make sure the filter is set to ~KTerms Matching:~E, then enter a
+word (or the start of a word followed by ~C*~E), from the term you want
+the cross-reference to refer to (the target). If the target isn't the first
+(highlighted) result, navigate to it using ~KTab~E and
+~KDown~E arrow or click it. Once the target is highlighted, invoke the
+[Entry→Add Cross-reference action xix_ref_act_y_xref.html] using ~KCtrl+K~E
+or ~KEntr__y__→__A__dd Cross-reference~E or [images/xref-add.png] to pop up
+the [Add Cross-reference Dialog xix_ref_dlg_addxref.html]. The dialog
+defaults to a //see// cross-reference to the filtered entry (i.e., to the
+target), so if you want a //see also// cross-reference, check the
+~KSee __A__lso~E radio button. Now use the ~KA__d__d~E button.
+You'll find this surprisingly fast after you've done it a few times.
+''</td></tr></table>''
+
+~= [Save and Backup an Index xix_tu_save.html]

@@ -1,0 +1,29 @@
+Modify→Combine Pages action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_m_comb.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Modify Menu xix_ref_actmod.html]~E
+
+====Modify→Combine Pages action====
+
+This action combines overlapping pages in the current entry issofar as
+possible.
+
+To invoke the action, use ~KCtrl+F6~E or ~K__M__odify→__C__ombine Pages~E
+or [images/combinepages.png].
+
+-------------------------
+You can undo combining pages immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+You can view all the entries which have overlapping pages using the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s
+predefined [With Overlapping Pages xix_ref_p_filt_pre.html#overlap]
+filter. And you can work through these, and have ~X combine any you see
+fit, using the
+[Combine Overlapping Pages Dialog xix_ref_dlg_combpages.html].
+
+~= [Modify→Swap actions xix_ref_act_m_swap.html]

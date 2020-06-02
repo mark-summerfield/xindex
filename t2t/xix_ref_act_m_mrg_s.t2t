@@ -1,0 +1,30 @@
+Modify→Merge Subentries action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_m_mrg_s.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Modify Menu xix_ref_actmod.html]~E
+
+====Modify→Merge Subentries action====
+
+This action is used to merge the current entry's immediate subentries'
+pages and cross-references into the current entry, and to move the current
+entry's immediate subentries' own subentries~~~if any~~~to be subentries
+of the current entry (with these subentries' own subentries and
+subsubentries and so on, coming with), and then deleting the current
+entry's immediate subentries.
+
+To invoke, use ~K__M__odify→Me__r__ge Subentries~E.
+
+A note of the entries that were merged is added to the end of the
+current entry's notes.
+
+-------------------------
+You can undo merging immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+See also [Modify→Merge into Parent action xix_ref_act_m_mrg_p.html].
+
+~= [Index Menu's actions xix_ref_actindex.html]

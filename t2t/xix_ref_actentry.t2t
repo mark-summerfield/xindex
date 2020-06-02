@@ -1,0 +1,33 @@
+Entry Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actentry.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to add, copy, and delete entries, to circle an
+entry, to add or remove entries from groups, and to add, change, and
+delete cross-reference
+
+- [Entry→Add Main Entry action xix_ref_act_y_add.html] [images/add-toplevel.png] 
+- [Entry→Add Subentry action xix_ref_act_y_add.html] [images/add-child.png] 
+- [Entry→Add Sibling Entry action xix_ref_act_y_add.html] [images/add.png] 
+- [Entry→Cancel Add action xix_ref_act_y_add.html] [images/canceladd.png] 
+- [Entry→Copy action xix_ref_act_y_copy.html] [images/copy.png] 
+- [Entry→Move action xix_ref_act_y_mv.html] [images/move.png] 
+- [Entry→Recreate action xix_ref_act_y_rec.html]
+- [Entry→Delete action xix_ref_act_y_del.html] [images/delete.png] 
+- [Entry→Add Cross-reference action xix_ref_act_y_xref.html] [images/xref-add.png] 
+- [Entry→Change Cross-reference action xix_ref_act_y_xref.html] [images/xref-change.png] 
+- [Entry→Delete Cross-reference action xix_ref_act_y_xref.html] [images/xref-delete.png] 
+- [Entry→Circle action xix_ref_act_y_circ.html] [images/circle.png] 
+- [Entry→Add to Normal Group action xix_ref_act_y_grp.html] [images/groupaddto.png] 
+- [Entry→Add to Linked Group action xix_ref_act_y_grp.html] [images/groupaddtolink.png] 
+- [Entry→Remove from Group action xix_ref_act_y_grp.html] [images/groupremovefrom.png] 
+- [Entry→Filter by Group action xix_ref_act_y_grp.html] [images/groupset.png] 
+- [Entry→Edit Groups action xix_ref_act_y_grp.html] [images/groups.png] 
+
+
+~= [Entry→Add Entry actions xix_ref_act_y_add.html]

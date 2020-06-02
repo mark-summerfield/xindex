@@ -1,0 +1,88 @@
+Entry→Group actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_y_grp.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Entry Menu xix_ref_actentry.html]~E
+
+These actions are used to add or remove the current entry to or from a
+group.
+
+Groups can be used to view an arbitrary set of entries together using a
+filter, or to provide automatic page number synchronization (e.g., for
+double-posting). See, for example, the [Tutorial xix_tu.html]'s
+[Edit Entries I (Double-Posting) xix_tu_edit1.html] page, and the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s
+[Linked Group xix_ref_p_filt_cust.html#linked] filter page.
+
+====Entry→Add to Normal Group action====
+
+To add the current entry to a normal group, use ~KF5~E or
+~KEntr__y__→Add to Normal Gro__u__p~E or [images/groupaddto.png]. This
+will pop up a list of normal groups to choose from (if you've created
+any).
+
+====Entry→Add to Linked Group action====
+
+To add the current entry to a linked group, use ~KShift+F5~E or
+~KEntr__y__→Add to __L__inked Group~E or [images/groupaddtolink.png].
+This will pop up a list of linked groups to choose from (if you've
+created any).
+
+When you add an entry to a linked group, the entry's pages and those of
+one other entry in the linked group (if any) are merged, and these
+merged pages are set as the pages for every entry in the linked group.
+And from now on, any changes to the pages of any entry in the linked
+group are automatically applied to the pages of every other entry in
+the linked group.
+
+You can stop the automatic page synchronization of an entry's pages by
+removing the entry from the linked group. You can stop the
+synchronization of pages for //all// entries in a linked group by
+unlinking the group (i.e., by turning the linked group back into a
+normal group).
+
+It is possible to automatically create a linked group and add two
+entries to it~~~the original and the copy~~~by copying an entry with the
+~KLink Pages...~E checkbox checked. See the
+[Copy Entry Dialog xix_ref_dlg_copy.html].
+
+====Entry→Remove from Group action====
+
+To remove the current entry from the highlighted group, use
+~KEntr__y__→__R__emove from Group or [images/groupremovefrom.png].
+
+If the removed from group is a linked group, the entry's pages will no
+longer be synchronized when changes are made to the pages of any of the
+remaining entries in the linked group.
+
+====Entry→Filter by Group action====
+
+To set the [Main Window Filtered Panel xix_ref_panel_filter.html]'s
+filter to either the [Normal Group xix_ref_p_filt_cust.html#normal] or
+to the [Linked Group xix_ref_p_filt_cust.html#linked] as appropriate,
+and the group to the highlighted group in the
+[Main Window Groups Panel xix_ref_panel_grp.html], use
+~KEntr__y__→__F__ilter by Group~E or [images/groupset.png] or
+double-click the group's name in the
+[Main Window Groups Panel xix_ref_panel_grp.html].
+
+====Entry→Edit Groups action====
+
+To pop up the [Edit Groups Dialog xix_ref_dlg_groups.html], which is
+used to add, rename, link, unlink, and delete groups, use ~KCtrl+F5~E or
+~KEntr__y__→Grou__p__s~E or [images/groups.png].
+
+-------------------------
+You can undo adding to or removing from a group immediately afterwards, by
+using the [Index→Undo action xix_ref_act_x_do.html].
+
+To find all the entries in a normal group, use the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s
+[Normal Group xix_ref_p_filt_cust.html#normal] filter, and to find all
+the entries in a linked group, use the
+[Linked Group xix_ref_p_filt_cust.html#linked] filter.
+
+~= [Modify Menu's actions xix_ref_actmod.html]

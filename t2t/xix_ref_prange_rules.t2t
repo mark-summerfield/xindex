@@ -1,0 +1,90 @@
+Page Range Rules
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_prange_rules.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]→
+[Pages xix_ref_pages.html]~E
+
+When entering pages in the ~KPages~E editor, use a comma to separate
+pages (or page ranges); there's no need to add a space (although it is
+harmless to do so), and use a hyphen (or en-dash~~~although a hyphen is
+easiest), to separate a page range. ~X will automatically insert a space
+after each comma and change hyphens to en-dashes. (Note that the word
+“//to//” isn't accepted as a valid range separator.)
+
+It doesn't matter what order you enter pages or page ranges since ~X
+will automatically order them numerically.
+
+~X uses the current ~KPage Range Rules~E to correctly format the //to//
+part of a page range. In general you can enter a page range as compactly
+or as fully as you like~~~so long as the end number is unambiguous~~~and
+~X will automatically reformat as necessary as soon as the entry is
+saved (e.g., when the focus leaves the ~KPages~E editor or when you
+save or start adding another entry).
+
+: Chicago Manual of Style (CMS)
+When these ~KPage Range Rules~E are in force, the status area shows
+~KCMS Compact~E.
+
+: Full Form
+When these ~KPage Range Rules~E are in force, the //to// part of a page
+range is always shown in full and the status area shows
+~KFull~E.
+
+: International Standards Organization (ISO)
+When these ~KPage Range Rules~E are in force, the status area shows
+~KISO Compact~E. (Note that these rules are the same as the
+//Oxford Guide to Style// Rules.)
+
+
+==Examples==
+
+If you enter these pages:
+
+~C55//fig//,21-2,vi,37,ix, 131-4,49, 55-7, 55//tbl//~E
+
+as soon as the entry is saved (i.e., as soon as you use ~KF7~E or
+~KEntr__y__→Add __M__ain Entry~E or [images/add-toplevel.png], or
+similar to create a new entry, or ~KTab~E or ~KShift+Tab~E or click to
+move the focus, or explicitly save), ~X will change the pages to one of
+these depending on which ~KPage Range Rules~E (shown in «chevrons») are
+in force:
+
+~Cvi, ix, 21–22, 37, 49, 55–57, 55//fig//, 55//tbl//, 131–34~E «CMS Compact»
+
+~Cvi, ix, 21–2, 37, 49, 55–7, 55//fig//, 55//tbl//, 131–4~E «ISO Compact»
+
+~Cvi, ix, 21–22, 37, 49, 55–57, 55//fig//, 55//tbl//, 131–134~E «Full»
+
+But what if we want figure and table pages to precede normal pages? This
+can be achieved by telling ~X to treat a page number or page range's
+numerical value as different from what it appears. This is done by
+adding an ~C@~E immediately after a page number, followed by the value
+we want it to be treated as having. (See [Pages xix_ref_pages.html] for
+further ~C@~E examples.)
+
+For example (using CMS Compact rules):
+
+~Cvi, ix, 21–22, 37, 49, 55@54.9//fig//, 55@54.99//tbl//, 55–57, 131–34~E
+
+Here, we've said to treat ~C55//fig//~E as having a numerical value of
+//54.9// and ~C55//tbl//~E as having a value of //54.99//.
+
+Alternatively, we could change just one page range:
+
+~Cvi, ix, 21–22, 37, 49, 55//fig//, 55//tbl//, 55@55.1–57, 131–34~E
+
+In this case we've said that ~C55-7~E has a numerical value of //55.1//.
+
+Naturally the ~C@~E and the number that follows it (in these examples
+~C@54.9~E and ~C@54.99~E, or ~C@55.1~E) are not output, so in either
+case the output would be:
+
+~Cvi, ix, 21–22, 37, 49, 55//fig//, 55//tbl//, 55–57, 131–34~E
+
+Here, the pages are output in the order, and with the compactness, we
+want.
+
+~= [Pre-Publication Checks xix_ref_checks.html]

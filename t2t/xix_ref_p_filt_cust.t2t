@@ -1,0 +1,130 @@
+Customizable Filters
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_p_filt_cust.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]→
+[Main Window Filtered Panel xix_ref_panel_filter.html]~E
+
+These filters are used to find entries (or subentries, or subsubentries,
+and so on), that match the words or page numbers you enter into the
+~KFilter Match~E editor to the right of the ~KFilter~E drop-down list, or to
+match your chosen group. The filter is applied when you press ~KEnter~E
+in the ~KFilter Match~E editor~~~or when you use ~KCtrl+F~E or
+~K__E__dit→__F__ilter~E.
+
+The filter is case insensitive, but we recommend that you enter your
+words in lowercase, since some uppercase words have special meaning for
+the filter.
+
+- [Terms Matching #terms]
+- [Pages Matching #pages]
+- [Notes Matching #notes]
+- [Normal Group #normal]
+- [Linked Group #linked]
+
+
+====Terms Matching====[terms]
+
+Use this filter to find any entry whose term matches the word or words
+you enter.
+
+If you add a ~C*~E after a word (i.e., add the wildcard operator), any
+word that begins with the letters of the word will match. For example,
+if you enter ~Cred*~E, it will match entries whose term includes the
+word ~Cred~E, or ~Credistrict~E, or ~Credress~E, or ~Credeploy~E, and so
+on.
+
+If you enter two or more words, //all// of them must match (in any
+order), thus potentially narrowing the search. For example, if you enter
+~Ccable~E, and this matches, say 18 entries, if you then change to
+~Ccable~E ~Cphone~E, you might only match 2 or 1 or no entries.
+
+If you want to match entries whose terms contain //any// two or more
+words, separate the words with ~COR~E (a Boolean operator which must be
+uppercase). For example, ~Ccable~E ~COR~E ~Ctele*~E will match entries
+whose term contains ~Ccable~E //or// ~Ctelephone~E, ~Ctelegraph~E, and
+so on.
+
+If you want to exclude entries whose term contains a particular word or
+words, precede those to be excluded with ~CNOT~E (which must be
+uppercase), e.g., ~Cred~E ~CNOT~E ~Cblue*~E, which will match entries
+with terms that contain the word ~Cred~E, so long as they don't also
+contain ~Cblue~E or a word beginning with ~Cblue~E.
+
+If you want to match entries whose term //starts// with a word, precede
+the word with a ~C^~E (caret). For example, ~Ccell~E will find all the
+entries whose terms contain the word ~Ccell~E, but ~C^cell~E will find
+only those entries whose terms start with ~Ccell~E.
+
+====Pages Matching====[pages]
+
+Use this filter to find any entry whose pages include the given page
+number or numbers. This filter is smart enough to match where a given
+page is within a page range as well as when it is on its own.
+
+So, for example, if you enter ~C213~E, the filter will show those
+entries which have a page number of ~C213~E, and also those which
+contain it within a range such as ~C208-17~E, or ~C211-15~E, and so on.
+
+The pages you enter here use the same syntax as you use for entering
+pages into an entry ([Pages editor xix_ref_panel_entry.html#pages]), but
+without any text styling. For instance, if you want to find all the
+entries which have the pages ~C298~E //and// ~C301-305~E, you can enter
+either ~C298,301-5~E (with an optional space after the comma), or list
+all the page numbers with ~C298,301,302,303,304,305~E (again, with
+optional spaces after the commas). This will match any entry with the
+given pages, and any entry where the given pages are within a range,
+such as ~C290-307~E, or ~C298, 301-8~E, or ~C295-9, 300-6~E, and so on.
+
+Naturally, you can also search for Roman page numbers and page ranges,
+or a mix of Roman and decimal.
+
+When entering multiple page numbers to find, it doesn't matter what
+order you enter them in, so long as they are separated by commas (or
+comma-spaces).
+
+====Notes Matching====[notes]
+
+Use this filter to find any entry whose notes match the word or words
+you enter.
+
+This works in exactly the same way as the ~KTerms Matching~E filter,
+only it is applied to the entries' notes rather than to their terms.
+
+====Normal Group====[normal]
+
+Use this filter to find the entries in the specified normal group.
+
+A quick way of setting the ~KNormal Group~E filter to one of the groups
+that the current entry belongs to, is to double-click the group shown in
+the [Main Window Groups Panel xix_ref_panel_grp.html].
+
+For adding and removing an entry to or from a group, see the
+[Entry→Group actions xix_ref_act_y_grp.html].
+
+For adding, renaming, linking, unlinking, and deleting groups, see the
+[Edit Groups Dialog xix_ref_dlg_groups.html].
+
+====Linked Group====[linked]
+
+Use this filter to find the entries in the specified linked group.
+
+It is possible to automatically create a linked group and add two
+entries to it~~~the original and the copy~~~by copying an entry with the
+~KLink Pages...~E checkbox checked. See the
+[Copy Entry Dialog xix_ref_dlg_copy.html].
+
+(Everything that applies to the [Normal Group #normal] filter as
+described above, also applies to this filter.)
+
+-------------------------
+To view or edit the filtered entry, use the
+[Goto→Filtered action xix_ref_act_g_filt.html].
+
+See also the
+[Predefined Filters xix_ref_p_filt_pre.html].
+
+~= [Predefined Filters xix_ref_p_filt_pre.html]

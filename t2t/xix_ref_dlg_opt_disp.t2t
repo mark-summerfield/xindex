@@ -1,0 +1,31 @@
+Options Dialog's Display Tab
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_opt_disp.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]→
+[Options Dialog xix_ref_dlg_options.html]~E
+~@ [General xix_ref_dlg_opt_gen.html]
+~@ [Rules xix_ref_dlg_opt_rules.html]
+~@ Display
+
+This tab is used to control how and whether ~X displays certain things.
+
+[images/optdisptab.png]
+
+For example, by default, the ~KIndex view~E is shown on the right, but
+this can be changed by checking the ~K__I__ndex View on Left~E checkbox.
+Similarly, ~X doesn't normally show the calculated
+[Sort As Text xix_ref_sortas.html]s, but it can be forced to by checking
+the ~KA__l__ways Show Sort As~E checkbox.
+
+~X supports the use of three abstract fonts: Standard, Alternative, and
+Monospaced. This tab is used to set the actual fonts to represent them
+in the [Main Window Index Panel xix_ref_panel_index.html] and the
+[Main Window Filtered Panel xix_ref_panel_filter.html]. When outputting
+the index in a format that supports text styling (e.g., ~F.rtf~E or
+~F.docx~E), the fonts used are those set in the
+[Output Options Dialog's General Tab xix_ref_dlg_out_gen.html].
+
+~= [Output Options Dialog xix_ref_dlg_output.html]

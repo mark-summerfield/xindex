@@ -1,0 +1,162 @@
+Force A Particular Sort Order
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_sortas_force.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]→
+[Sort As Text xix_ref_sortas.html]~E
+
+In some cases you may wish to force a sort order which breaks the
+[Sort As Rules xix_ref_sortas_rules.html] that are in force. This is
+easily done by //unchecking// the entry's ~KAutomatically Calculate Sort
+As~E checkbox (see the [Main Window Entry Panel xix_ref_panel_entry.html]),
+and customizing the ~KSort As Text~E, as the examples below illustrate.
+
+(If the ~KSort As Text~E is not visible in the
+[Main Window Entry Panel xix_ref_panel_entry.html], it can be made
+visible by checking the ~KAlways Show Sort As~E checkbox in the
+[Options Dialog's General Tab xix_ref_dlg_opt_gen.html].)
+
+==Example #1: Forcing the Order for Identical Sort As Texts==[eg1]
+
+According to the ~cms Rules for //word-by-word// alphabetizing (16.60),
+hyphenated compounds are treated as one word with punctuation (other
+than parentheses, commas, and spaces), ignored.
+
+In view of this, if an index had two entries whose terms were
+~CNewfangled~E and ~CNew-fangled~E, both would have exactly the same
+calculated ~KSort As Text~E of ~Cnewfangled~E, and as a result their sort
+order in relation to each other would be arbitrary.
+
+To fix their order in relation to each other, navigate to the entry you
+want to be //last// of the two, then //uncheck// its ~KAutomatically
+Calculate Sort As~E checkbox, and add a ~C!~E at the end of its ~KSort
+As Text~E to make it ~Cnewfangled!~E.
+
+==Example #2: Forcing the Order for a Leading Symbol==[eg2]
+
+The ~cms Rules tell us to mostly ignore punctuation. But if we are
+indexing, say, a computer textbook, there are some cases where we might
+want to override this behavior. Suppose, for example, we have the
+following index fragment with the ~KSort As Text~Es shown in
+~C«chevrons»~E and using the ~cms //word-by-word//
+[Sort As Rules xix_ref_sortas_rules.html]:
+
+~Cairflow «airflow»~E
+
+~Cmultiply operator (*) «multiply L operator»~E
+
+~C* multiply operator «multiply L operator»~E
+
+(See the [Sort As Rules xix_ref_sortas_rules.html] for why the ~CL~E is
+present.)
+
+In this case we would like the third entry to be first. This
+is easily achieved by customizing its ~KSort As Text~E as follows:
+//uncheck// its ~KAutomatically Calculate Sort As~E checkbox, and insert
+a ~C!~E followed by the symbol at the beginning:
+
+~C* multiply operator «!* multiply L operator»~E
+
+~Cairflow «airflow»~E
+
+~Cmultiply operator (*) «multiply L operator»~E
+
+Using a ~C!~E as the very first character ensures that the entry is put
+before all entries whose term begins with a letter or number (even if
+the character that follows the ~C!~E's “natural” sort position is after
+the letters).
+
+This technique would also need to be used if we were using the ~iso
+rules. However, the ~niso rules allow for symbol characters, so when
+using the ~niso rules, the ~C!~E is inserted automatically.
+
+==Example #3: Forcing A Subentry to Be First or Last Regardless==
+
+There may be situations when you want a particular subentry to be the
+first or last subentry amongst its siblings, regardless of its term's
+text.
+
+This is easily done by //unchecking// the subentry's ~KAutomatically
+Calculate Sort As~E checkbox, and prefixing its ~KSort As Text~E with
+~C! ~E (exclamation mark space) if you want the subentry to be first, or
+prefixing with ~C| ~E (vertical bar space) if you want it to be last.
+
+(Note that //see// //also// cross-references can be set to output as
+first or last subentries. See the
+[Output Options Dialog's Entry Cross-references Tab xix_ref_dlg_out_xref.html].)
+
+==Example #4: Forcing an Order that Breaks the Sort As Rules==
+
+If you are indexing a computer textbook with entries for an
+object-oriented programming language such as C++ or Java, whichever
+[Sort As Rules xix_ref_sortas_rules.html] are used will produce an
+alphabetical ordering of a class's methods when they are subentries of a
+class's entry.
+
+Despite the //technical// correctness of alphabetical ordering, a
+programmer might reasonably expect that the class's constructor method
+(followed by the destructor method if indexed), to be the class's first
+subentry, no matter where it belongs alphabetically.
+
+Here is an index fragment with the ~KSort As Text~Es shown in
+~C«chevrons»~E and using the ~cms //word-by-word//
+[Sort As Rules xix_ref_sortas_rules.html] (although the technique shown
+below works for all sort as rules):
+
+~CThread class «thread L class»~E
+
+    ~C_block() «block»~E
+
+    ~C_join() «join»~E
+
+    ~C_start() «start»~E
+
+    ~C_Thread() «thread»~E
+
+In C++, Java, and many other object-oriented programming languages, the
+class's constructor always has the same name as the class. To ensure
+that the constructor is the //first// subentry, //uncheck// its
+~KAutomatically Calculate Sort As~E checkbox, and prefix its ~KSort As
+Text~E with a capital letter, e.g., ~CC~E for constructor:
+
+~CThread class «thread L class»~E
+
+    ~C_Thread() «Cthread»~E
+
+    ~C_block() «block»~E
+
+    ~C_join() «join»~E
+
+    ~C_start() «start»~E
+
+Captital letters sort before lowercase letters, so a ~KSort As Text~E of
+~CCthread~E will sort before //any// ~KSort As Text~E that begins with a
+lowercase letter. This works because all ~KSort As Text~Es are
+lower-cased.
+
+(See the [Sort As Rules xix_ref_sortas_rules.html] for why the ~CL~E is
+present and why capitals sort before lowercase letters.)
+
+In the very rare cases where a class's destructor is indexed (in C++ the
+destructor is the class's name prefixed with a tilde ‘~’), we can force
+it to be the //second// subentry by prefixing it with a capital letter
+that is higher than the prefix used for the constructor:
+
+~CThread class «thread L class»~E
+
+    ~C_Thread() «Cthread»~E
+
+    ~C_~Thread() «Dthread»~E
+
+    ~C_block() «block»~E
+
+    ~C_join() «join»~E
+
+    ~C_start() «start»~E
+
+Here we've changed the destructor's ~Cthread~E ~KSort As Text~E to
+~CDthread~E.
+
+~= [Sort As Rules xix_ref_sortas_rules.html]

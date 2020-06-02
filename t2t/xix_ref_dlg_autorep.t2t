@@ -1,0 +1,34 @@
+Auto Replace Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_autorep.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Spelling→Auto Replace action xix_ref_act_l_auto.html].
+
+This dialog is used to create auto-replacement texts and their
+replacements. (This is sometimes called a //glossary// function.)
+
+[images/autorepdlg.png]
+
+We //recommend// that your auto-replacement texts consist of a ~C$~E (or
+~C**.**~E or other character that isn't normally used at the start of a
+word), followed by one or a few letters that are easy to remember (e.g.,
+the initials of, or an abbreviation for, the replacement).
+
+You can add as many auto-replacement texts and replacements as you like.
+
+When you enter or edit text in the ~KTerm~E editor, if you type in text
+which matches an auto-replacement text, it is immediately replaced with
+the replacement.
+
+If you want the auto-replacement text to be accepted literally and not
+actually replaced, as soon as it is replaced, invoke the
+[Edit→Undo action xix_ref_act_e_do.html]. And if you want to get rid of
+the auto-replacement entirely, invoke the
+[Edit→Undo action xix_ref_act_e_do.html] a second time.
+
+~= [Combine Overlapping Pages Dialog xix_ref_dlg_combpages.html]

@@ -1,0 +1,208 @@
+﻿Title: Index
+Note: Page numbers that end with ‘t’ refer to tables, and that end with ‘f’ refer to figures.
+
+Symbols & Numbers
+
+♞ black chess knight character, 21
+@ at symbol, 48, 52. See also class: decorator; function: decorators
+
+A
+
+Atom format, 159
+atomic operations, 143
+
+B
+
+bold, italic, bold-italic, 1
+bound method. See function. See also unbound method
+Bresenham’s line algorithm, 130–31
+
+C
+
+callback. See function: reference
+Charles I (king of England), 3–10, 71–72, 96–117
+Charles I (king of Portugal), 100–104, 1100–1113
+class
+    attributes (see also special methods and under attribute names)
+        __class__, 25, 222
+        decorator, 36, 48, 54–59 (see also function)
+            Class, 21, 32–35; __doc__, 50
+    dynamic creation, 20–24
+concatenation, tuple, 109
+
+D
+
+docstring
+
+E
+
+e = mc2, 2
+eval() (built-in), 20–21, 25, 84–88
+
+F
+
+faculty clubs, 101–8, 808–33, 1103–4
+FBI (Federal Bureau of Investigation), 321–28, 498–532, 1087–89, 1496–500, 11564–615, 12991–3001
+Federal Bureau of Investigation (FBI), 321–28, 498–532, 1087–89, 1496–500, 11564–615, 12991–3001
+function
+    arguments, 13, 50
+    built-in
+        decorators
+            @property, 42, 44, 48, 54, 56, 58, 60, 104, 110, 115, 278
+            @staticmethod, 120, 121, 129, 133
+        standard
+            remove(), 43, 91; list (type), 43; os (module), 217
+    decorators, 48–53
+    docstring (see docstring)
+    nested, 58
+    object, 63
+    reference, 60–62, 70, 87, 112
+
+G
+
+grab, 236
+
+H
+
+hierarchy, object, 40–48
+hierarchy, ownership, 234
+
+I
+
+interface checking, 30–32, 35–36
+inter-process communication (IPC), 141
+IPC (inter-process communication), 14
+
+J
+
+JIT (Just In Time compiler), 179
+JSON-RPC, 204
+Just In Time compiler (JIT), 179
+
+K
+
+keyboard handing, 234, 242, 249, 250, 252, 257, 258, 269, 272, 281
+
+L
+
+line algorithm, Bresenham’s, 130–31
+lines, painting, 130–31, 271
+list comprehensions, 18, 38, 49, 80, 123
+lstrip() (str type), 93
+
+M
+
+main windows vs. dialogs, 235
+memory, shared, 141
+Menu (type; tkinter module), 257f, 258–59
+
+N
+
+now() (datetime.datetime type), 208–9, 213, 218, 226
+number, magic, 135
+
+O
+
+-O optimize flag, 30
+operations, atomic, 143
+
+P
+
+painting
+    shapes
+        2D
+            primitives; lines, 130–31, 271
+        3D
+            cylinders, 268
+            spheres, 277
+    windows, 267, 275
+@property (built-in), 42, 44, 48, 54, 56, 58, 60, 104, 110, 115, 278
+
+Q
+
+qsize() (queue.Queue type), 160
+queue (module)
+    datatypes
+        Queue (type), 156, 158
+            methods; get(), 158; join(), 160–61; put(), 158; qsize(), 160; task_done(), 158
+
+R
+
+real events, 242–43
+references
+    function, 60–62, 70, 87 (see function; virtual events)
+    image, 256
+    object, 64–67
+remove(), 43, 91
+    list (type), 43
+    os (module), 217
+resizing, window, 269, 275
+
+S
+
+sentinel, 96
+sequence unpacking, 13, 26, 30–31, 70, 109
+serialized access, 141–42, 143–44, 154
+SHA-256, 206
+shared data, 141, 143–44, 154
+shown <furnace>
+special methods. See also class: attributes
+    __eq__(), 48
+    __len__(), 99, 223
+    __next__(), 97
+    __str__(), 18
+sphere, painting, 277
+state-sensitive methods, 114–15
+@staticmethod (built-in), 120, 121, 129, 133
+status bar, 260–61
+str (type; built-in), 19–20, 66
+    encode(), 185, 186, 190, 191, 266
+    endswith(), 62, 120, 121
+    format(), 13, 21, 32, 37, 92, 109
+    join(), 15, 18, 87, 92, 111, 122, 136
+    lstrip(), 93
+    title(), 20–21
+subscript3, 3
+sys (module)
+    executable, 92, 216
+    exit(), 91
+    modules (dictionary), 22–23, 25
+    path (list), 126
+    platform, 85–86
+
+T
+
+10 downing street, 10
+toolbar, 261–62
+
+U
+
+unbound method, 63, 69, 70. See also function
+Unicode, 17, 20–21, 131, 215, 243. See also UTF-8
+UTF-8, 17, 66, 121, 160, 182, 185, 243
+
+V
+
+virtual events, 242–43
+
+W
+
+windows
+    and classes, 234
+    dock, 261–62
+    main, 255–62
+    main vs. dialogs, 235
+    modal, 236–37
+    painting, 267, 275
+    resizing, 269, 275
+
+X
+
+XBM (image format), 39, 125, 136
+xref. See also class: dynamic creation
+xref #2. See also class: decorator
+xref #3. See class
+
+Y
+
+yield (statement), 44, 76–79, 100, 105, 139, 153, 160

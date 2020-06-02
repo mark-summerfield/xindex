@@ -1,0 +1,26 @@
+Options Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_options.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Index→Options action xix_ref_act_x_opt.html].
+
+This dialog is used to set various options and defaults.
+
+Some changes, especially to rules, can take a few moments to apply. Such
+changes are done when the dialog is closed, with progress shown in the
+[Status Bar xix_ref_status.html].
+
+- [General Tab xix_ref_dlg_opt_gen.html]
+- [Rules Tab xix_ref_dlg_opt_rules.html]
+- [Display Tab xix_ref_dlg_opt_disp.html]
+
+-------------------------
+If you change an option, and then change your mind~~~simply change the
+option back to what you want it to be.
+
+~= [General Tab xix_ref_dlg_opt_gen.html]

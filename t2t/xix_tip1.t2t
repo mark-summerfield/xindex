@@ -1,0 +1,56 @@
+Tips
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tip1.html
+
+====Merge Two Entries====
+
+If one of the entries is a subentry of the other, use the
+[Modify→Merge into Parent action xix_ref_act_m_mrg_p.html].
+
+Otherwise, goto the one you want to merge into (so it is added to the
+[Goto Menu xix_ref_actgoto.html]'s recently visited entries), then goto
+the one you want to merge from. Move the “from” entry under the “into”
+entry (using the [Entry→Move action xix_ref_act_y_mv.html]). Now use the
+[Modify→Merge into Parent action xix_ref_act_m_mrg_p.html].
+
+
+====Create Two or More Indexes from One====[twofromone]
+
+Suppose you need to create two indexes~~~say, a general index and an
+author index, where the general index also includes the author entries.
+
+You could create a single general index and use the
+[Edit Groups Dialog xix_ref_dlg_groups.html] to
+add a Normal Group called, say ~CAuthor~E. Then, whenever you add a new
+author entry, add the entry to the ~CAuthor~E normal group using the
+[Entry→Add to Normal Group action xix_ref_act_y_grp.html].
+
+Once the index is finished, you can output the general index as usual
+using one of the output actions (e.g.,
+[File→Output As .rtf action xix_ref_act_f_ortf.html] or
+[File→Output As .docx action xix_ref_act_f_odocx.html]).
+
+Then, for the author's index, use the
+[File→Save Grouped As action xix_ref_act_f_savegroupedas.html] to create
+a new author's index which is a copy of the general index (with the same
+options, spelling words, and so on), but with only the entries that are
+in the ~CAuthor~E normal group. You can then output this new author
+index using one of the output options, as usual.
+
+Note that if you add an author as a subentry, it will only be copied
+into the new author index if not only the entry itself, but its parent
+entry or entries, all the way up to its overall main entry, //all//
+belong to the ~CAuthor~E normal group.
+
+This technique can be generalized to split a “master” index into two or
+more indexes. For each index you want to split into, create a
+corresponding normal group, and whenever you add an entry to the master
+index, add it to one of these normal groups. Then, once the index is
+finished, use the
+[File→Save Grouped As action xix_ref_act_f_savegroupedas.html] to create
+a split-off index for each of the normal groups you created for this
+purpose.
+
+~= [Support xix_supp.html]

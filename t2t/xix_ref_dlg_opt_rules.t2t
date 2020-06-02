@@ -1,0 +1,33 @@
+Options Dialog's Rules Tab
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_opt_rules.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]→
+[Options Dialog xix_ref_dlg_options.html]~E
+~@ [General xix_ref_dlg_opt_gen.html]
+~@ Rules
+~@ [Display xix_ref_dlg_opt_disp.html]
+
+This tab is used to set the rules to be used for this index, and as the
+defaults for future indexes.
+
+[images/optrulestab.png]
+
+This tab is used to set the [Sort As Rules xix_ref_sortas_rules.html]
+and [Page Range Rules xix_ref_prange_rules.html] for the current index,
+and as the default for new indexes. It is also used to set the number of
+pad digits (for an explanation of which, see the
+[Sort As Dialog xix_ref_dlg_sortas.html]), whether initial subentry
+function words should be ignored (see
+[Ignoring Subentry Function Words xix_ref_subfunc.html]), and whether to
+suggest spelled out numbers when calculating
+[Sort As Text xix_ref_sortas.html]s (for which, see the
+[Sort As Dialog xix_ref_dlg_sortas.html]).
+
+If you change the rules, the change is applied when you close the
+dialog. For larger indexes this can take a few moments, with progress
+shown in the [Status Bar xix_ref_status.html].
+
+~= [Display xix_ref_dlg_opt_disp.html]

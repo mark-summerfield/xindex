@@ -1,0 +1,83 @@
+Edit Groups Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_groups.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Entry→Edit Groups action xix_ref_act_y_grp.html].
+
+This dialog is used to add, rename, link, unlink, view, and delete
+groups. The list shows the groups in case-insensitive alphabetical
+order, with icons indicating whether they are normal
+groups [images/groups.png] or linked groups [images/grouplink.png].
+
+[images/groupsdlg.png]
+
+Groups are never visible in the output and exist purely for convenience.
+~X provides many predefined filters for identifying particular subsets
+of the index based on some criterion, e.g., recently added, or has
+cross-references; see the
+[Main Window Filtered Panel xix_ref_panel_filter.html]. However,
+sometimes it is useful to create an ad-hoc group of entries, and this is
+where groups come into play.
+
+You can create as many groups as you like. By default every newly added
+group is a normal group. You can use the ~KLink~E button to change it to
+be a linked group~~~or use the ~KUnlink~E button to change a linked
+group back to a normal group.
+
+Normal groups are useful when you want to be able to keep track of an
+arbitrary group of entries and be able to view them together whenever
+you want. Membership of a normal group does not affect an entry in any
+way, and any entry can belong to any number of normal groups.
+
+Linked groups are used to keep the pages of all the entries in them
+synchronized. Any change to the pages of one entry in a linked group is
+automatically applied to the pages of all the other entries in the same
+linked group. Linked groups are used for double-posting (or
+triple-posting, and so on). Any given entry may belong to at most one
+linked group (and, of course, any number of normal groups).
+
+It is possible to automatically create a linked group and add two
+entries to it~~~the original and the copy~~~by copying an entry with the
+~KLink Pages...~E checkbox checked. See the
+[Copy Entry Dialog xix_ref_dlg_copy.html].
+
+If you change a normal group which already has entries into a linked
+group, all the entries' pages will be merged and synchronized. We do
+//not// recommend this. (And if you do it by mistake, we recommend that
+you immediately ~KClose~E the dialog and use the
+[Index→Undo action xix_ref_act_x_do.html].) Instead, we recommend
+adding a new group, and then changing it to a linked group straight
+away. Then, back in the main window, add any entries you want
+synchronized together to the newly added linked group one at a time, as
+you go. This makes it easy to see what's happening, and easy to undo if
+you add an entry to the linked group by mistake.
+
+If you delete or unlink a linked group that has entries, the
+[Delete or Unlink Linked Group Dialog xix_ref_dlg_unlink.html] will
+pop up.
+
+To add or remove entries to or from a group, see the
+[Entry→Group actions xix_ref_act_y_grp.html].
+
+To find all the entries in a normal group, use the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s
+[Normal Group xix_ref_p_filt_cust.html#normal] filter, and to find all
+the entries in a linked group, use the
+[Linked Group xix_ref_p_filt_cust.html#linked] filter.
+
+-------------------------
+You can undo the most recent group changes by closing the dialog, and
+then using the
+[Index→Undo action xix_ref_act_x_do.html]. If you have done multiple
+changes, you can do multiple undoes, right up until they've all been
+undone. When doing multiple undoes it is easy to go one undo too
+far~~~if this happens, simply use the
+[Index→Redo action xix_ref_act_x_do.html] to get to the position you
+want to be.
+
+~= [Forget Spelling Words Dialog xix_ref_dlg_spelldel.html]

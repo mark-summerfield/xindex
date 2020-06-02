@@ -1,0 +1,37 @@
+File→Output As .rtf action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_ortf.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Output As .rtf action====
+
+This action will output the current index as a Rich Text Format
+(~F.rtf~E) file in the same folder and with the same name as the current
+index, but with the ~F.rtf~E extension instead of ~X's ~F.xix~E
+extension. The output will reflect the options set in the
+[Output Options Dialog xix_ref_dlg_output.html].
+
+To invoke, use ~K__F__ile→Output As .__r__tf~E or [images/exportrtf.png].
+
+~WIf the ~F.rtf~E file already exists, it will be silently replaced.~E
+(Use the [File→Output As action xix_ref_act_f_oas.html], if you prefer to
+be asked before overwriting.)
+
+~WIf the ~F.rtf~E file is //open// in another application (e.g., a
+word-processor), you must close it before using this action
+[(Note) xix_file_footnote.html].~E
+
+-------------------------
+To output in Word Format (OOXML; ~F.docx~E extension), use the
+[File→Output As .docx action xix_ref_act_f_odocx.html].
+
+To output in any of ~X's supported output formats, or to output in
+~F.rtf~E or ~F.docx~E format into a different folder or with a different
+filename, use the
+[File→Output As action xix_ref_act_f_oas.html].
+
+~= [File→Output As .docx action xix_ref_act_f_odocx.html]

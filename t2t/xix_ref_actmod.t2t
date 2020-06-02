@@ -1,0 +1,30 @@
+Modify Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actmod.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to swap terms between two entries, and to swap
+two entries altogether, as well as to merge entries.
+
+- [Modify→Swap Acronym action xix_ref_act_m_swapa.html] [images/swapacronym.png] 
+- [Modify→Merge Pages action xix_ref_act_m_cpp.html] [images/mergepages.png] 
+- [Modify→Copy Pages action xix_ref_act_m_cpp.html] [images/copypages.png] 
+- [Modify→Combine Pages action xix_ref_act_m_comb.html] [images/combinepages.png] 
+- [Modify→Swap Term with Filtered action xix_ref_act_m_swap.html] [images/swap-term-with-found.png] 
+- [Modify→Swap Term with Circled action xix_ref_act_m_swap.html] [images/swap-term-with-circled.png] 
+- [Modify→Swap Entry with Filtered action xix_ref_act_m_swap.html] [images/swap-entry-with-found.png] 
+- [Modify→Swap Entry with Circled action xix_ref_act_m_swap.html] [images/swap-entry-with-circled.png] 
+- [Modify→Merge into Parent action xix_ref_act_m_mrg_p.html]
+- [Modify→Merge Subentries action xix_ref_act_m_mrg_s.html]
+
+-------------------------
+If you aren't sure whether one of these actions will do what you want,
+it is perfectly safe to try one anyway. After all, if you aren't happy
+with the results, you can undo the action immediately, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+~= [Modify→Swap Acronym action xix_ref_act_m_swapa.html]

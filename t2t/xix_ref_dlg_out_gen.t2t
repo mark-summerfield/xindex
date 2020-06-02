@@ -1,0 +1,45 @@
+Output Options Dialog's General Tab
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_out_gen.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]→
+[Output Options Dialog xix_ref_dlg_output.html]~E
+
+~@ General
+~@ [Entry Cross-references xix_ref_dlg_out_xref.html]
+~@ [Subentry Cross-references xix_ref_dlg_out_subxref.html]
+~@ [Format Specific xix_ref_dlg_out_fmt.html]
+
+This tab is used to set the index's title and note (if any), section
+formatting, fonts, and some basic general output options.
+
+[images/outgentab.png]
+
+If the ~KOutput Titles~E checkbox is checked, then the ~KSpecial Section
+Title~E will be output at the start of the index if there are any
+entries that come before ‘A’, and a letter will be output before the
+start of each section, i.e., ‘A’ before the first entry beginning with
+‘A’, ‘B’ before the first entry beginning with ‘B’, and so on. Even if
+there are no entries before ‘A’ (and so the ~KSpecial Section Title~E
+isn't output), the styling applied to the ~KSpecial Section Title~E is
+applied to each section's letter.
+
+~X supports three abstract fonts: Standard, Alternative, and Monospaced.
+How these are displayed in the
+[Main Window Index Panel xix_ref_panel_index.html] and the
+[Main Window Filtered Panel xix_ref_panel_filter.html] depends on the
+actual fonts set in the
+[Options Dialog's Display Tab xix_ref_dlg_opt_disp.html]. But when the
+index is output, the actual fonts used are the ones set in this tab.
+
+The default output style is ~KIndented~E, but various run-in styles are
+also supported. For example, the ~KRun-in from Main Entries~E style
+produces a standard run-in index. It is also possible to use indented
+style up to a certain level, then run-in style for the rest: for
+example, using the ~KRun-in from 1st Subentries~E style produces
+indented subentries, and run-in subsubentries, subsubsubentries, and so
+on.
+
+~= [Entry Cross-references xix_ref_dlg_out_xref.html]

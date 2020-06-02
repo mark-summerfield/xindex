@@ -1,0 +1,31 @@
+Goto→Filtered action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_g_filt.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Goto Menu xix_ref_actgoto.html]~E
+
+====Goto→Filtered action====
+
+This action is used to visit the //filtered// entry, that is, the entry
+that is shown in the
+[Main Window Filtered Panel xix_ref_panel_filter.html] with a solid
+square bullet and highlighted in magenta.
+
+When invoked, this action will make the filtered entry the //current//
+entry, so it will be shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html] where it can be
+edited, and it will also be shown highlighted in the
+[Main Window Index Panel xix_ref_panel_index.html].
+
+To invoke, use ~KF3~E or ~K__G__oto→__F__iltered~E
+or [images/goto-found.png]. Alternatively, double-click any
+filtered entry to make it the current entry.
+
+-------------------------
+See also the [Tutorial xix_tu.html]'s
+[Finding Entries xix_tu_nav.html] page.
+
+~= [Goto→Circled action xix_ref_act_g_circ.html]

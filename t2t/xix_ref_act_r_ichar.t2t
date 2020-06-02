@@ -1,0 +1,51 @@
+Insert→Character actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_r_ichar.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Insert Menu xix_ref_actins.html]~E
+
+Insert a single quote ~C'~E, a double quote ~C"~E, an ellipsis ~C~e~E,
+en-dash ~C~~ ~E, or em-dash ~C~~~~E into the active editor at the current
+cursor position.
+
+====Insert→Single Quote action====
+
+To insert a single quote, use ~KInse__r__t→__S__ingle Quote~E. (By
+default when you enter **~C'~E**, you get a smart quote~~~either
+**~C‘~E** or **~C’~E**.)
+
+====Insert→Double Quote action====
+
+To insert a double quote, use ~KInse__r__t→__D__ouble Quote~E. (By
+default when you enter **~C"~E**, you get a smart double quote~~~either
+**~C“~E** or **~C”~E**.)
+
+====Insert→Ellipsis action====
+
+To insert an ellipsis, use ~KInse__r__t→__E__llipsis~E.
+
+====Insert→En-dash action====
+
+To insert an en-dash, use ~KInse__r__t→E__n__-dash~E.
+
+When adding or editing page numbers in the ~KPages~E editor, there is
+never any need to explicitly enter an en-dash, since in that editor,
+hyphens used to separate the //from// and //to// elements of a page
+range, are automatically converted to en-dashes. (See also, the
+[Main Window Entry Panel's xix_ref_panel_entry.html]
+[Pages editor xix_ref_panel_entry.html#pages].)
+
+====Insert→Em-dash action====
+
+To insert an em-dash, use ~KInse__r__t→E__m__-dash~E.
+
+-------------------------
+Any of these actions can be undone immediately after they have been
+applied, using the [Edit→Undo action xix_ref_act_e_do.html].
+
+See also the [Copy Character Dialog xix_ref_dlg_copychr.html].
+
+~= [Insert→Copy Character action xix_ref_act_r_char.html]

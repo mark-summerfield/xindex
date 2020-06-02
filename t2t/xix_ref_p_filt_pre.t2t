@@ -1,0 +1,166 @@
+Predefined Filters
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_p_filt_pre.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]→
+[Main Window Filtered Panel xix_ref_panel_filter.html]~E
+
+These filters are used to find entries (or subentries, or subsubentries,
+and so on), that match their predefined criteria.
+
+Note that some filters can take a few moments to complete if the index
+has many thousands of entries, especially on older slower computers.
+Progress is shown in the [Status Bar xix_ref_status.html].
+
+- [In Created Order (Newest First) #creation]
+- [In Edited Order (Most Recent First) #updated]
+- [In Page Number Order #pages]
+- [No Pages, Subentries, or Cross-References #bare]
+- [No Pages or Subentries #barish]
+- [Pages and See cross-reference(s) #pagesee]
+- [No Subentries #nosubs]
+- [Has One Subentry #sub1]
+- [Has Two Subentries #sub2]
+- [Has Subentries #subn]
+- [Has Cross-references #xref]
+- [Has Generic Cross-references #gxref]
+- [Has Notes #notes]
+- [Has Custom Sort As #sortas]
+- [First Subentries #first]
+- [Second Subentries #second]
+- [Third Subentries #third]
+- [Fourth Subentries #fourth]
+- [Fifth Subentries #fifth]
+
+
+====In Created Order (Newest First)====[creation]
+
+Use this filter to show all the entries (and subentries, and
+subsubentries, and so on), in the order they were created (or
+recreated), from newest to oldest.
+
+====In Edited Order (Most Recent First)====[updated]
+
+Use this filter to show all the entries (and subentries, and
+subsubentries, and so on), in the order they were most recently edited
+(or created or recreated), from newest to oldest.
+
+====In Page Number Order====[pages]
+
+Use this filter to show all the entries (and subentries, and
+subsubentries, and so on), in page number order from lowest to highest
+within a particular page range.
+
+An entry is shown in this filter once for //every// one of its page
+numbers. So, an entry with pages, say, ~C27, 216, 247, 305~E, will appear
+once in the ~KPages 1-49~E filter, twice in the ~KPages 200-249~E
+filter, and once in the ~KPages 300-349~E filter. Since any given entry
+can appear multiple times, the number of filtered entries for this
+filter is usually far more than the number of entries in the index.
+
+====No Pages, Subentries, or Cross-references====[bare]
+
+Use this filter to find all the entries that have no pages,
+subentries, or //see// or //see also// cross-references
+
+This filter is useful when you've “finished” the index, since it will
+show entries that need to be deleted, or have page numbers added, or
+have a cross-reference added.
+
+====No Pages or Subentries====[barish]
+
+Use this filter to find all the entries that have neither pages, nor
+subentries.
+
+====Pages and See cross-reference(s)====[pagesee]
+
+Use this filter to find all the entries that have page and one or more
+//see// cross-references.
+
+For example, you might change these entries, so that they either have
+//see// //also// cross-reference(s), or have no pages.
+
+====No Subentries====[nosubs]
+
+Use this filter to find all the entries that have no subentries.
+
+====Has One Subentry====[sub1]
+
+Use this filter to find all the entries that have exactly one immediate
+subentry.
+
+This filter is useful when you've “finished” the index, since you might
+want to merge some or all of these subentries back into their parent
+entry. (See the
+[Modify→Merge into Parent action xix_ref_act_m_mrg_p.html].)
+
+====Has Two Subentries====[sub2]
+
+Use this filter to find all the entries that have exactly two immediate
+subentries.
+
+====Has Subentries====[subn]
+
+Use this filter to find all the entries that have one or more
+subentries.
+
+====Has Cross-references====[xref]
+
+Use this filter to find all the entries that have at least one
+cross-reference, whether generic or to another entry.
+
+For more about cross-references, see the
+[Entry→Cross-reference actions xix_ref_act_y_xref.html], and the
+[Add Cross-reference Dialog xix_ref_dlg_addxref.html].
+
+====Has Generic Cross-references====[gxref]
+
+Use this filter to find all the entries that have at least one
+generic cross-reference.
+
+====Has Notes====[notes]
+
+Use this filter to find all the entries that have some notes.
+
+====Has Custom Sort As====[sortas]
+
+Use this filter to find all the entries that have a custom
+[Sort As Text xix_ref_sortas.html].
+
+====First Subentries====[first]
+
+Use this filter to find all the entries that are first-level subentries.
+These are all the entries which are the immediate child entries of main
+entries.
+
+====Second Subentries====[second]
+
+Use this filter to find all the entries that are second-level
+subentries. These are all the entries which are the grand-child entries
+of main entries, i.e., they are the immediate child entries of main
+entry subentries. (They are subsubentries.)
+
+====Third Subentries====[third]
+
+Use this filter to find all the entries that are third-level subentries.
+
+====Fourth Subentries====[fourth]
+
+Use this filter to find all the entries that are fourth-level subentries.
+
+
+====Fifth Subentries====[fifth]
+
+Use this filter to find all the entries that are fifth-level subentries.
+
+-------------------------
+To view or edit the filtered entry, use the
+[Goto→Filtered action xix_ref_act_g_filt.html].
+
+See also the
+[Customizable Filters xix_ref_p_filt_cust.html].
+
+~= [Main Window Groups Panel xix_ref_panel_grp.html]

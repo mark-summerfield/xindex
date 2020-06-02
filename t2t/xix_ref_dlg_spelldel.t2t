@@ -1,0 +1,21 @@
+Forget Spelling Words Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_spelldel.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Spelling→Forget Words action xix_ref_act_l_forg.html].
+
+This dialog is used to tell ~X to forget words added to the current
+index's custom dictionary, and words ignored for this session.
+
+[images/forgetwordsdlg.png]
+
+See the [Spelling Menu's actions xix_ref_actspell.html] for how to
+remember words into the current index's custom dictionary, or ignore
+words in the current session.
+
+~= [Ignored Subentry Function Words Dialog xix_ref_dlg_subignore.html]

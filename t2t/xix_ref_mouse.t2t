@@ -1,0 +1,108 @@
+Mouse Actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_mouse.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]~E
+
+'''
+<table>
+<tr>
+<th class="th_kb">Action</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Context</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Notes</th>
+</tr>
+
+<tr>
+<td class="td_kb1a">Double-Click</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Any editor</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">Select the double-clicked word (Shift+<i>move</i>,
+e.g., Shift+Left arrow)</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Double-Click</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_panel_filter.html">Filter view
+entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">Make the clicked entry the filtered and current
+entry, i.e., <a href="xix_ref_act_g_filt.html">goto the clicked
+entry</a> (F3 or <img src="images/goto-found.png">)</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Double-Click</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_panel_grp.html">Groups panel</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">Set the <a href="xix_ref_panel_filter.html">Main
+Window Filtered Panel</a>'s filter to the
+<a href="xix_ref_p_filt_cust.html#normal">Normal Group</a> or
+<a href="xix_ref_p_filt_cust.html#linked">Linked Group</a>
+filter as appropriate, and make the clicked group the filtered group
+(Alt+Y,G)
+</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Double-Click</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_panel_index.html">Index view
+entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">Make the clicked entry the current and circled
+entry, i.e., <a href="xix_ref_act_y_circ.html">circle the clicked
+entry</a> (Ctrl+L or <img src="images/circle.png">)</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Double-Click</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_panel_sug.html">Suggestions
+list</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">Replace or complete the word on the cursor's left in
+the Term editor with the clicked suggestion (see also
+<a href="xix_ref_act_l_repl.html">replace the
+word typed so far with the numbered suggestion</a>)
+</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Triple-Click</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Any editor</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">Select all the editor's text (Ctrl+A)</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Right-Click</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Any editor and most views</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">Pop up a context menu</td>
+</tr>
+
+
+</table>
+'''
+
+% <tr>
+% <td class="td_kb1a"></td>
+% <td class="td_kbs"></td>
+% <td class="td_kb1"></td>
+% <td class="td_kbs"></td>
+% <td class="td_kb1c"></td>
+% </tr>
+
+See also [Keyboard Shortcuts xix_ref_keys.html] and
+[Text Editing actions xix_ref_acttxt.html].
+
+~= [Sort As Text xix_ref_sortas.html]

@@ -1,0 +1,64 @@
+Sort As Rules
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_sortas_rules.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]~E
+
+~X uses the Sort As Rules that have been set when calculating an entry's
+[Sort As Text xix_ref_sortas.html]. Three rules are supported, each with
+a //letter-by-letter// and //word-by-word// variant.
+
+The Sort As Rules can be set for the current index, and also as a
+default for newly created indexes; see the
+[Options Dialog's Rules Tab xix_ref_dlg_opt_rules.html].
+
+Entries in an index are ordered by sorting their
+[Sort As Text xix_ref_sortas.html]s in their “natural” order. This order
+puts some symbols first (e.g., ~C!~E), then digits, then some other
+symbols, then uppercase letters, then some other symbols, then lowercase
+letters, then non-Latin letters, digits, and symbols. ~X uses this
+natural ordering when producing ~KSort As Text~Es. For example, in most
+cases the ~KSort As Text~E is all lowercase and symbols are eliminated.
+
+==Chicago Manual of Style (CMS)==
+
+When these ~KSort As Rules~E are in force, automatically calculated
+~KSort As Text~Es ensure that the entries are ordered according to the
+Chicago Manual of Style 16th edition's rules, and the status area shows
+either ~KCMS by Letter~E or ~KCMS by Word~E.
+
+The ~cms Rules specify particular orderings depending on the punctuation
+between the first and second word. In particular, ~Cword1 (word2~E must
+come before ~Cword1, word2~E which must come before ~Cword1 word2~E, and
+so on. ~X handles this by taking advantage of the fact that ~KSort As
+Text~Es are lower-cased, and so inserts a capital letter between the first
+and second word to enforce the correct ordering. This is why an ~CL~E,
+~CD~E, ~CH~E, ~CP~E, or ~CT~E, may appear between the first and second
+words when using the ~cms Rules.
+
+==National Information Standards Organization (NISO)==
+
+When these ~KSort As Rules~E are in force, automatically calculated
+~KSort As Text~Es ensure that the entries are ordered according to the
+NISO Technical Report 3's rules (NISO TR03-1999), and the status area shows
+either ~KNISO by Letter~E or ~KNISO by Word~E.
+
+NISO does not recommend //letter-by-letter// ordering, except when
+updating an existing index that already uses it.
+
+(NISO's comprehensive example does not appear to always follow its own
+rules. ~X's implementation strictly follows the NISO rules.)
+
+==International Standards Organization (ISO)==
+
+When these ~KSort As Rules~E are in force, automatically calculated
+~KSort As Text~Es ensure that the entries are ordered according to the
+ISO 999 (English) rules, and the status area shows either ~KISO by
+Letter~E or ~KISO by Word~E.
+
+-------------------------
+See also, [Ignoring Subentry Function Words xix_ref_subfunc.html].
+
+~= [Ignoring Subentry Function Words xix_ref_subfunc.html]

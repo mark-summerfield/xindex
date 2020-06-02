@@ -1,0 +1,10 @@
+Setup
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_setup.html
+
+- [Requirements xix_set_req.html]
+- [Download and Run xix_set_dl.html]
+
+~= [Requirements xix_set_req.html]

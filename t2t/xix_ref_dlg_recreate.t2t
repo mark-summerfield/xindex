@@ -1,0 +1,51 @@
+Recreate Entries Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_recreate.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Entry→Recreate action xix_ref_act_y_rec.html].
+
+This dialog is used to recreate fresh new entries based on entries that
+have been deleted.
+
+//In Free Trial Mode, if the number of recreatable entries plus the//
+//number of entries equals or exceeds the maximum number of//
+//entries (~T), this action will not be available.//
+
+[images/recreatedlg.png]
+
+If you delete an entry (and its subentries, and so on), by mistake, the
+easiest solution is to immediately use the
+[Index→Undo action xix_ref_act_x_do.html].
+
+If you deleted an entry (and its subentries, and so on), some time ago,
+but now realise you want it (and perhaps its subentries) back, using
+undo to undo the deletion isn't practical, because you'd lose all the
+other changes you'd made since. Fortunately, ~X remembers the details of
+deleted entries and makes them available for recreation through this
+dialog.
+
+If you recreate an entry (and optionally, it subentries), each recreated
+entry will have the same term and sort as texts, the same pages, and the
+same notes, as they had at the time of their deletion. The recreation
+will also try to restore any cross-references that involve the entry,
+in so far as this is possible. And the recreation will also add the
+entry to any normal groups it originally belonged to~~~but not to any
+linked group.
+
+You can delete the recreatable entries shown in this dialog. Note that
+deletions done here are **permanent**, and such entries can no longer be
+recreated. We do not recommend deleting recreatable entries, since their
+only cost is in making the index's ~F.xix~E file slightly bigger.
+
+-------------------------
+See also the [Entry→Cross-reference actions xix_ref_act_y_xref.html], the
+[Add Cross-reference Dialog xix_ref_dlg_addxref.html], the
+[Entry→Group actions xix_ref_act_y_grp.html], and the
+[Edit Groups Dialog xix_ref_dlg_groups.html].
+
+~= [Renumber Pages Dialog xix_ref_dlg_renumpages.html]

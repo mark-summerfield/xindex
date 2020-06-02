@@ -1,0 +1,67 @@
+Index→Undo and Redo actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_do.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+These actions are used to undo or redo changes to entries, even after
+saving~~~providing you are in the same session, i.e., you haven't quit
+~X or created or opened a different index. If multiple changes have been
+made, it is possible to undo multiple times back to before the first
+change; and then to redo multiple times all the way back to the most
+recent change.
+
+Most entry- and index-modifying actions can be undone~~~for example,
+adding, editing, or deleting an entry or cross-reference, or merging,
+splitting, or copying an entry.
+
+A few entry- and index-modifying actions cannot be undone or redone using
+these actions. In most cases, the equivalent of undo or redo it to apply
+the opposite change. For example, if you change the
+[Sort As Rules xix_ref_sortas_rules.html], this will affect every entry,
+but doesn't support undo. However, you can get the effect of undo simply
+by changing the [Sort As Rules xix_ref_sortas_rules.html] back to what
+they were before.
+
+====Index→Undo action====
+
+To undo the last undoable change to the index, use ~KF9~E or
+~KInde__x__→__U__ndo~E or [images/edit-undo.png].
+
+====Index→Redo action====
+
+To redo the last redoable change to the index, use ~KCtrl+F9~E or
+~KInde__x__→__R__edo~E or [images/edit-redo.png].
+
+-------------------------
+To see what will be undone or redone, hover the mouse
+over [images/edit-undo.png] or [images/edit-redo.png] (or over the
+~KInde__x__→__U__ndo~E or ~KInde__x__→__R__edo~E menu actions, if menu
+tooltips are switched on).
+
+Some changes count as more than one undoable or redoable action, and of
+course, sometimes you may want to undo multiple changes. In such cases,
+you can undo each change (or partial change), one at a
+time. And you can also redo the changes.
+
+In practice, one or two undos, and then one or two redos (if the undo
+was itself a mistake), is the most common usage.
+
+If you have deleted an entry that you now want back but don't want to
+use undo because you don't want to lose changes you made after the
+deletion, try using the [Entry→Recreate action xix_ref_act_y_rec.html].
+
+For some actions~~~such as combining overlapping pages (see the
+[Combine Overlapping Pages Dialog xix_ref_dlg_combpages.html])~~~you
+might want to do multiple undoes. In such cases it is easy to undo one
+step too far. Fortunately, the remedy is simple: just redo once (or
+more), to get back to the position you want to be.
+
+To undo and redo unsaved edits in an editor (e.g., the ~KTerm~E or
+~KPages~E editor), use the
+[Edit→Undo and Redo actions xix_ref_act_e_do.html].
+
+~= [Index→Check action xix_ref_act_x_check.html]

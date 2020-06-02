@@ -1,0 +1,49 @@
+Tutorial
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu.html
+
+This tutorial will show you how to create a new index, set important
+options, add, edit, delete, and move entries, produce output, and save
+and backup your work.
+
+The tutorial covers only the essentials to help you get started as
+quickly and easily as possible. If you need to do things not covered by
+the tutorial (e.g., force an entry to have a position in the index it
+wouldn't naturally occupy), you should find what you need in the
+[Reference xix_ref.html].
+
+To work through the tutorial, follow the ~= links; the other links are
+to the [Reference xix_ref.html] in case you want more detail~~~you can
+always use the ~KBack~E button to return to the tutorial.
+
+: //Throughout the online help, how to invoke actions is shown like this://
+
+Invoke the ... action using ~KCtrl+N~E or ~K__F__ile→__N__ew ...~E
+or [images/document-new.png] 
+% space needed above
+
+: //This is a compact way of saying://
+
+Invoke the ... action by pressing ~KCtrl+N~E or by pressing ~KAlt+F,N~E,
+or by clicking ~KFile→New ...~E or by clicking
+the [images/document-new.png] toolbar button
+
+
+- [Key Concepts xix_key_con.html]
+- [Create a New Index xix_tu_new.html]
+- [Set Index Options xix_tu_opt.html]
+- [Add Entries xix_tu_add.html]
+- [Edit Entries I (Double-Posting) xix_tu_edit1.html]
+- [Edit Entries II (Styling and Special Characters) xix_tu_edit2.html]
+- [Edit Entries III (Moving) xix_tu_edit3.html]
+- [Edit Entries III (Cross-references) xix_tu_edit4.html]
+- [Save and Backup an Index xix_tu_save.html]
+- [Set Output Options xix_tu_outopt.html]
+- [Output an Index xix_tu_out.html]
+- [Finding Entries xix_tu_nav.html]
+- [Next Steps xix_tu_next.html]
+
+
+~= [Key Concepts xix_key_con.html]

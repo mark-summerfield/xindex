@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XindeX version="71">
+<entries>
+<entry eid="1" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>♞ black chess knight character</term>
+    <sortas saf="C">B black L chess knight character</sortas>
+    <pages>21</pages>
+</entry>
+<entry eid="55" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>@ at symbol</term>
+    <sortas saf="A">at L symbol</sortas>
+    <pages>48, 52</pages>
+    <xrefs>
+        <seealso to_eid="11"/>
+        <seealso to_eid="24"/>
+    </xrefs>
+</entry>
+<entry eid="56" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>Atom format</term>
+    <sortas saf="A">atom L format</sortas>
+    <pages>159</pages>
+</entry>
+<entry eid="57" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>atomic operations</term>
+    <sortas saf="A">atomic L operations</sortas>
+    <pages>143</pages>
+</entry>
+<entry eid="121" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;b&gt;bold, &lt;/b&gt;&lt;i&gt;italic, &lt;/i&gt;&lt;b&gt;&lt;i&gt;bold-italic&lt;/i&gt;&lt;/b&gt;</term>
+    <sortas saf="A">bold H italic bold italic</sortas>
+    <pages>1</pages>
+</entry>
+<entry eid="131" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>bound method</term>
+    <sortas saf="A">bound L method</sortas>
+    <xrefs>
+        <see to_eid="9"/>
+        <seealso to_eid="60"/>
+    </xrefs>
+</entry>
+<entry eid="7" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 13pt; font-family: &#x27;Arial&#x27;;&quot;&gt;Bresenham’s line algorithm&lt;/span&gt;</term>
+    <sortas saf="A">bresenham L s line algorithm</sortas>
+    <pages>130–31</pages>
+</entry>
+<entry eid="15" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>callback</term>
+    <sortas saf="A">callback</sortas>
+    <xrefs>
+        <see to_eid="14"/>
+    </xrefs>
+</entry>
+<entry eid="133" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>Charles I (king of England)</term>
+    <sortas saf="A">charles P 0001 king of england</sortas>
+    <pages>3–10, 71–72, 96–117</pages>
+</entry>
+<entry eid="134" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>Charles I (king of Portugal)</term>
+    <sortas saf="A">charles P 0001 king of portugal</sortas>
+    <pages>100–104, 1100–1113</pages>
+</entry>
+<entry eid="20" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>class</term>
+    <sortas saf="A">class</sortas>
+</entry>
+<entry eid="21" peid="20" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>attributes</term>
+    <sortas saf="A">attributes</sortas>
+    <xrefs>
+        <seealso>under attribute names</seealso>
+        <seealso to_eid="19"/>
+    </xrefs>
+</entry>
+<entry eid="22" peid="21" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;__class__&lt;/span&gt;</term>
+    <sortas saf="A">class</sortas>
+    <pages>25, 222</pages>
+</entry>
+<entry eid="24" peid="21" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>decorator</term>
+    <sortas saf="A">decorator</sortas>
+    <pages>36, 48, 54–59</pages>
+    <xrefs>
+        <seealso to_eid="9"/>
+    </xrefs>
+</entry>
+<entry eid="138" peid="24" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>Class</term>
+    <sortas saf="A">class</sortas>
+    <pages>21, 32–35</pages>
+</entry>
+<entry eid="23" peid="21" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;__doc__&lt;/span&gt;</term>
+    <sortas saf="A">doc</sortas>
+    <pages>50</pages>
+</entry>
+<entry eid="25" peid="20" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>dynamic creation</term>
+    <sortas saf="A">dynamic L creation</sortas>
+    <pages>20–24</pages>
+</entry>
+<entry eid="8" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>concatenation, tuple</term>
+    <sortas saf="A">concatenation H tuple</sortas>
+    <pages>109</pages>
+</entry>
+<entry eid="130" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>docstring</term>
+    <sortas saf="A">docstring</sortas>
+</entry>
+<entry eid="122" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;i&gt;e = mc&lt;/i&gt;&lt;i&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/i&gt;</term>
+    <sortas saf="A">e T mc0002</sortas>
+    <pages>2</pages>
+</entry>
+<entry eid="58" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;eval()&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (built-in)&lt;/span&gt;</term>
+    <sortas saf="A">eval D built in</sortas>
+    <pages>20–21, 25, 84–88</pages>
+</entry>
+<entry eid="135" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>faculty clubs</term>
+    <sortas saf="A">faculty L clubs</sortas>
+    <pages>101–8, 808–33, 1103–4</pages>
+</entry>
+<entry eid="136" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>FBI (Federal Bureau of Investigation)</term>
+    <sortas saf="A">fbi D federal bureau of investigation</sortas>
+    <pages>321–28, 498–532, 1087–89, 1496–500, 11564–615, 12991–3001</pages>
+    <link to_eid="137"/>
+</entry>
+<entry eid="137" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>Federal Bureau of Investigation (FBI)</term>
+    <sortas saf="A">federal L bureau of investigation fbi</sortas>
+    <pages>321–28, 498–532, 1087–89, 1496–500, 11564–615, 12991–3001</pages>
+</entry>
+<entry eid="9" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>function</term>
+    <sortas saf="A">function</sortas>
+</entry>
+<entry eid="10" peid="9" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>arguments</term>
+    <sortas saf="A">arguments</sortas>
+    <pages>13, 50</pages>
+</entry>
+<entry eid="11" peid="9" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>decorators</term>
+    <sortas saf="A">decorators</sortas>
+    <pages>48–53</pages>
+</entry>
+<entry eid="129" peid="9" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>docstring</term>
+    <sortas saf="A">docstring</sortas>
+    <xrefs>
+        <see to_eid="130"/>
+    </xrefs>
+</entry>
+<entry eid="12" peid="9" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>nested</term>
+    <sortas saf="A">nested</sortas>
+    <pages>58</pages>
+</entry>
+<entry eid="13" peid="9" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>object</term>
+    <sortas saf="A">object</sortas>
+    <pages>63</pages>
+</entry>
+<entry eid="14" peid="9" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>reference</term>
+    <sortas saf="A">reference</sortas>
+    <pages>60–62, 70, 87, 112</pages>
+</entry>
+<entry eid="54" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>grab</term>
+    <sortas saf="A">grab</sortas>
+    <pages>236</pages>
+</entry>
+<entry eid="53" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>hierarchy, object</term>
+    <sortas saf="A">hierarchy H object</sortas>
+    <pages>40–48</pages>
+</entry>
+<entry eid="114" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>hierarchy, ownership</term>
+    <sortas saf="A">hierarchy H ownership</sortas>
+    <pages>234</pages>
+</entry>
+<entry eid="113" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>interface checking</term>
+    <sortas saf="A">interface L checking</sortas>
+    <pages>30–32, 35–36</pages>
+</entry>
+<entry eid="111" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>inter-process communication (IPC)</term>
+    <sortas saf="A">interprocess L communication ipc</sortas>
+    <pages>141</pages>
+</entry>
+<entry eid="112" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>IPC (inter-process communication)</term>
+    <sortas saf="A">ipc D inter process communication</sortas>
+    <pages>14</pages>
+</entry>
+<entry eid="16" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>JIT (Just In Time compiler)</term>
+    <sortas saf="A">jit D just in time compiler</sortas>
+    <pages>179</pages>
+</entry>
+<entry eid="18" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;b&gt;JSON-RPC&lt;/b&gt;</term>
+    <sortas saf="A">jsonrpc</sortas>
+    <pages>204</pages>
+</entry>
+<entry eid="17" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>Just In Time compiler (JIT)</term>
+    <sortas saf="A">just L in time compiler jit</sortas>
+    <pages>179</pages>
+</entry>
+<entry eid="110" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>keyboard handing</term>
+    <sortas saf="A">keyboard L handing</sortas>
+    <pages>234, 242, 249, 250, 252, 257, 258, 269, 272, 281</pages>
+</entry>
+<entry eid="108" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>line algorithm, Bresenham’s</term>
+    <sortas saf="A">line L algorithm bresenham s</sortas>
+    <pages>130–31</pages>
+</entry>
+<entry eid="107" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>lines, painting</term>
+    <sortas saf="A">lines H painting</sortas>
+    <pages>130–31, 271</pages>
+</entry>
+<entry eid="109" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>list comprehensions</term>
+    <sortas saf="A">list L comprehensions</sortas>
+    <pages>18, 38, 49, 80, 123</pages>
+</entry>
+<entry eid="105" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;lstrip()&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;str&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; type)&lt;/span&gt;</term>
+    <sortas saf="A">lstrip D str type</sortas>
+    <pages>93</pages>
+</entry>
+<entry eid="104" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>main windows vs. dialogs</term>
+    <sortas saf="A">main L windows vs dialogs</sortas>
+    <pages>235</pages>
+</entry>
+<entry eid="5" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>memory, shared</term>
+    <sortas saf="A">memory H shared</sortas>
+    <pages>141</pages>
+</entry>
+<entry eid="6" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;Menu&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (type; &lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;tkinter&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; module)&lt;/span&gt;</term>
+    <sortas saf="A">menu D type tkinter module</sortas>
+    <pages>257&lt;i&gt;f&lt;/i&gt;, &lt;b&gt;258&lt;/b&gt;&lt;b&gt;–&lt;/b&gt;&lt;b&gt;59&lt;/b&gt;</pages>
+</entry>
+<entry eid="4" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;now()&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;datetime.datetime&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; type)&lt;/span&gt;</term>
+    <sortas saf="A">now D datetime datetime type</sortas>
+    <pages>208–9, 213, 218, 226</pages>
+</entry>
+<entry eid="103" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>number, magic</term>
+    <sortas saf="A">number H magic</sortas>
+    <pages>135</pages>
+</entry>
+<entry eid="106" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;-O&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; optimize flag&lt;/span&gt;</term>
+    <sortas saf="A">o L optimize flag</sortas>
+    <pages>30</pages>
+</entry>
+<entry eid="102" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>operations, atomic</term>
+    <sortas saf="A">operations H atomic</sortas>
+    <pages>143</pages>
+</entry>
+<entry eid="97" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>painting</term>
+    <sortas saf="A">painting</sortas>
+</entry>
+<entry eid="100" peid="97" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>cylinders</term>
+    <sortas saf="A">cylinders</sortas>
+    <pages>268</pages>
+</entry>
+<entry eid="101" peid="97" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>lines</term>
+    <sortas saf="A">lines</sortas>
+    <pages>130–31, 271</pages>
+</entry>
+<entry eid="98" peid="97" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>spheres</term>
+    <sortas saf="A">spheres</sortas>
+    <pages>277</pages>
+</entry>
+<entry eid="99" peid="97" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>windows</term>
+    <sortas saf="A">windows</sortas>
+    <pages>267, 275</pages>
+</entry>
+<entry eid="96" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;@property&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (built-in)&lt;/span&gt;</term>
+    <sortas saf="A">property D built in</sortas>
+    <pages>42, 44, 48, 54, 56, 58, 60, 104, 110, 115, 278</pages>
+</entry>
+<entry eid="95" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;qsize()&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;queue.Queue&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; type)&lt;/span&gt;</term>
+    <sortas saf="A">qsize D queue queue type</sortas>
+    <pages>160</pages>
+</entry>
+<entry eid="88" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;queue&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (module)&lt;/span&gt;</term>
+    <sortas saf="A">queue D module</sortas>
+</entry>
+<entry eid="89" peid="88" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;Queue&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (type)&lt;/span&gt;</term>
+    <sortas saf="A">queue D type</sortas>
+    <pages>156, 158</pages>
+</entry>
+<entry eid="90" peid="89" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;get()&lt;/span&gt;</term>
+    <sortas saf="A">get</sortas>
+    <pages>158</pages>
+</entry>
+<entry eid="93" peid="89" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;join()&lt;/span&gt;</term>
+    <sortas saf="A">join</sortas>
+    <pages>160–61</pages>
+</entry>
+<entry eid="92" peid="89" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;put()&lt;/span&gt;</term>
+    <sortas saf="A">put</sortas>
+    <pages>158</pages>
+</entry>
+<entry eid="94" peid="89" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;qsize()&lt;/span&gt;</term>
+    <sortas saf="A">qsize</sortas>
+    <pages>160</pages>
+</entry>
+<entry eid="91" peid="89" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;task_done()&lt;/span&gt;</term>
+    <sortas saf="A">task done</sortas>
+    <pages>158</pages>
+</entry>
+<entry eid="37" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>real events</term>
+    <sortas saf="A">real L events</sortas>
+    <pages>242–43</pages>
+</entry>
+<entry eid="82" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>references</term>
+    <sortas saf="A">references</sortas>
+</entry>
+<entry eid="83" peid="82" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>function</term>
+    <sortas saf="A">function</sortas>
+    <pages>60–62, 70, 87</pages>
+    <xrefs>
+        <see to_eid="9"/>
+        <see to_eid="51"/>
+    </xrefs>
+</entry>
+<entry eid="84" peid="82" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>image</term>
+    <sortas saf="A">image</sortas>
+    <pages>256</pages>
+</entry>
+<entry eid="85" peid="82" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>object</term>
+    <sortas saf="A">object</sortas>
+    <pages>64–67</pages>
+</entry>
+<entry eid="77" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;remove()&lt;/span&gt;</term>
+    <sortas saf="A">remove</sortas>
+</entry>
+<entry eid="78" peid="77" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;list&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (type)&lt;/span&gt;</term>
+    <sortas saf="A">list D type</sortas>
+    <pages>43</pages>
+</entry>
+<entry eid="79" peid="77" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;os&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (module)&lt;/span&gt;</term>
+    <sortas saf="A">os D module</sortas>
+    <pages>217</pages>
+</entry>
+<entry eid="86" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>resizing, window</term>
+    <sortas saf="A">resizing H window</sortas>
+    <pages>269, 275</pages>
+</entry>
+<entry eid="38" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>sentinel</term>
+    <sortas saf="A">sentinel</sortas>
+    <pages>96</pages>
+</entry>
+<entry eid="39" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>sequence unpacking</term>
+    <sortas saf="A">sequence L unpacking</sortas>
+    <pages>13, 26, 30–31, 70, 109</pages>
+</entry>
+<entry eid="87" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>serialized access</term>
+    <sortas saf="A">serialized L access</sortas>
+    <pages>141–42, 143–44, 154</pages>
+</entry>
+<entry eid="80" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>SHA-256</term>
+    <sortas saf="A">sha256</sortas>
+    <pages>206</pages>
+</entry>
+<entry eid="81" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>shared data</term>
+    <sortas saf="A">shared L data</sortas>
+    <pages>141, 143–44, 154</pages>
+</entry>
+<entry eid="128" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>shown &amp;lt;furnace&amp;gt;</term>
+    <sortas saf="C">sortas</sortas>
+</entry>
+<entry eid="19" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>special methods</term>
+    <sortas saf="A">special L methods</sortas>
+    <xrefs>
+        <seealso to_eid="21"/>
+    </xrefs>
+</entry>
+<entry eid="29" peid="19" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;__eq__()&lt;/span&gt;</term>
+    <sortas saf="A">eq</sortas>
+    <pages>48</pages>
+</entry>
+<entry eid="26" peid="19" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;__len__()&lt;/span&gt;</term>
+    <sortas saf="A">len</sortas>
+    <pages>99, 223</pages>
+</entry>
+<entry eid="28" peid="19" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;__next__()&lt;/span&gt;</term>
+    <sortas saf="A">next</sortas>
+    <pages>97</pages>
+</entry>
+<entry eid="27" peid="19" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;__str__()&lt;/span&gt;</term>
+    <sortas saf="A">str</sortas>
+    <pages>18</pages>
+</entry>
+<entry eid="75" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>sphere, painting</term>
+    <sortas saf="A">sphere H painting</sortas>
+    <pages>277</pages>
+</entry>
+<entry eid="76" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>state-sensitive methods</term>
+    <sortas saf="A">statesensitive L methods</sortas>
+    <pages>114–15</pages>
+</entry>
+<entry eid="30" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;@staticmethod&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (built-in)&lt;/span&gt;</term>
+    <sortas saf="A">staticmethod D built in</sortas>
+    <pages>120, 121, 129, 133</pages>
+</entry>
+<entry eid="36" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>status bar</term>
+    <sortas saf="A">status L bar</sortas>
+    <pages>260–61</pages>
+</entry>
+<entry eid="68" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;str&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (type; built-in)&lt;/span&gt;</term>
+    <sortas saf="A">str D type built in</sortas>
+    <pages>19–20, 66</pages>
+</entry>
+<entry eid="74" peid="68" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;encode()&lt;/span&gt;</term>
+    <sortas saf="A">encode</sortas>
+    <pages>185, &lt;b&gt;186&lt;/b&gt;, 190, &lt;i&gt;191&lt;/i&gt;, 266</pages>
+</entry>
+<entry eid="69" peid="68" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;endswith()&lt;/span&gt;</term>
+    <sortas saf="A">endswith</sortas>
+    <pages>62, 120, 121</pages>
+</entry>
+<entry eid="71" peid="68" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;format()&lt;/span&gt;</term>
+    <sortas saf="A">format</sortas>
+    <pages>13, 21, 32, 37, 92, 109</pages>
+</entry>
+<entry eid="72" peid="68" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;join()&lt;/span&gt;</term>
+    <sortas saf="A">join</sortas>
+    <pages>15, 18, 87, &lt;b&gt;92&lt;/b&gt;, 111, 122, 136</pages>
+</entry>
+<entry eid="70" peid="68" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;lstrip()&lt;/span&gt;</term>
+    <sortas saf="A">lstrip</sortas>
+    <pages>93</pages>
+</entry>
+<entry eid="73" peid="68" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;title()&lt;/span&gt;</term>
+    <sortas saf="A">title</sortas>
+    <pages>20–21</pages>
+</entry>
+<entry eid="123" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>subscript&lt;sub&gt;3&lt;/sub&gt;</term>
+    <sortas saf="A">subscript3</sortas>
+    <pages>3</pages>
+</entry>
+<entry eid="62" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;sys&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (module)&lt;/span&gt;</term>
+    <sortas saf="A">sys D module</sortas>
+</entry>
+<entry eid="64" peid="62" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;executable&lt;/span&gt;</term>
+    <sortas saf="A">executable</sortas>
+    <pages>92, 216</pages>
+</entry>
+<entry eid="67" peid="62" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;exit()&lt;/span&gt;</term>
+    <sortas saf="A">exit</sortas>
+    <pages>91</pages>
+</entry>
+<entry eid="66" peid="62" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;modules&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (dictionary)&lt;/span&gt;</term>
+    <sortas saf="A">modules D dictionary</sortas>
+    <pages>22–23, 25</pages>
+</entry>
+<entry eid="65" peid="62" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;path&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (list)&lt;/span&gt;</term>
+    <sortas saf="A">path D list</sortas>
+    <pages>126</pages>
+</entry>
+<entry eid="63" peid="62" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;platform&lt;/span&gt;</term>
+    <sortas saf="A">platform</sortas>
+    <pages>85–86</pages>
+</entry>
+<entry eid="127" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>10 downing street</term>
+    <sortas saf="A">ten L downing street</sortas>
+    <pages>10</pages>
+</entry>
+<entry eid="61" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>toolbar</term>
+    <sortas saf="A">toolbar</sortas>
+    <pages>261–62</pages>
+</entry>
+<entry eid="60" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>unbound method</term>
+    <sortas saf="A">unbound L method</sortas>
+    <pages>63, 69, 70</pages>
+    <xrefs>
+        <seealso to_eid="9"/>
+    </xrefs>
+</entry>
+<entry eid="2" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>Unicode</term>
+    <sortas saf="A">unicode</sortas>
+    <pages>17, &lt;b&gt;20&lt;/b&gt;&lt;b&gt;–&lt;/b&gt;&lt;b&gt;21&lt;/b&gt;, 131, 215, 243</pages>
+    <xrefs>
+        <seealso to_eid="3"/>
+    </xrefs>
+</entry>
+<entry eid="3" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>UTF-8</term>
+    <sortas saf="A">utf8</sortas>
+    <pages>17, 66, 121, 160, 182, 185, 243</pages>
+</entry>
+<entry eid="51" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>virtual events</term>
+    <sortas saf="A">virtual L events</sortas>
+    <pages>242–43</pages>
+</entry>
+<entry eid="41" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>windows</term>
+    <sortas saf="A">windows</sortas>
+</entry>
+<entry eid="42" peid="41" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>and classes</term>
+    <sortas saf="A">and L classes</sortas>
+    <pages>234</pages>
+</entry>
+<entry eid="45" peid="41" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>dock</term>
+    <sortas saf="A">dock</sortas>
+    <pages>261–62</pages>
+</entry>
+<entry eid="44" peid="41" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>main</term>
+    <sortas saf="A">main</sortas>
+    <pages>255–62</pages>
+</entry>
+<entry eid="46" peid="41" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>main vs. dialogs</term>
+    <sortas saf="A">main L vs dialogs</sortas>
+    <pages>235</pages>
+</entry>
+<entry eid="50" peid="41" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>modal</term>
+    <sortas saf="A">modal</sortas>
+    <pages>236–37</pages>
+</entry>
+<entry eid="43" peid="41" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>painting</term>
+    <sortas saf="A">painting</sortas>
+    <pages>267, 275</pages>
+</entry>
+<entry eid="47" peid="41" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>resizing</term>
+    <sortas saf="A">resizing</sortas>
+    <pages>269, 275</pages>
+</entry>
+<entry eid="52" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;b&gt;XBM&lt;/b&gt; (image format)</term>
+    <sortas saf="A">xbm D image format</sortas>
+    <pages>39, 125, 136</pages>
+</entry>
+<entry eid="124" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>xref</term>
+    <sortas saf="A">xref</sortas>
+    <xrefs>
+        <seealso to_eid="25"/>
+    </xrefs>
+</entry>
+<entry eid="125" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>xref #2</term>
+    <sortas saf="A">xref P 0002</sortas>
+    <xrefs>
+        <seealso to_eid="24"/>
+    </xrefs>
+</entry>
+<entry eid="126" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>xref #3</term>
+    <sortas saf="A">xref P 0003</sortas>
+    <xrefs>
+        <see to_eid="20"/>
+    </xrefs>
+</entry>
+<entry eid="59" peid="0" created="2015-11-16 09:07:40" updated="2015-11-16 09:07:40">
+    <term>&lt;span style=&quot;font-size: 12pt; font-family: &#x27;courier&#x27;;&quot;&gt;yield&lt;/span&gt;&lt;span style=&quot;font-size: 13pt; font-family: &#x27;times new roman&#x27;;&quot;&gt; (statement)&lt;/span&gt;</term>
+    <sortas saf="A">yield D statement</sortas>
+    <pages>44, 76–79, 100, 105, 139, 153, 160</pages>
+</entry>
+</entries>
+<spelling>
+    <spell word="(datetime.datetime"/>
+    <spell word="Bresenham"/>
+    <spell word="datetime"/>
+    <spell word="docstring"/>
+    <spell word="tkinter"/>
+    <spell word="tuple"/>
+</spelling>
+<ignored>
+    <ignore word="thanks to"/>
+    <ignore word="aside"/>
+    <ignore word="below"/>
+    <ignore word="the"/>
+    <ignore word="past"/>
+    <ignore word="as for"/>
+    <ignore word="minus"/>
+    <ignore word="subsequent to"/>
+    <ignore word="an"/>
+    <ignore word="alongside"/>
+    <ignore word="via"/>
+    <ignore word="for"/>
+    <ignore word="round"/>
+    <ignore word="excluding"/>
+    <ignore word="aboard"/>
+    <ignore word="before"/>
+    <ignore word="amid"/>
+    <ignore word="apart from"/>
+    <ignore word="according to"/>
+    <ignore word="such as"/>
+    <ignore word="mid"/>
+    <ignore word="concerning"/>
+    <ignore word="amongst"/>
+    <ignore word="times"/>
+    <ignore word="around"/>
+    <ignore word="as opposed to"/>
+    <ignore word="under"/>
+    <ignore word="versus"/>
+    <ignore word="inside of"/>
+    <ignore word="after"/>
+    <ignore word="left of"/>
+    <ignore word="vice"/>
+    <ignore word="sans"/>
+    <ignore word="to"/>
+    <ignore word="on to"/>
+    <ignore word="abaft"/>
+    <ignore word="into"/>
+    <ignore word="over"/>
+    <ignore word="beneath"/>
+    <ignore word="until"/>
+    <ignore word="due to"/>
+    <ignore word="modulo"/>
+    <ignore word="since"/>
+    <ignore word="atop"/>
+    <ignore word="as long as"/>
+    <ignore word="at"/>
+    <ignore word="apropos"/>
+    <ignore word="yet"/>
+    <ignore word="despite"/>
+    <ignore word="by"/>
+    <ignore word="following"/>
+    <ignore word="as regards"/>
+    <ignore word="as far as"/>
+    <ignore word="onto"/>
+    <ignore word="with"/>
+    <ignore word="behind"/>
+    <ignore word="pace"/>
+    <ignore word="ahead of"/>
+    <ignore word="next"/>
+    <ignore word="plus"/>
+    <ignore word="far from"/>
+    <ignore word="right of"/>
+    <ignore word="from"/>
+    <ignore word="abeam"/>
+    <ignore word="off"/>
+    <ignore word="barring"/>
+    <ignore word="across"/>
+    <ignore word="afore"/>
+    <ignore word="about"/>
+    <ignore word="except"/>
+    <ignore word="in to"/>
+    <ignore word="save"/>
+    <ignore word="or"/>
+    <ignore word="pro"/>
+    <ignore word="without"/>
+    <ignore word="astride"/>
+    <ignore word="per"/>
+    <ignore word="astern of"/>
+    <ignore word="down"/>
+    <ignore word="worth"/>
+    <ignore word="notwithstanding"/>
+    <ignore word="instead of"/>
+    <ignore word="outside of"/>
+    <ignore word="rather than"/>
+    <ignore word="pursuant to"/>
+    <ignore word="as per"/>
+    <ignore word="so"/>
+    <ignore word="between"/>
+    <ignore word="near to"/>
+    <ignore word="near"/>
+    <ignore word="towards"/>
+    <ignore word="close to"/>
+    <ignore word="beside"/>
+    <ignore word="in"/>
+    <ignore word="upon"/>
+    <ignore word="outside"/>
+    <ignore word="failing"/>
+    <ignore word="within"/>
+    <ignore word="opposite of"/>
+    <ignore word="of"/>
+    <ignore word="back to"/>
+    <ignore word="up"/>
+    <ignore word="opposite"/>
+    <ignore word="absent"/>
+    <ignore word="against"/>
+    <ignore word="as"/>
+    <ignore word="unlike"/>
+    <ignore word="owing to"/>
+    <ignore word="on"/>
+    <ignore word="including"/>
+    <ignore word="toward"/>
+    <ignore word="and"/>
+    <ignore word="regarding"/>
+    <ignore word="that of"/>
+    <ignore word="amidst"/>
+    <ignore word="among"/>
+    <ignore word="out from"/>
+    <ignore word="qua"/>
+    <ignore word="above"/>
+    <ignore word="nor"/>
+    <ignore word="out"/>
+    <ignore word="during"/>
+    <ignore word="like"/>
+    <ignore word="athwart"/>
+    <ignore word="as of"/>
+    <ignore word="a"/>
+    <ignore word="as well as"/>
+    <ignore word="throughout"/>
+    <ignore word="opposite to"/>
+    <ignore word="out of"/>
+    <ignore word="midst"/>
+    <ignore word="inside"/>
+    <ignore word="because of"/>
+    <ignore word="next to"/>
+    <ignore word="except for"/>
+    <ignore word="circa"/>
+    <ignore word="as soon as"/>
+    <ignore word="along"/>
+    <ignore word="besides"/>
+    <ignore word="beyond"/>
+    <ignore word="through"/>
+    <ignore word="up to"/>
+    <ignore word="underneath"/>
+    <ignore word="regardless of"/>
+    <ignore word="given"/>
+    <ignore word="aside from"/>
+    <ignore word="prior to"/>
+    <ignore word="but"/>
+    <ignore word="than"/>
+</ignored>
+<configs>
+    <config key="AltFont">Arial</config>
+    <config key="AltFontSize">9</config>
+    <config key="Created">2015-06-15 13:06:35</config>
+    <config key="Creator">Mark Summerfield</config>
+    <config key="GenericConjunction">●and●</config>
+    <config key="IgnoreSubFirsts">1</config>
+    <config key="Indent">4</config>
+    <config key="Initials">MS</config>
+    <config key="Language">American</config>
+    <config key="MonoFont">Courier New</config>
+    <config key="MonoFontAsStrikeout">0</config>
+    <config key="MonoFontSize">9</config>
+    <config key="Note">&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: &#x27;Times New Roman&#x27;;&quot;&gt;&lt;i&gt;Page numbers that end with ‘t’ refer to tables, and that end with ‘f’ refer to figures.&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;</config>
+    <config key="PadDigits">4</config>
+    <config key="PageRangeRules">pageRangeCMS16</config>
+    <config key="RunInSeparator">;●</config>
+    <config key="SectionPostLines">1</config>
+    <config key="SectionPreLines">1</config>
+    <config key="SectionSpecialTitle">&lt;span style=&quot;font-size: 11pt; font-family: &#x27;Arial&#x27;;&quot;&gt;&lt;b&gt;Symbols &amp;amp; Numbers&lt;/b&gt;&lt;/span&gt;</config>
+    <config key="SectionTitles">1</config>
+    <config key="See">&lt;i&gt;See&lt;/i&gt; </config>
+    <config key="SeeAlso">&lt;i&gt;See also&lt;/i&gt; </config>
+    <config key="SeeAlsoPosition">1</config>
+    <config key="SeeAlsoPrefix">.●</config>
+    <config key="SeeAlsoSeparator">;●</config>
+    <config key="SeeAlsoSuffix"></config>
+    <config key="SeePosition">1</config>
+    <config key="SeePrefix">.●</config>
+    <config key="SeeSeparator">;●</config>
+    <config key="SeeSuffix"></config>
+    <config key="SortAsRules">wordByWordCMS16</config>
+    <config key="StdFont">Times New Roman</config>
+    <config key="StdFontSize">10</config>
+    <config key="Style">-1</config>
+    <config key="SubSee">&lt;i&gt;see&lt;/i&gt; </config>
+    <config key="SubSeeAlso">&lt;i&gt;see also&lt;/i&gt; </config>
+    <config key="SubSeeAlsoPosition">1</config>
+    <config key="SubSeeAlsoPrefix">●(</config>
+    <config key="SubSeeAlsoSeparator">;●</config>
+    <config key="SubSeeAlsoSuffix">)</config>
+    <config key="SubSeePosition">1</config>
+    <config key="SubSeePrefix">●(</config>
+    <config key="SubSeeSeparator">;●</config>
+    <config key="SubSeeSuffix">)</config>
+    <config key="SuggestSpelled">1</config>
+    <config key="TermPagesSeparator">,●</config>
+    <config key="Title">&lt;span style=&quot;font-size: 14pt; font-family: &#x27;Times New Roman&#x27;;&quot;&gt;Index&lt;/span&gt;</config>
+    <config key="Updated">2015-12-15 08:21:16</config>
+    <config key="XRefToSubentry">0</config>
+</configs>
+</XindeX>

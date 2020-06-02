@@ -1,0 +1,30 @@
+Edit→Filter action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_e_filter.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Edit Menu xix_ref_actedit.html]~E
+
+====Edit→Filter action====
+
+This action is used to make the
+[Main Window Filtered Panel xix_ref_panel_filter.html] visible, and puts
+the cursor in the ~KFiltered~E panel's ~KFilter Match~E editor if the
+panel's ~KFilter~E drop-down list is on a customizable filter, or gives the
+focus to the ~KFilter~E drop-down list if it is on a predefined filter.
+
+To invoke, use ~KCtrl+F~E or ~K__E__dit→__F__ilter~E
+or [images/edit-find.png].
+
+-------------------------
+See the [Main Window Filtered Panel xix_ref_panel_filter.html] for how
+to use filters to view matching entries in the ~KFiltered~E view.
+
+If you want to perform search and replace, use the
+[Main Window Search and Replace Panel xix_ref_panel_replace.html], which
+is made visible by the
+[Edit→Search and Replace action xix_ref_act_e_search.html].
+
+~= [Edit→Search and Replace action xix_ref_act_e_search.html]

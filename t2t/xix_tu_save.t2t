@@ -1,0 +1,64 @@
+Save and Backup an Index
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_save.html
+
+~B[Tutorial xix_tu.html]~E
+
+~X will save any edits to an entry as soon as you navigate within or
+away from the entry. For example, if you press ~KTab~E or ~KShift-Tab~E,
+or click an editor or panel other than the one that you are in, or if
+you invoke one of the [Entry→Add Entry actions xix_ref_act_y_add.html].
+Similarly, ~X will automatically save whenever it performs pretty well
+any operation that changes the index~~~for example, adding or editing a
+cross-reference, or changing an option.
+
+Although you never //have// to save explicitly, it can sometimes be
+useful to do so. For example, to immediately see where ~X puts an entry
+that's new or whose term has been edited, or to see how ~X formats an
+entry's pages. Saving is done with the
+[File→Save action xix_ref_act_f_save.html] using ~KCtrl+S~E or
+~K__F__ile→__S__ave~E or [images/filesave.png].
+
+Most changes can be undone (and redone). For editing changes in the
+~KTerm~E and ~KPages~E editors (before saving has occurred), use the
+[Edit→Undo and Redo actions xix_ref_act_e_do.html]. For changes to
+entries, use the
+[Index→Undo and Redo actions xix_ref_act_x_do.html]. For changes that
+apply more generally, e.g., changing the
+[Sort As Rules xix_ref_sortas_rules.html] or the
+[Page Range Rules xix_ref_prange_rules.html], undo or redo is
+effectively achieved by changing the rules to whatever you want them to
+be.
+
+~X's ~F.xix~E files use a standard file format that is extremely robust,
+even in the face of computer crashes.
+(See [Coping with a Computer Crash xix_ref_crash.html].)
+
+Nonetheless, we recommend making regular backups and copying your index
+(or folder of indexes), and your backups, to at least a couple of memory
+sticks, as well as to a cloud backup service. (Many cloud storage
+suppliers offer a certain amount of free storage which should be plenty
+for all your indexes.) To provide some perspective, ~F.xix~E files need
+about 400-600KB per 1,000 entries, so 2-3MB for a 5,000 entry index and
+4-6MB for a 10,000 entry index.
+
+To create a numbered backup invoke the
+[File→Backup action xix_ref_act_f_bak.html] using
+~K__F__ile→__B__ackup~E. For example, if you are working on an index
+called ~FPearson - Programming in Go.xix~E and back it up, the default
+backup filename will be ~FPearson - Programming in Go (1).xix~E. If you
+do another backup of the same index, the backup filename will be
+~FPearson - Programming in Go (2).xix~E, and so on. Using the backup
+option saves a copy of the index and leaves you to continue working on
+the original.
+
+(To move or rename an index, see the
+[File→Save As action xix_ref_act_f_saveas.html].)
+
+When the index is finished, it is time to output it in a form suitable
+for the publisher. This is easily done, once the output options have
+been set.
+
+~= [Set Output Options xix_tu_outopt.html]

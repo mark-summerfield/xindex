@@ -1,0 +1,31 @@
+Index→Options action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_opt.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Options action====
+
+This action is used to pop up the
+[Options Dialog xix_ref_dlg_options.html], through which all of ~X's
+global options, and the current index's options, may be set~~~except for
+the current index's output options, which are set in the
+[Output Options Dialog xix_ref_dlg_output.html].
+
+To invoke, use ~KInde__x__→__O__ptions~E.
+
+-------------------------
+If you change an option, and then change your mind~~~simply change the
+option back to what you want it to be.
+
+If you to create a new index, which has the same or mostly the same
+options as the current index, you might want to use the
+[File→New Empty Copy action xix_ref_act_f_newcopy.html]. (See also
+[Creating and Using Templates xix_ref_template.html].)
+
+See also the [Index→Output Options action xix_ref_act_x_outopt.html].
+
+~= [Index→Output Options action xix_ref_act_x_outopt.html]

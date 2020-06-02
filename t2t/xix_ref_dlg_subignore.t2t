@@ -1,0 +1,39 @@
+Ignored Subentry Function Words Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_subignore.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Index→Ignored Subentry Function Words action xix_ref_act_x_ig.html].
+
+This dialog is used to add or remove words from this index's list of
+ignored subentry function words.
+(See [Ignoring Subentry Function Words xix_ref_subfunc.html].)
+
+[images/igsubdlg.png]
+
+These words are only ignored for subentry ordering purposes if the
+[Options Dialog's Rules Tab xix_ref_dlg_opt_rules.html]'s ~KIgnore
+Subentry Function Words~E checkbox is checked.
+
+If you copy or move an entry to be a main entry, any leading ignored
+subentry function words (i.e., any leading words in this dialog's list),
+are removed from the copied or moved entry's term. (See the
+[Copy Entry Dialog xix_ref_dlg_copy.html] and the
+[Move Entry Dialog xix_ref_dlg_move.html].)
+
+-------------------------
+When you create a new index using the
+[File→New Index action xix_ref_act_f_new.html], ~X supplies the new
+index with a default list of function words. However, you can choose to
+use the list you've used with another index (perhaps one where you've
+added or removed words), by opening the other index and then using the
+[File→New Empty Copy action xix_ref_act_f_newcopy.html] to create a new
+index with the current index's ignore subentry function words list, or
+by using a template, for which, see
+[Creating and Using Templates xix_ref_template.html].
+
+~= [Information Dialog xix_ref_dlg_info.html]

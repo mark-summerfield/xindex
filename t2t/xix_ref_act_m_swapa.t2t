@@ -1,0 +1,27 @@
+Modify→Swap Acronym action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_m_swapa.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Modify Menu xix_ref_actmod.html]~E
+
+====Modify→Swap Acronym action====
+
+This action swaps an entry's term text's acronym.
+
+For example, to change ~CReturn on Investment (ROI)~E into ~CROI (Return
+on Investment)~E~~~or vice versa.
+
+To invoke the action, use ~KCtrl+J~E or ~K__M__odify→Swap __A__cronym~E
+or [images/swapacronym.png].
+
+No change is applied if there's no parenthesized text to swap.
+
+-------------------------
+You can undo swapping an acronym immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html]~~~or just do
+the ~KSwap Acronym action~E itself again.
+
+~= [Modify→Merge and Copy Pages actions xix_ref_act_m_cpp.html]

@@ -1,0 +1,9 @@
+License
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_license.html
+
+XindeX is licensed under the GPLv3.
+
+See also [Support xix_supp.html].

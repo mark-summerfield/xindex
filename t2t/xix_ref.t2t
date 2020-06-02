@@ -1,0 +1,45 @@
+Reference
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref.html
+
+- [General xix_ref_gen.html]
+    - [Keyboard Shortcuts xix_ref_keys.html] ~~~
+[Mouse Actions xix_ref_mouse.html]
+    - [Sort As Text xix_ref_sortas.html] ~~~
+[Sort As Rules xix_ref_sortas_rules.html]
+    - [Force A Particular Sort Order xix_ref_sortas_force.html]
+    - [Ignoring Subentry Function Words xix_ref_subfunc.html]
+    - [Pages xix_ref_pages.html] ~~~
+[Page Range Rules xix_ref_prange_rules.html]
+    - [Pre-Publication Checks xix_ref_checks.html]
+    - [Creating and Using Templates xix_ref_template.html]
+    - [Coping with a Computer Crash xix_ref_crash.html]
+- [Main Window xix_ref_mainwin.html]
+    - [Menu Actions xix_ref_actions.html] ~~~
+[Toolbars xix_ref_tb.html]
+    - [Panels xix_ref_panels.html]
+    - [Status Bar xix_ref_status.html]
+- [Dialogs xix_ref_dlgs.html]
+    - [Add Cross-reference Dialog xix_ref_dlg_addxref.html]
+    - [Auto Replace Dialog xix_ref_dlg_autorep.html]
+    - [Combine Overlapping Pages Dialog xix_ref_dlg_combpages.html]
+    - [Copy Character Dialog xix_ref_dlg_copychr.html]
+    - [Copy Entry Dialog xix_ref_dlg_copy.html]
+    - [Custom Markup Dialog xix_ref_dlg_markup.html]
+    - [Delete or Unlink Linked Group Dialog xix_ref_dlg_unlink.html]
+    - [Edit Groups Dialog xix_ref_dlg_groups.html]
+    - [Forget Spelling Words Dialog xix_ref_dlg_spelldel.html]
+    - [Ignored Subentry Function Words Dialog xix_ref_dlg_subignore.html]
+    - [Information Dialog xix_ref_dlg_info.html]
+    - [Move Entry Dialog xix_ref_dlg_move.html]
+    - [New Empty Copy Dialog xix_ref_dlg_newcopy.html]
+    - [Options Dialog xix_ref_dlg_options.html]
+    - [Output Options Dialog xix_ref_dlg_output.html]
+    - [Recreate Entries Dialog xix_ref_dlg_recreate.html]
+    - [Renumber Pages Dialog xix_ref_dlg_renumpages.html]
+    - [Sort As Dialog xix_ref_dlg_sortas.html]
+
+
+~= [General xix_ref_gen.html]

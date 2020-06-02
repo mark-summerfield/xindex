@@ -1,0 +1,11 @@
+Support
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_supp.html
+
+This free open source software is **unsupported**.
+
+See also [License xix_license.html].
+
+~= [Third-Party Products xix_3rdparty.html]

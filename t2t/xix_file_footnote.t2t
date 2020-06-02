@@ -1,0 +1,25 @@
+Note on: File→Output As
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_file_footnote.html
+
+~WDon't output a file (e.g., a ~F.rtf~E or ~F.docx~E format file),
+if that file is open in another application, (e.g., in a
+word-processor).~E
+
+If you output a file that's open in another application, the file
+//may// be correctly output to the disk~~~but as soon as the other
+application closes, the file //may// be overwritten with the old
+contents, or even corrupted.
+
+Why doesn't ~X check for you, and warn you in such cases? Because there
+is no //reliably foolproof// way to do this.
+
+For example, you might output a ~F.rtf~E file, then open it in
+//WordPad//. But //WordPad// might read the entire file into memory, and
+so no other program can know that //WordPad// has read the file.
+Then, if you output the file again, //WordPad// wouldn't realise that
+the file had changed on disk behind its back, so it would still show the
+old contents, and if you then closed //WordPad//, it might simply
+overwrite the new file with the old contents it has in memory.

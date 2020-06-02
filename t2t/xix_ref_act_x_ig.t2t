@@ -1,0 +1,22 @@
+Index→Ignored Subentry Function Words action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_ig.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Ignored Subentry Function Words action====
+
+This action is used to pop up the
+[Ignored Subentry Function Words Dialog xix_ref_dlg_subignore.html].
+This dialog is used to view and edit~~~add to or delete from~~~a list of
+ignored subentry function words.
+
+To invoke, use ~KInde__x__→Ignored __S__ubentry Function Words~E.
+
+-------------------------
+See [Ignoring Subentry Function Words xix_ref_subfunc.html].
+
+~= [Index→Custom Markup action xix_ref_act_x_mark.html]

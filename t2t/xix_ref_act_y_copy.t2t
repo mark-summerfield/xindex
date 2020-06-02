@@ -1,0 +1,35 @@
+Entry→Copy action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_y_copy.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Entry Menu xix_ref_actentry.html]~E
+
+====Entry→Copy action====
+
+This action is used to pop up the [Copy Entry Dialog xix_ref_dlg_copy.html]
+which is used to copy an existing entry~~~optionally with its groups,
+subentries, and cross-references~~~and optionally with its pages linked.
+When an entry is copied, the copied entry has the same term text, the
+same pages, the same sort as text, and the same notes as the original.
+
+If you want to move rather than copy, use the
+[Entry→Move action xix_ref_act_y_mv.html].
+
+If you only want to add a new entry, use one of
+the [Entry→Add Entry actions xix_ref_act_y_add.html].
+
+To invoke, use ~KF8~E or ~KEntr__y__→__C__opy~E or [images/copy.png].
+
+-------------------------
+You can undo copying an entry immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html]. (If groups were copied, or a
+pages link made, or subentries copied, you may need to undo more than
+once to get back to before the copy took place.)
+
+For more about groups, see the
+[Entry→Group actions xix_ref_act_y_grp.html].
+
+~= [Entry→Move action xix_ref_act_y_mv.html]

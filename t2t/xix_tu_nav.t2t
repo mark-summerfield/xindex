@@ -1,0 +1,191 @@
+Finding Entries
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_nav.html
+
+~B[Tutorial xix_tu.html]~E
+
+The ~FTutorial.xix~E index is tiny, so navigating to the entry you want
+to work on or circle, is a simple matter of clicking it. And although
+this will also be true of your own indexes at first, in due course your
+index will grow to hundreds and probably thousands of entries, at which
+point the particular entry you want to edit or circle may not be
+visible. So here are some tips on how to find the entry you want as
+quickly and easily as possible.
+
+- [Navigate by Adding #navadd]
+- [Visit the First Main Entry Starting with Given Letters by Keyboard #kb]
+- [Visit the First Main Entry Starting with Given Letters by Mouse #mouse]
+- [Visit the First Main Entry Starting with a Given Letter #letter]
+- [Visit Recently Visited and Bookmarked Entries #bm]
+- [Find Entries Whose Term Contains Given Words #given]
+- [Find Entries Whose Term Contains Given Special Characters #chr]
+- [Find Entries Whose Pages Contain Given Numbers #special]
+- //[Navigating, Other Filters, and Checks #notes]//
+
+
+====Navigate by Adding====[navadd]
+
+''<table bgcolor="#FFE9EC"><tr><td>''
+Much of the time you'll be adding new main entries or editing existing
+main entries (e.g., adding pages). And sometimes~~~especially for a large
+index~~~you may not remember if you have added an entry already or not.
+''</td></tr></table>''
+
+''<table bgcolor="#FFE9EC"><tr><td>''
+The solution is to //navigate by adding//. Start adding a new main entry
+using ~KF7~E or ~KEntr__y__→Add __M__ain Entry~E
+or [images/add-toplevel.png]. As you type in the new entry's
+term text, whenever possible, ~X will show the main entry whose term
+starts with what you've typed in so far, above the
+[Entry Panel xix_ref_panel_entry.html]'s ~KTerm~E editor. So you'll
+quickly see if you've already added the entry you're adding, in which
+case, invoke the [Entry→Cancel Add action xix_ref_act_y_add.html] with
+~KCtrl+0~E (//control// //zero//), or ~KEntr__y__→Ca__n__cel Add~E
+or [images/canceladd.png]. This will not only cancel the add, but will
+also navigate to the existing entry.
+''</td></tr></table>''
+
+====Visit the First Main Entry Starting with Given Letters by Keyboard====[kb]
+% SIMILAR TO xix_ref_panel_index.t2t
+''<table bgcolor="lightyellow"><tr><td>''
+The fastest and easiest way to navigate to a particular entry by
+**keyboard**, is to use the ~KGoto~E editor at the top of the
+[Main Window Index Panel xix_ref_panel_index.html].
+Press ~KCtrl+T~E or click the ~KGoto~E editor to give it the focus, then
+type in the first few letters of the term for the entry you want to
+visit. For small indexes, two or three letters should be sufficient,
+while larger indexes may need three or four letters. This should get you
+to the entry you want, or within easy reach of it, either by clicking
+it, or by pressing ~KTab~E (or ~KAlt+I~E), then ~KDown~E or ~KUp~E arrow
+until you reach the right entry.
+''</td></tr></table>''
+
+====Visit the First Main Entry Starting with Given Letters by Mouse====[mouse]
+% SIMILAR TO xix_ref_panel_index.t2t
+''<table bgcolor="lightyellow"><tr><td>''
+The fastest and easiest way to navigate to a particular entry by
+**mouse**, is to use the ~KGoto Letter~E toolbar. Click (i.e.,
+//left//-click) a letter to go to the first entry which starts with that
+letter. To narrow the search, //right//-click another letter to go to
+the first entry which starts with the //left//-clicked letter followed by
+the //right//-clicked letter. You can do up to three //right//-clicks to
+narrow the search further. A //left//-click (or a fourth //right//-click)
+resets and takes you to the first entry starting with the clicked
+letter. For example,
+//left//-click ~CS~E to go to the first entry starting with “s”, then
+//right//-click ~CA~E to go to the first entry starting with “sa”, then
+//right//-click ~CT~E to go to the first entry starting with “sat”. To
+narrow further, do another //right//-click, or to reset, do a
+//left//-click.
+''</td></tr></table>''
+
+====Visit the First Main Entry Starting with a Given Letter====[letter]
+To navigate to a particular section of the index, click one of the
+letter toolbar buttons or press ~KCtrl+G,//letter//~E~~~or if the
+[Main Window Index Panel xix_ref_panel_index.html] already has the
+focus, just press the //letter//. To navigate to
+the first entry use ~KCtrl+Home~E or [images/go-top.png],
+and to navigate to the last entry use
+~KCtrl+End~E or [images/go-bottom.png]. If you end up close to the
+entry you want, you can use the ~KUp~E arrow and ~KDown~E arrow keys
+or [images/go-next.png] and [images/go-previous.png] to
+navigate in the [Main Window Index Panel xix_ref_panel_index.html], or
+~KCtrl+Up~E arrow and ~KCtrl+Down~E arrow to navigate if you're in the
+[Main Window Entry Panel xix_ref_panel_entry.html]. Or you can just
+click the entry you want in the
+[Main Window Index Panel xix_ref_panel_index.html], or double-click the
+entry you want in the
+[Main Window Filtered Panel xix_ref_panel_filter.html].
+
+====Visit Recently Visited and Bookmarked Entries====[bm]
+~X keeps track of the current session's recently visited entries and
+shows them at the end of the [Goto Menu xix_ref_actgoto.html]. It is
+also possible to bookmark an entry~~~bookmarks are preserved across
+sessions~~~see the [Goto→Bookmark actions xix_ref_act_g_book.html].
+
+====Find Entries Whose Term Contains Given Words====[given]
+''<table bgcolor="lightyellow"><tr><td>''
+If you don't know where the entry you want is~~~for example, because you
+don't know what letters its term begins with, or because it
+might be a subentry anywhere in the index~~~the easiest way to find it,
+is to use the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s
+[Terms Matching xix_ref_p_filt_cust.html#terms] filter.
+''</td></tr></table>''
+
+For example, suppose you want to find all entries that contain the term
+~Clock~E. First, make sure that the
+[Main Window Filtered Panel xix_ref_panel_filter.html] is visible by
+invoking the [Edit→Filter action xix_ref_act_e_filter.html] using
+~KCtrl+F~E or ~K__E__dit→__F__ilter~E or [images/edit-find.png].
+Then choose the ~KTerms Matching~E filter, enter ~Clock~E as the text,
+and press ~KEnter~E. The ~KFiltered~E panel will now show any entries
+that contain the word ~Clock~E. If you want to find any entry whose term
+contains a word //beginning// with ~Clock~E, change the filter text to
+~Clock*~E and press ~KEnter~E. This will find all the ~Clock~E entries,
+plus others such as those containing the word ~Clocker~E, ~Clockout~E,
+or ~Clocksmith~E.
+
+====Find Entries Whose Term Contains Given Special Characters====[chr]
+The ~KGoto~E editor and the
+[Main Window Filtered Panel xix_ref_panel_filter.html] generally ignore
+non-alphabetic and non-digit characters (e.g., they ignore ‘@’, ‘%’,
+‘~k’ etc.). To find entries with such characters, use the
+[Main Window Search and Replace Panel xix_ref_panel_replace.html]. This
+panel is made visible by invoking the
+[Edit→Search and Replace action xix_ref_act_e_search.html] using
+~KCtrl+H~E or ~K__E__dit→__S__earch and Replace~E
+or [images/edit-find-replace.png]. Now
+enter the character or characters you want to find in the ~KSearch For~E
+editor, make sure the ~KLiteral~E radio button and the ~KTerms~E
+checkbox are both checked~~~and that the ~KWhole Words~E checkbox is
+//unchecked//~~~then click the ~KStart Search~E button. This
+will find the first entry whose term contains the ~KSearch For~E text.
+Click ~KSkip~E to find the next one, and the next, and so on, until you
+find the entry you want or there aren't any more to find.
+
+====Find Entries Whose Pages Contain Given Numbers====[special]
+Another common requirement is to find the entries that refer to a
+particular page. This is easily done by using the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s
+[Pages Matching xix_ref_p_filt_cust.html#pages] filter.
+For example, suppose you want to find all the entries for page
+~C205~E; simply enter this number and press ~KEnter~E. Note that the
+matching entries will not only include those with a page number of
+~C205~E, but also those which have a page range that //includes//
+~C205~E, such as ~C201-7~E. You can also find all the entries which have
+two page numbers by entering a second number, or three by entering a
+third, or by entering a page range, and so on~~~so long as each page or
+page range is comma-separated from the others.
+
+====Navigating, Other Filters, and Checks====[notes]
+
+You can navigate to the filtered entry (i.e., the entry in the
+~KFiltered~E panel highlighted in magenta with a solid black square
+beside it), with the [Goto→Filtered action xix_ref_act_g_filt.html]
+using ~KF3~E or ~K__G__oto→__F__iltered~E or [images/goto-found.png].
+Alternatively, double-click any filtered entry to make it the current
+entry.
+
+The ~KTerms Matching~E and ~KNotes Matching~E filters also support
+more sophisticated filter texts than the examples here use, and in
+addition, there are many predefined filters to choose from. You can also
+create your own named //groups//, and add any entry to any group or
+groups. You find all the entries in a normal group, using the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s
+[Normal Group xix_ref_p_filt_cust.html#normal] filter, and all the
+entries in a linked group using the
+[Linked Group xix_ref_p_filt_cust.html#normal] filter. For more about
+groups, see the [Edit Groups Dialog xix_ref_dlg_groups.html].
+For details of all the customizable and predefined filters, see the
+[Main Window Filtered Panel xix_ref_panel_filter.html].
+
+In addition to filters, ~X offers some checks which can be used to get a
+list of entries which meet the check criterion (e.g., having the same
+term texts). The entries shown in the list can be clicked to navigate to
+them in the main window. See the
+[Index→Check action xix_ref_act_x_check.html].
+
+~= [Next Steps xix_tu_next.html]

@@ -1,0 +1,63 @@
+Edit Entries II (Styling and Special Characters)
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_edit2.html
+
+~B[Tutorial xix_tu.html]~E
+
+An entry's term text and pages can be styled in the ways commonly
+supported by word-processors~~~for example, text can be made **bold**,
+//italic// or __underlined__. In addition super- and sub-scripts are
+supported, along with two extra fonts (alternative and monospaced).
+
+- Navigate to the ~CChess knight, black~E entry. Since this is the first
+  entry it can be reached by invoking the
+  [Goto→First action xix_ref_act_g_nav.html] using ~KCtrl+Home~E or
+  ~K__G__oto→F__i__rst~E or [images/go-top.png].
+- Move the focus into the ~KTerm~E editor (e.g., press ~KAlt+T~E or
+  click the ~KTerm~E editor), and make the first two words (~CChess
+  knight~E) bold. One way to select them is ~KHome~E, then
+  ~KCtrl+Shift+Right~E arrow, then ~KCtrl+Shift+Right~E arrow; another
+  is to click to the left of the ~CC~E of ~CChess~E, then drag right
+  until the words are selected. To make the selected words bold, invoke the
+  [Format→Bold action xix_ref_act_o_fmt.html] using ~KCtrl+B~E or
+  ~KF__or__mat→__B__old~E or [images/format-text-bold.png].
+- Now move the focus to the ~KPages~E editor (press ~KTab~E or
+  ~KAlt+P~E, or click the ~KPages~E editor), and add the following
+  styled pages: ~C208//tbl//,**85**~E. Remember to follow with a comma,
+  if inserted at the beginning, or to precede by a comma if inserted at
+  the end.
+
+
+Now invoke the [File→Save action xix_ref_act_f_save.html] using
+~KCtrl+S~E or ~K__F__ile→__S__ave~E or [images/filesave.png] to save and
+see the effects in the index panel. The index's first entry should now
+look like this:
+
+~C**Chess knight**, black, 21, **85**, 208//tbl//~E
+
+Let's do one more change, to make the entry look like this:
+
+~C**Chess knight**, black (~k), 21, **85**, 208//tbl//~E
+
+- Move the cursor to the end of the ~C**Chess knight**, black~E term and
+  enter a space followed by an opening parenthesis.
+- Pop up the [Copy Character Dialog xix_ref_dlg_copychr.html] by
+  invoking the [Insert→Copy Character action xix_ref_act_r_char.html]
+  using ~KInse__r__t→__C__opy Character~E.
+- In the copy character dialog, enter a find text of ~Cknight~E and
+  press ~KEnter~E (or click the ~KFind Next~E button). Click the black
+  knight character (which may not be the highlighted one), so that it
+  appears in the ~KCopy Text~E editor; then click the ~KClose~E button to
+  copy it to the clipboard and close the dialog.
+- Invoke the [Edit→Paste action xix_ref_act_e_clip.html] using
+  ~KCtrl+V~E or ~K__E__dit→__P__aste~E or [images/edit-paste.png] to
+  paste the knight character into the ~KTerm~E editor, then enter a
+  closing parenthesis, and finally save using ~KCtrl+S~E or
+  ~K__F__ile→__S__ave~E or [images/filesave.png].
+
+
+The first entry should now include the ~C~k~E character.
+
+~= [Edit Entries III (Moving) xix_tu_edit3.html]

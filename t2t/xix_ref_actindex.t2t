@@ -1,0 +1,27 @@
+Index Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actindex.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to make changes, or set options, which may effect
+one or more entries, or even the whole index.
+
+- [Index→Undo action xix_ref_act_x_do.html] [images/edit-undo.png] 
+- [Index→Redo action xix_ref_act_x_do.html] [images/edit-redo.png] 
+- [Index→Check action xix_ref_act_x_check.html]
+- [Index→Options action xix_ref_act_x_opt.html]
+- [Index→Output Options action xix_ref_act_x_outopt.html]
+- [Index→Ignored Subentry Function Words action xix_ref_act_x_ig.html]
+- [Index→Custom Markup action xix_ref_act_x_mark.html]
+- [Index→Combine Overlapping Pages action xix_ref_act_x_comb.html]
+- [Index→Renumber Pages action xix_ref_act_x_ren.html]
+- [Index→Information action xix_ref_act_x_info.html]
+- [Index→Show Suggestions and Groups action xix_ref_act_l_show.html]
+- [Index→Show Toolbars action xix_ref_act_x_tb.html]
+
+
+~= [Index→Undo and Redo actions xix_ref_act_x_do.html]

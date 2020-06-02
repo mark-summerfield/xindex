@@ -1,0 +1,55 @@
+Copy Character Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_copychr.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Insert→Copy Character action xix_ref_act_r_char.html].
+
+This dialog is used to find characters which are not accessible via the
+keyboard (or perhaps, not easily), and to copy them to the clipboard
+ready to be pasted into, say, the ~KTerm~E editor.
+
+[images/copychrdlg.png]
+
+The font and font size are purely for use in the dialog itself~~~the
+character or characters copied to the clipboard are copied as plain
+unstyled text. When pasted, the characters will have any styling that is
+in force at the cursor position in the editor where they are inserted.
+
+Characters can be found by scrolling and looking visually~~~however,
+there are a //lot// of characters (tens of thousands), so it is usually
+easiest to search for them by name. Every character has a name~~~all the
+names are shown on the
+[Unicode http://unicode.org/charts/charindex.html] web site.
+
+To search, enter a character's name or just one word of its name in the
+~KFind Text~E editor, then use the ~KFind __N__ext~E button (or press
+~KEnter~E). You may need to click the button several times to find the
+character you want, especially if you only entered one word of the
+character's name, and that word is in many characters' names.
+
+Once you've found a character you want, use the ~K__A__dd Selected~E
+button or click the character in the character view, to copy it to the
+~KCopy Text~E editor. And once you have the character or characters you
+want in the ~KCopy Text~E editor, ~K__C__lose~E the dialog. This will
+cause the ~KCopy Text~E editor's text to be copied to the clipboard. You
+can now use the [Edit→Paste action xix_ref_act_e_clip.html#paste] to
+paste the character or characters into whichever ~X editor has the
+keyboard focus.
+
+-------------------------
+Pasting can be undone immediately afterwards, using the
+[Edit→Undo action xix_ref_act_e_do.html].
+
+See also, the [Insert→Character actions xix_ref_act_r_ichar.html].
+
+Note that you never need to insert an en-dash in the ~KPages~E editor
+for a page range, since if you enter a simple hyphen, ~X will
+automatically replace it with an en-dash. (See
+[Pages xix_ref_pages.html].)
+
+~= [Copy Entry Dialog xix_ref_dlg_copy.html]

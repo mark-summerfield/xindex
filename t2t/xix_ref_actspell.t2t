@@ -1,0 +1,35 @@
+Spelling Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actspell.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to remember, ignore, or forget words in the
+index's custom spelling dictionary, to provide auto-replacement (a
+//glossary// function), and to provide suggested replacements.
+
+~X is supplied with spelling dictionaries for American, Australian,
+British, Canadian, and South African English. The spelling dictionary
+can be chosen~~~a default for future indexes, and the one for the
+current index~~~by setting the ~KLanguage~E options in the
+[Options Dialog's General Tab xix_ref_dlg_opt_gen.html].
+
+In addition to the spelling dictionary, each index (~F.xix~E) file, has
+its own custom dictionary of words. These words are treated as if
+they were in the main spelling dictionary for the purposes of spelling
+and suggestions (for which, see the
+[Main Window Suggestions Panel xix_ref_panel_sug.html]).
+Since remembered words are stored in the current index's ~F.xix~E file,
+they are preserved across sessions.
+
+- [Spelling→Remember Word action xix_ref_act_l_rem.html] [images/spelling-add.png] 
+- [Spelling→Ignore Word action xix_ref_act_l_ig.html] [images/spelling-ignore.png] 
+- [Spelling→Forget Words action xix_ref_act_l_forg.html]
+- [Spelling→Auto Replace action xix_ref_act_l_auto.html]
+- [Spelling→Replace with actions xix_ref_act_l_repl.html] [images/complete.png] 
+
+
+~= [Spelling→Remember Word action xix_ref_act_l_rem.html]

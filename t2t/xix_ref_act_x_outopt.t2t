@@ -1,0 +1,32 @@
+Index→Output Options action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_outopt.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Output Options action====
+
+This action is used to pop up the
+[Output Options Dialog xix_ref_dlg_output.html], through which the
+current index's output options may be set.
+
+To invoke, use ~KInde__x__→Ou__t__put Options~E.
+
+-------------------------
+If you change an output option, and then change your mind~~~simply
+change the output option back to what you want it to be.
+
+~X's global options, and the current index's non-output options, can be
+set using the [Options Dialog xix_ref_dlg_options.html].
+
+If you to create a new index, which has the same or mostly the same
+output options as the current index, you might want to use the
+[File→New Empty Copy action xix_ref_act_f_newcopy.html]. (See also
+[Creating and Using Templates xix_ref_template.html].)
+
+See also the [Index→Options action xix_ref_act_x_opt.html].
+
+~= [Index→Ignored Subentry Function Words action xix_ref_act_x_ig.html]

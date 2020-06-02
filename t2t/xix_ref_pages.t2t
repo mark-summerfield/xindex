@@ -1,0 +1,106 @@
+Pages
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_pages.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]~E
+
+~X supports conventional Roman and decimal page numbers, always putting
+Romans before decimals. Page numbers may be styled just like terms with
+**bold**, //italic//, etc.
+(See
+[Main Window Entry Panel/Pages editor xix_ref_panel_entry.html#pages].)
+
+Pages and page ranges (see
+[Page Range Rules xix_ref_prange_rules.html]), may be entered in any
+order, so long as each page or page range is separated by a comma (and
+optionally a space). When the pages are saved (e.g., when you press
+~KTab~E, or add a new entry using ~KF7~E or ~KEntr__y__→Add
+__M__ain Entry~E or [images/add-toplevel.png] or similar, or invoke the
+[File→Save action xix_ref_act_f_save.html] using ~KCtrl+S~E or
+~K__F__ile→__S__ave~E or [images/filesave.png]), ~X will automatically
+put the pages and page ranges in the correct order, separate them with a
+comma-space, and replace hyphens in page ranges with en-dashes.
+
+For example, if you enter this:
+
+~C199-5,9-6,297-3,130-4,148-9~E
+
+~X will change the pages to one of these depending on which ~KPage Range
+Rules~E (shown in «chevrons») are in force:
+
+~C9–16, 130–34, 148–49, 199–205, 297–303~E «CMS Compact»
+
+~C9–16, 130–4, 148–9, 199–205, 297–303~E «ISO Compact»
+
+~C9–16, 130–134, 148–149, 199–205, 297–303~E «Full»
+
+When adding new page numbers or page ranges, you can enter them in any
+order as compactly as you like~~~so long as the end number is
+unambiguous. The easiest way is to press ~KTab~E if you're in the
+~KTerm~E editor, or press ~KAlt+P~E or click the ~KPages~E editor, to
+move the focus to the start of the ~KPages~E editor. Then just enter one
+or more new page numbers or page ranges, each followed by a comma, and
+then add you next entry or simply save~~~after which, ~X will put all
+the pages in the correct order and apply the ~KPage Range Rules~E.
+
+If a page locator refers to a single footnote or endnote, one convention
+is to refer to the note using an ~C//n//~E, e.g., ~C125//n//2~E. And if
+more than one note is referred to, the convention is to put the note
+numbers in parentheses, e.g., ~C98(//nn.// 2, 5, 11)~E. For example:
+
+~C71, 98(//nn.// 2, 5, 11), 125-6//n//2, 129-32~E
+
+Although commas are normally used to separate page numbers or page
+ranges, inside parentheses they are used to separate note numbers.
+
+In addition to styling, page numbers may also have added text, for
+example, to indicate figures or tables, in various formats:
+
+~C32-38, 40//fig//, 45//t//, 45(map), 45(ph), 75-78~E
+
+~X normally puts page numbers in numerical order (with Roman numbers
+preceding decimals), but you can force a page number or page range to
+appear as if its numerical value were different from what it is. For
+example:
+
+~CIV:2.3.1(a), 2:435, Plate IV@45, 56//t12//, Plate XI@56.1, 63a–66b~E
+
+In this example there are some rather complex page numbers, including
+two which aren't numbers at all, ~CPlate IV~E and ~CPlate XI~E. These
+have been given numerical values to ensure they are put in the correct
+place by being immediately followed by ~C@~E and a number.
+
+~X can accept quite a wide range of numbers, including ~C.~E and ~C:~E
+separated multi-part numbers. For example, to index a multi-volume work
+we might use Roman capitals for the volume number followed by the page
+number or page range:
+
+~CI:457–8, II:24–26, II:55, III:7–9, IV:5, IV:91–92~E
+
+Here's another example, this time using some dotted page numbers:
+
+~Cvi, xii, xiv, 3, 4.3, 4.5, 4.5.6, 4.9, 18(//nn.// 12, 15), 89, 492~E
+
+% DON'T SUPPORT THESE UNLESS WE HAVE DIFFERENT NUMBER TYPES
+% Formally, ~X does not support “numbers” that begin with letters (e.g.,
+% //REF-15//), as such. However, as the ~CPlate~E examples above indicate,
+% it is possible to handle such cases using the ~C@//number//~E syntax.
+% 
+% For example, given the locators ~CSTR-23, UTL-4, REF-10, STR-5,
+% STR-24~E, where ~CSTR~E is section #1, ~CUTL~E is section #2, and
+% ~CREF~E is section #3, we could write them as:
+% 
+% ~CSTR@1.23-23, UTL@2.4-4, REF@3.10-10, STR@1.5-5, STR@1.24-24~E
+% 
+% to achieve the correct ordering of:
+% 
+% ~CSTR@1.5–5, STR@1.23–23, STR@1.24–24, UTL@2.4–4, REF@3.10–10~E.
+% 
+% Of course, the ~C@//number//~E is never included in the output, so the
+% actual output would be:
+% 
+% ~CSTR–5, STR–23, STR–24, UTL–4, REF–10~E.
+
+~= [Page Range Rules xix_ref_prange_rules.html]

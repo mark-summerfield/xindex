@@ -1,0 +1,68 @@
+Modify→Swap actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_m_swap.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Modify Menu xix_ref_actmod.html]~E
+
+These actions are used to swap two entry's terms with each other, or to
+swap two entire entries with each other (in effect, moving them).
+
+====Modify→Swap Term with Filtered action====[filt1]
+
+To swap the current entry's term (and
+[Sort As Text xix_ref_sortas.html]) with the filtered entry~~~while
+leaving their page numbers, cross-references, and subentries (and
+subsubentries, and so on), unchanged,
+use ~K__M__odify→Swap Term __w__ith Filtered~E
+or [images/swap-term-with-found.png]. The entries involved will move
+within the index (if they are main entries), or within their parent
+entries (if they are subentries), to reflect their swapped
+[Sort As Text xix_ref_sortas.html]s. (See also the
+[Main Window Filtered Panel xix_ref_panel_filter.html].)
+
+====Modify→Swap Term with Circled action====[circ1]
+
+To swap the current entry's term (and
+[Sort As Text xix_ref_sortas.html]) with the circled entry~~~while
+leaving their page numbers, cross-references, and subentries (and
+subsubentries, and so on), unchanged,
+use ~K__M__odify→Swap __T__erm with Circled~E
+or [images/swap-term-with-circled.png]. The entries involved will move
+within the index (if they are main entries), or within their parent
+entries (if they are subentries), to reflect their swapped
+[Sort As Text xix_ref_sortas.html]s. (See also the
+[Entry→Circle action xix_ref_act_y_circ.html].)
+
+====Modify→Swap Entry with Circled action====[circ2]
+
+To swap the current entry with the circled entry, use
+~K__M__odify→Swap __E__ntry with Circled~E
+or [images/swap-entry-with-circled.png]. The effect of this action is to
+move the current entry to be a sibling of the circled entry (i.e., a
+subentry of the circled entry's parent entry), and then to move the circled
+entry to be a subentry of the current entry's original parent entry.
+This means that each entry's term, [Sort As Text xix_ref_sortas.html],
+pages, and cross-references, are preserved, and each moved entry's subentries
+(and subsubentries, and so on), are moved with it.
+
+====Modify→Swap Entry with Filtered action====[filt2]
+
+To swap the current entry with the filtered entry, use
+~K__M__odify→Swap Entry with __F__iltered~E
+or [images/swap-entry-with-found.png]. The effect of this action is to
+move the current entry to be a sibling of the filtered entry (i.e., a
+subentry of the filtered entry's parent entry), and then to move the
+filtered entry to be a subentry of the current entry's original parent
+entry. This means that each entry's term,
+[Sort As Text xix_ref_sortas.html], pages, and cross-references, are
+preserved, and each moved entry's subentries (and subsubentries, and so
+on), are moved with it.
+
+-------------------------
+You can undo swapping a term or entry immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+~= [Modify→Merge into Parent action xix_ref_act_m_mrg_p.html]

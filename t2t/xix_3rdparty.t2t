@@ -1,0 +1,20 @@
+Third-Party Products
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_3rdparty.html
+
+Currently, we are unaware of any third-party products available
+specifically for ~X. However, ~X can import and export files in Index
+Data Exchange Format ~F.ixml~E, so //may// be able to work with tools
+that use that format.
+
+We recommend using ~X's own XML Interchange Format ~F.ximl~E for
+external processing (or if you are planning to add ~X support to a
+third-party tool), since this format can round-trip with complete
+fidelity with ~X's native ~F.xix~E format, including all the entries,
+and also all of the options.
+
+See also [File→Output As action xix_ref_act_f_oas.html].
+
+~= [License xix_license.html]

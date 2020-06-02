@@ -1,0 +1,30 @@
+Edit→Undo and Redo actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_e_do.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Edit Menu xix_ref_actedit.html]~E
+
+These actions are used to undo or redo the edits in the current editor
+(e.g., the ~KTerm~E or ~KPages~E editor)~~~providing the edit hasn't
+been saved. If multiple edits have been made, it is possible to undo
+multiple times back to before the first edit; and then to redo multiple
+times all the way back to the most recent edit.
+
+====Edit→Undo action====
+To undo, use ~KCtrl+Z~E or ~K__E__dit→__U__ndo~E
+or [images/editor-undo.png].
+
+====Edit→Redo action====
+To redo, use ~KCtrl+Y~E or ~K__E__dit→__R__edo~E
+or [images/editor-redo.png].
+
+-------------------------
+It is possible to undo and redo even after saving~~~providing you are in
+the same session, i.e., you haven't quit ~X or opened a different
+index~~~using the
+[Index→Undo and Redo actions xix_ref_act_x_do.html]
+
+~= [Edit→Clipboard actions xix_ref_act_e_clip.html]

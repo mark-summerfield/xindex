@@ -1,0 +1,44 @@
+Entry→Circle action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_y_circ.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Entry Menu xix_ref_actentry.html]~E
+
+====Entry→Circle action====
+
+This action is used to circle the current entry. The circled entry stays
+circled until another entry is circled (or until the circled entry is
+deleted). When an entry is first circled, it is both the current entry,
+and the circled entry. But if you then navigate to another entry, the
+navigated-to entry becomes the current entry, leaving the circled entry
+still circled.
+
+It is useful to circle an entry, and then navigate to another entry, so
+that the circled and current entries are different. In this case, you
+can move the current entry to be a subentry of the circled entry using
+the [Move under Circled action xix_ref_act_m_mv.html#circ],
+or swap the
+current entry (or the current entry's term) with the circled entry using
+the [Swap Entry with Circled action xix_ref_act_m_swap.html#circ2] or the
+[Swap Term with Circled action xix_ref_act_m_swap.html#circ1]. You can
+also add a cross-reference from the current entry to the circled entry using
+the [Entry→Add Cross-reference action xix_ref_act_y_xref.html].
+
+To go to the circled entry, use the
+[Goto→Circled action xix_ref_act_g_circ.html].
+
+A circled entry that is //also// the current entry is shown with a green
+background and with a hollow bullet with a dot in it. A circled entry
+that is not the current entry is shown with a cyan background and a
+hollow bullet.
+
+To invoke, use ~KCtrl+L~E or ~KEntr__y__→C__i__rcle~E
+or [images/circle.png].
+Alternatively, double-click any entry in the
+[Main Window Index Panel xix_ref_panel_index.html] to make it the
+circled and current entry.
+
+~= [Entry→Group actions xix_ref_act_y_grp.html]

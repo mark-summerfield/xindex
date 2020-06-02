@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE indexdata [
+<!ELEMENT indexdata (source, fonts, records) >
+<!ELEMENT source EMPTY >
+<!ATTLIST source
+    creator CDATA #REQUIRED
+    version CDATA #REQUIRED
+    time CDATA #REQUIRED >
+<!-- time value is UTC in this format: 2011-03-03T03:41:14 -->
+<!ELEMENT fonts (font+) >
+<!ELEMENT font (fname, aname) >
+<!ATTLIST font
+    id CDATA #REQUIRED >
+<!ELEMENT fname (#PCDATA) >
+<!ELEMENT aname (#PCDATA) >
+<!ELEMENT records (record)* >
+<!ATTLIST records
+    type CDATA #IMPLIED >
+<!ELEMENT record (field+) >
+<!ATTLIST record
+    time CDATA #REQUIRED
+    user CDATA #IMPLIED
+    label CDATA #IMPLIED
+    deleted (y | n) #IMPLIED
+    type CDATA #IMPLIED >
+<!-- time value is UTC in this format: 2008-08-02T16:27:44 -->
+<!-- label value is integer -->
+<!-- type value can be "generated" (automatically generated) -->
+<!ELEMENT field (#PCDATA | text | esc | literal | hide | sort)* >
+<!ATTLIST field
+    class CDATA #IMPLIED >
+<!-- class value can be "locator" -->
+<!ELEMENT text EMPTY >
+<!ATTLIST text
+    font CDATA #IMPLIED
+    color CDATA #IMPLIED
+    smallcaps ( y | n ) #IMPLIED
+    style ( b | i | u | bi | bu | iu | biu ) #IMPLIED
+    offset ( u | d ) #IMPLIED
+>
+<!-- font and color attribute values are integers in range 0-31 -->
+<!ELEMENT literal EMPTY >
+<!-- literal: forces the succeeding character to be used in sort -->
+<!ELEMENT hide (#PCDATA) >
+<!-- hide: contains text to be ignored in sorting -->
+<!ELEMENT sort (#PCDATA) >
+<!-- sort: contains text to be used in sorting but not displayed -->
+]>
+<indexdata>
+<source creator="cindex" version="3.0" time="2013-11-14T15:40:02"/>
+<fonts>
+<font id="0">
+    <fname>Arial</fname>
+    <aname>Arial</aname>
+</font>
+</fonts>
+<records>
+<record time="2013-11-14T15:29:59">
+    <field>alpha breaks</field>
+    <field class="locator">see index groups</field>
+</record>
+<record time="2013-10-25T07:48:05" user="GMB">
+    <field>alternate style sheets</field>
+    <field class="locator">C.6</field>
+</record>
+<record time="2013-10-20T21:49:12" user="GMB">
+    <field>Canonical Fragment Identifiers (CFIs)</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>21<text/></field>
+</record>
+<record time="2013-11-14T15:31:52">
+    <field>child entries</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>collection element</field>
+    <field class="locator">2.3.2.2</field>
+</record>
+<record time="2013-10-20T21:25:36" user="GMB">
+    <field>collection element</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>38-39<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>conformance criteria</field>
+    <field class="locator">3</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>conformance criteria</field>
+    <field>content</field>
+    <field class="locator">3.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>conformance criteria</field>
+    <field>reading system</field>
+    <field class="locator">3.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>conformance statements</field>
+    <field class="locator">1.3</field>
+</record>
+<record time="2013-10-20T21:26:50" user="GMB">
+    <field>content documents</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>5-8<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>content documents</field>
+    <field>content conformance criteria</field>
+    <field class="locator">3.1</field>
+</record>
+<record time="2013-11-14T15:31:53">
+    <field>content documents</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>content documents</field>
+    <field>indexes as components of</field>
+    <field class="locator">2.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>content documents</field>
+    <field>schema for indexes in</field>
+    <field class="locator">A</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>cross-reference targets</field>
+    <field class="locator">see also generic cross-reference targets</field>
+</record>
+<record time="2013-10-20T21:25:57" user="GMB">
+    <field>cross-reference targets</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>25<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>cross-reference targets</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>cross-references</field>
+    <field class="locator">2.2.7</field>
+</record>
+<record time="2013-10-20T21:26:15" user="GMB">
+    <field>cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>13<text/></field>
+</record>
+<record time="2013-10-20T21:26:01" user="GMB">
+    <field>cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>24-28<text/></field>
+</record>
+<record time="2013-10-20T21:25:43" user="GMB">
+    <field>cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>31<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>cross-references</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>cross-references</field>
+    <field>preferred</field>
+    <field class="locator">see preferred cross-references</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>cross-references</field>
+    <field>related</field>
+    <field class="locator">see related cross-references</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>CSS sample</field>
+    <field class="locator">B.3</field>
+</record>
+<record time="2013-10-20T13:29:39" user="GMB">
+    <field>definitions</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-10-20T21:26:17" user="GMB">
+    <field>editor&apos;s notes</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>12<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>editor&apos;s notes</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>editor&apos;s notes</field>
+    <field><text style="b"/>index-editor-note<text/></field>
+    <field class="locator">2.2.3</field>
+</record>
+<record time="2013-10-20T21:26:21" user="GMB">
+    <field>entries</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>10-13<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>entries</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>entries</field>
+    <field><text style="b"/>index-entry<text/></field>
+    <field class="locator">2.2.3</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>entries</field>
+    <field>nested wrapping of</field>
+    <field class="locator">C.9</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>entry lists</field>
+    <field class="locator">2.2.3</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>EPUB content documents</field>
+    <field class="locator">see content documents</field>
+</record>
+<record time="2013-11-14T15:32:22">
+    <field>epub:type attribute values</field>
+    <field class="locator">see <text style="i"/>names of specific epub:type attribute values<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>examples</field>
+    <field><text style="i"/><sort>0</sort>Note: Examples covering individual features are indexed at the specific term.<text/></field>
+    <field class="locator"></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>examples</field>
+    <field>full index example</field>
+    <field class="locator">B.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>examples</field>
+    <field>simple index example</field>
+    <field class="locator">B.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>filtering of indexes</field>
+    <field class="locator">C.6</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>formatting</field>
+    <field class="locator">2.2.9</field>
+</record>
+<record time="2013-10-20T21:25:39" user="GMB">
+    <field>formatting</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>33<text/></field>
+</record>
+<record time="2013-10-20T21:25:38" user="GMB">
+    <field>formatting</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>35<text/></field>
+</record>
+<record time="2013-11-14T15:32:27">
+    <field>generic cross-reference targets</field>
+    <field class="locator">2.2.7</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>generic cross-reference targets</field>
+    <field class="locator">2.2.8</field>
+</record>
+<record time="2013-10-20T21:25:49" user="GMB">
+    <field>generic cross-reference targets</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>29-32<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>generic cross-reference targets</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>generic cross-reference targets</field>
+    <field>enhancements to</field>
+    <field class="locator">C.8</field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>group titles</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>groups</field>
+    <field class="locator">see index groups</field>
+</record>
+<record time="2013-10-16T16:20:11" user="GMB">
+    <field>head notes</field>
+    <field class="locator">2.2.1</field>
+</record>
+<record time="2013-10-20T21:27:03" user="GMB">
+    <field>head notes</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>2<text/></field>
+</record>
+<record time="2013-10-20T21:26:51" user="GMB">
+    <field>head notes</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>5-8<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>head notes</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>head notes</field>
+    <field><text style="b"/>index-headnotes<text/></field>
+    <field class="locator">2.2.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>identification of the index</field>
+    <field class="locator">see package documents</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>implementation suggestions</field>
+    <field class="locator">see Reading System implementation suggestions</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index <sort>0</sort><text/>(epub:type)</field>
+    <field class="locator">2.2.1</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index <sort>0</sort><text/>(epub:type)</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>40<text/></field>
+</record>
+<record time="2013-11-14T15:31:19">
+    <field><text style="b"/>index <sort>0</sort><text/>(role)</field>
+    <field class="locator">2.3.2.2</field>
+</record>
+<record time="2013-11-14T15:31:19">
+    <field><text style="b"/>index <sort>0</sort><text/>(role)</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>38<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-editor-note<text/></field>
+    <field class="locator">2.2.3</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-editor-note<text/></field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>12<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-entry-list<text/></field>
+    <field class="locator">2.2.3</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-entry-list<text/></field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>10<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-entry<text/></field>
+    <field class="locator">2.2.3</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-entry<text/></field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>10<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-group<text/> (epub:type)</field>
+    <field class="locator">2.2.2</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-group<text/> (epub:type)</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>9<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-group<text/> (epub:type)</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>40<text/></field>
+</record>
+<record time="2013-11-14T15:31:19">
+    <field><text style="b"/>index-group<text/> (role)</field>
+    <field class="locator">2.3.2.2</field>
+</record>
+<record time="2013-11-14T15:31:19">
+    <field><text style="b"/>index-group<text/> (role)</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>39<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>index groups</field>
+    <field class="locator">2.2.2</field>
+</record>
+<record time="2013-10-25T08:04:40" user="GMB">
+    <field>index groups</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>9<text/></field>
+</record>
+<record time="2013-10-25T08:04:56" user="GMB">
+    <field>index groups</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>39-40<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>index groups</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>index groups</field>
+    <field>improved index navigation using</field>
+    <field class="locator">C.9</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>index groups</field>
+    <field>index group role</field>
+    <field class="locator">2.3.2.2</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-headnotes<text/></field>
+    <field class="locator">2.2.1</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-headnotes<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>2<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-headnotes<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>5-8<text/></field>
+</record>
+<record time="2013-11-14T15:32:33">
+    <field><text style="b"/>index-legend<text/></field>
+    <field class="locator">2.2.1</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-legend<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>3-4<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field><text style="b"/>index-locator-list<text/></field>
+    <field class="locator">2.2.4</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator-list<text/></field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>18<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator-range<text/></field>
+    <field class="locator">2.2.5</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator-range<text/></field>
+    <field>code example using CFIs</field>
+    <field class="locator"><text style="i"/>21<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator-range<text/></field>
+    <field>code examples using IDREFs</field>
+    <field class="locator"><text style="i"/>20<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator-range<text/></field>
+    <field>code examples using IDREFs</field>
+    <field class="locator"><text style="i"/>22<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>index locator search</field>
+    <field class="locator">C.4</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator<text/></field>
+    <field class="locator">2.2.4</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator<text/></field>
+    <field class="locator">2.2.4</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>14-19<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-locator<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>23<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term-categories<text/></field>
+    <field class="locator">2.2.8.2</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term-categories<text/></field>
+    <field class="locator">2.4.2</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term-categories<text/></field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>41<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term-category<text/></field>
+    <field class="locator">2.2.7</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term-category<text/></field>
+    <field class="locator">2.2.8</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term-category<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>29-32<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term-category<text/></field>
+    <field>enhancements to</field>
+    <field class="locator">C.8</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>index term search</field>
+    <field class="locator">C.3</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term<text/></field>
+    <field class="locator">2.2.3</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-term<text/></field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>10<text/></field>
+</record>
+<record time="2013-10-20T21:27:10" user="GMB">
+    <field>index titles</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>2<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>index titles</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-preferred<text/></field>
+    <field class="locator">2.2.7</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-preferred<text/></field>
+    <field class="locator">2.2.8.1</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-preferred<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>24<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-preferred<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>26<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-preferred<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>29<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-preferred<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>32<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-related<text/></field>
+    <field class="locator">2.2.7</field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-related<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>25<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-related<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>27<text/></field>
+</record>
+<record time="2013-11-14T15:30:58">
+    <field><text style="b"/>index-xref-related<text/></field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>30<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field class="locator">2.2.1</field>
+</record>
+<record time="2013-10-20T21:26:49" user="GMB">
+    <field>indexes</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>5-8<text/></field>
+</record>
+<record time="2013-10-20T21:25:35" user="GMB">
+    <field>indexes</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>38<text/></field>
+</record>
+<record time="2013-10-20T21:25:29" user="GMB">
+    <field>indexes</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>40<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>indexes</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>filtering of</field>
+    <field class="locator">C.6</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>full example</field>
+    <field class="locator">B.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>identification of</field>
+    <field class="locator">see package documents</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>improved navigation within</field>
+    <field class="locator">C.9</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>index role</field>
+    <field class="locator">2.3.2.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>Reading System features relative to</field>
+    <field class="locator">C.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>schema for</field>
+    <field class="locator">A</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>simple example</field>
+    <field class="locator">B.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>indexes</field>
+    <field>structure, components and use of</field>
+    <field class="locator">2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>landmarks nav element</field>
+    <field class="locator">see navigation documents</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>lead-in words for cross-references</field>
+    <field class="locator">2.2.9</field>
+</record>
+<record time="2013-10-25T08:06:24" user="GMB">
+    <field>lead-in words for cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>33<text/></field>
+</record>
+<record time="2013-10-25T08:06:34" user="GMB">
+    <field>lead-in words for cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>35<text/></field>
+</record>
+<record time="2013-10-20T21:27:00" user="GMB">
+    <field>legends</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>3-4<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>legends</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:32:38">
+    <field>legends</field>
+    <field><text style="b"/>index-legend<text/></field>
+    <field class="locator">2.2.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>letter breaks</field>
+    <field class="locator">see index groups</field>
+</record>
+<record time="2013-10-20T21:26:12" user="GMB">
+    <field>locator lists</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>18<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>locator lists</field>
+    <field><text style="b"/>index-locator-list<text/></field>
+    <field class="locator">2.2.4</field>
+</record>
+<record time="2013-10-20T21:26:07" user="GMB">
+    <field>locator ranges</field>
+    <field>code example using CFIs</field>
+    <field class="locator"><text style="i"/>21<text/></field>
+</record>
+<record time="2013-10-24T08:44:02" user="GMB">
+    <field>locator ranges</field>
+    <field>code examples using IDREFs</field>
+    <field class="locator"><text style="i"/>20<text/></field>
+</record>
+<record time="2013-10-24T08:47:33" user="GMB">
+    <field>locator ranges</field>
+    <field>code examples using IDREFs</field>
+    <field class="locator"><text style="i"/>22<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>locator ranges</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>locator ranges</field>
+    <field>highlighting of</field>
+    <field class="locator">C.5</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>locator ranges</field>
+    <field><text style="b"/>index-locator-range<text/></field>
+    <field class="locator">2.2.5</field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>locator targets</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-10-20T21:21:51" user="GMB">
+    <field>locator targets</field>
+    <field>filtering of indexes and</field>
+    <field class="locator">C.6</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>locator targets</field>
+    <field>provision of information about</field>
+    <field class="locator">C.7</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>locator targets</field>
+    <field>structural semantics of</field>
+    <field class="locator">2.2.6</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>locator targets</field>
+    <field>structural semantics of</field>
+    <field class="locator">C.6</field>
+</record>
+<record time="2013-10-20T21:26:18" user="GMB">
+    <field>locators</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>11<text/></field>
+</record>
+<record time="2013-10-20T21:26:14" user="GMB">
+    <field>locators</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>14-19<text/></field>
+</record>
+<record time="2013-10-20T21:26:02" user="GMB">
+    <field>locators</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>23<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>locators</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>locators</field>
+    <field><text style="b"/>index-locator<text/></field>
+    <field class="locator">2.2.4</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>locators</field>
+    <field>index locator search</field>
+    <field class="locator">C.4</field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>main entries</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>navigation documents</field>
+    <field class="locator">2.4</field>
+</record>
+<record time="2013-10-20T21:25:31" user="GMB">
+    <field>navigation documents</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>40-41<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>navigation documents</field>
+    <field>complicated index example</field>
+    <field class="locator">B.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>navigation documents</field>
+    <field>general recommendations</field>
+    <field class="locator">2.4.1</field>
+</record>
+<record time="2013-10-16T17:11:23" user="GMB">
+    <field>navigation documents</field>
+    <field>general recommendations</field>
+    <field class="locator">2.4.1</field>
+</record>
+<record time="2013-10-18T11:45:24" user="GMB">
+    <field>navigation documents</field>
+    <field>term categories support</field>
+    <field class="locator">2.2.8.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>navigation documents</field>
+    <field>term categories support</field>
+    <field class="locator">2.4.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>navigation, improved</field>
+    <field class="locator">C.9</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>package documents</field>
+    <field>identification of indexes in</field>
+    <field class="locator">2.3</field>
+</record>
+<record time="2013-10-20T21:25:37" user="GMB">
+    <field>package documents</field>
+    <field>identification of indexes in</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>36-39<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>package documents</field>
+    <field>identification of indexes in</field>
+    <field>multi-file indexes</field>
+    <field class="locator">2.3.2.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>package documents</field>
+    <field>identification of indexes in</field>
+    <field>publication contains index(es) and other content</field>
+    <field class="locator">2.3.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>package documents</field>
+    <field>identification of indexes in</field>
+    <field>publication contains only index(es)</field>
+    <field class="locator">2.3.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>package documents</field>
+    <field>identification of indexes in</field>
+    <field>single-file indexes</field>
+    <field class="locator">2.3.2.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>package documents</field>
+    <field>index role for the collection element</field>
+    <field class="locator">2.3.2.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>package documents</field>
+    <field>search parameters</field>
+    <field class="locator">C.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>page or paragraph numbers</field>
+    <field class="locator">see locators</field>
+</record>
+<record time="2013-10-20T21:26:00" user="GMB">
+    <field>preferred cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>24<text/></field>
+</record>
+<record time="2013-10-20T21:25:54" user="GMB">
+    <field>preferred cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>26<text/></field>
+</record>
+<record time="2013-10-20T21:25:46" user="GMB">
+    <field>preferred cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>29<text/></field>
+</record>
+<record time="2013-10-20T21:25:42" user="GMB">
+    <field>preferred cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>32<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>preferred cross-references</field>
+    <field><text style="b"/>index-xref-preferred<text/></field>
+    <field class="locator">2.2.7</field>
+</record>
+<record time="2013-10-24T08:36:30" user="GMB">
+    <field>preferred cross-references</field>
+    <field>to term category</field>
+    <field class="locator">2.2.8.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>punctuation</field>
+    <field class="locator">2.2.9</field>
+</record>
+<record time="2013-10-25T08:06:52" user="GMB">
+    <field>punctuation</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>33-35<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>ranges</field>
+    <field class="locator">see locator ranges</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System Conformance</field>
+    <field class="locator">3.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System implementation suggestions</field>
+    <field>filtering of indexes</field>
+    <field class="locator">C.6</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System implementation suggestions</field>
+    <field>generic cross-reference enhancements</field>
+    <field class="locator">C.8</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System implementation suggestions</field>
+    <field>highlighting of locator ranges</field>
+    <field class="locator">C.5</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System implementation suggestions</field>
+    <field>index locator search</field>
+    <field class="locator">C.4</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System implementation suggestions</field>
+    <field>index term search</field>
+    <field class="locator">C.3</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System implementation suggestions</field>
+    <field>locator target information</field>
+    <field class="locator">C.7</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System implementation suggestions</field>
+    <field>navigation improvements</field>
+    <field class="locator">C.9</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>Reading System implementation suggestions</field>
+    <field>search parameters</field>
+    <field class="locator">C.2</field>
+</record>
+<record time="2013-10-20T21:25:58" user="GMB">
+    <field>related cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>25<text/></field>
+</record>
+<record time="2013-10-20T21:25:50" user="GMB">
+    <field>related cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>27<text/></field>
+</record>
+<record time="2013-10-20T21:25:45" user="GMB">
+    <field>related cross-references</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>30<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>related cross-references</field>
+    <field><text style="b"/>x-ref-related<text/></field>
+    <field class="locator">2.2.7</field>
+</record>
+<record time="2013-11-14T15:31:19">
+    <field>role attribute values</field>
+    <field class="locator">see <text style="i"/>names of specific role attribute values<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>samples</field>
+    <field class="locator">see examples</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>schema for EPUB indexes</field>
+    <field class="locator">A</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>searching indexes</field>
+    <field>index locator search</field>
+    <field class="locator">C.4</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>searching indexes</field>
+    <field>index term search</field>
+    <field class="locator">C.3</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>searching indexes</field>
+    <field>Reading System search parameters</field>
+    <field class="locator">C.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>section numbers</field>
+    <field class="locator">see locators</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>semantics</field>
+    <field class="locator">see structural semantics</field>
+</record>
+<record time="2013-10-20T21:26:02" user="GMB">
+    <field>structural semantics</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>23<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>structural semantics</field>
+    <field>locator targets</field>
+    <field class="locator">2.2.6</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>structural semantics</field>
+    <field>locator targets</field>
+    <field>filtering of indexes and</field>
+    <field class="locator">C.6</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>style sheet sample</field>
+    <field class="locator">B.3</field>
+</record>
+<record time="2013-10-20T21:26:18" user="GMB">
+    <field>subentries</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>10<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>subentries</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>targets</field>
+    <field class="locator">see cross-reference targets</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>targets</field>
+    <field class="locator">see locator targets</field>
+</record>
+<record time="2013-10-18T13:01:39" user="GMB">
+    <field>term categories</field>
+    <field class="locator">2.2.8.2</field>
+</record>
+<record time="2013-10-18T13:01:40" user="GMB">
+    <field>term categories</field>
+    <field class="locator">2.4.2</field>
+</record>
+<record time="2013-10-20T21:25:27" user="GMB">
+    <field>term categories</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>41<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>term categories</field>
+    <field><text style="b"/>index-term-categories<text/></field>
+    <field class="locator">2.2.8</field>
+</record>
+<record time="2013-10-20T21:25:48" user="GMB">
+    <field>term category</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>29-32<text/></field>
+</record>
+<record time="2013-10-20T21:25:26" user="GMB">
+    <field>term category</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>41<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>term category</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>term category</field>
+    <field>enhancements to</field>
+    <field class="locator">C.8</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>term category</field>
+    <field><text style="b"/>index-term-category<text/></field>
+    <field class="locator">2.2.7</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>term category</field>
+    <field><text style="b"/>index-term-category<text/></field>
+    <field class="locator">2.2.8</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>terminology</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-10-20T21:26:20" user="GMB">
+    <field>terms</field>
+    <field>code examples</field>
+    <field class="locator"><text style="i"/>10-13<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>terms</field>
+    <field>defined</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>terms</field>
+    <field><text style="b"/>index-term<text/></field>
+    <field class="locator">2.2.3</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field>titles</field>
+    <field class="locator">see index titles</field>
+</record>
+<record time="2013-10-25T07:55:31" user="GMB">
+    <field>titles</field>
+    <field>code example</field>
+    <field class="locator"><text style="i"/>2<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>titles</field>
+    <field>for groups</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:31:54">
+    <field>titles</field>
+    <field>for indexes</field>
+    <field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field><text style="b"/>xref-preferred<text/></field>
+    <field class="locator">see <text style="b"/>index-xref-preferred<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+    <field><text style="b"/>xref-related<text/></field>
+    <field class="locator">see <text style="b"/>index-xref-related<text/></field>
+</record>
+</records>
+</indexdata>
+

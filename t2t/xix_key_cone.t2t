@@ -1,0 +1,52 @@
+Key Entry Concepts
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_key_cone.html
+
+~B[Tutorial xix_tu.html]~E→~B[Key Concepts xix_key_con.html]~E
+
+- Terms and pages are entered styled as they are to be displayed,
+  (e.g., **bold** and //italic//). How entries are to be sorted is kept
+  separately from their term text as ~KSort As Text~E which is
+  automatically generated according to the sort as rules, but which can
+  be customized to force a non-standard order. (See
+  [Sort As Text xix_ref_sortas.html] and
+  [Sort As Rules xix_ref_sortas_rules.html].)
+- Pages may be entered in abbreviated form~~~they will automatically be
+  made to conform to the [Page Range Rules xix_ref_prange_rules.html]
+  that are in force when the entry is saved.
+- An entry that is not a subentry of another entry is called a //main//
+  //entry// (sometimes known as a //top-level// //entry//). An entry
+  that is a subentry of another entry (at any level of depth) is called
+  a //subentry//. An //immediate// subentry is one which is a direct
+  child of another entry, not a grand-child, or great-grand-child.
+- A //generic// cross-reference is a cross-reference to a term that is
+  not present in the index, but rather refers to a whole class of terms.
+  For example, //see// //under// //individual// //country// //entries//.
+  Normal cross-reference are to specific entries. ~X automatically ensures
+  that there are no “dangling” cross-reference
+- The //current// entry is the one shown in the
+  [Main Window Entry Panel xix_ref_panel_entry.html] where it can be
+  edited, and also in the
+  [Main Window Index Panel xix_ref_panel_index.html] with a solid bullet
+  and highlighted in yellow (or with a hollow bullet
+  containing a dot and highlighted in green, if it is also the circled
+  entry).
+- A //circled// entry is one shown in the
+  [Main Window Index Panel xix_ref_panel_index.html]
+  with a hollow bullet and highlighted in cyan (or a hollow bullet
+  containing a dot and highlighted in green, if this is also the current
+  entry). (See [Entry→Circle action xix_ref_act_y_circ.html].)
+- The //filtered// entry is the one shown in the
+  [Main Window Filtered Panel xix_ref_panel_filter.html] with a solid
+  square bullet and highlighted in magenta. This is //not// usually the
+  current entry~~~but can be made the current entry by using the
+  [Goto→Filtered action xix_ref_act_g_filt.html].
+
+
+~= [Tutorial xix_tu.html]→[Create a New Index xix_tu_new.html]
+
+//or//
+
+~= [Reference xix_ref.html]

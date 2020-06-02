@@ -1,0 +1,54 @@
+Format→Font actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_o_font.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Format Menu xix_ref_actfmt.html]~E
+
+These actions are used to change the font of the selected text in the
+current editor, for editors that support styling.
+
+~X supports the use of three different notional fonts:
+//Standard//~~~“Std”, //Alternative//~~~“Alt”, and
+//Monospaced//~~~“Mono”. For each of
+these notional fonts, you can choose which actual font you want to be
+used for it when displaying in ~X's views, and which actual font you
+want it to be output as. The display and output fonts don't have to be
+the same, although they are by default, and we recommend that you match
+them (even if you make the output font sizes different, e.g., smaller).
+
+You can set the actual fonts that represent the notional fonts for
+display purposes in the
+[Options Dialog's Display Tab xix_ref_dlg_opt_disp.html]. And you can
+set the actual fonts that represent the notional fonts in the output, in the
+[Output Options Dialog's General Tab xix_ref_dlg_out_gen.html].
+
+All stylable text uses the Standard font by default.
+
+====Format→Standard Font action====
+
+To restore the selected text to use the Standard font, use
+~KF__o__rmat→__S__tandard Font~E or [images/font-std.png].
+
+====Format→Alternative Font action====
+
+To set the selected text to use the Alternative font, use
+~KF__o__rmat→__A__lternative Font~E or [images/font-alt.png].
+
+====Format→Monospace Font action====
+
+To set the selected text to use the Monospace font, use
+~KF__o__rmat→__M__onospace Font~E or [images/font-mono.png].
+
+-------------------------
+Any of these actions can be undone immediately after they have been
+applied, using the [Edit→Undo action xix_ref_act_e_do.html].
+
+See also the
+[Format→Bold, Italic, and Underline actions xix_ref_act_o_fmt.html], and
+the
+[Format→Superscript and Subscript actions xix_ref_act_o_s.html].
+
+~= [Goto Menu's actions xix_ref_actgoto.html]

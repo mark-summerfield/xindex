@@ -1,0 +1,77 @@
+Edit Entries III (Moving)
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_edit3.html
+
+~B[Tutorial xix_tu.html]~E
+
+Now that we have a few entries, let's move a couple around. First, we'll
+move the ~Cimage~E entry to be a main entry, then we'll make the
+~Cglobal grab~E entry a subentry of the ~Creferences~E entry's
+~Cobject~E subentry.
+
+- Navigate to the ~Cimage~E entry to make it the current entry.
+- Invoke the [Move action xix_ref_act_m_mv.html] using
+  ~KShift+F8~E or ~KEntr__y__→Mo__v__e~E or [images/move.png] to pop up
+  the [Move Entry Dialog xix_ref_dlg_move.html]. Check the ~Kto be a
+  __M__ain Entry~E radio button if it isn't already checked, then click
+  the ~KM__o__ve~E button.
+
+
+Promoting a subentry to be a main entry is easy, but to move an entry
+(or subentry) to be a subentry of another entry requires an extra step.
+
+- Find the entry you want to be the new “parent” entry~~~in this
+  case the ~Creferences~E entry's ~Cobject~E subentry. Invoke the
+  [Edit→Filter action xix_ref_act_e_filter.html] using ~KCtrl+F~E or
+  ~K__E__dit→__F__ilter~E or [images/edit-find.png] to show and give the
+  focus to the [Filtered Panel xix_ref_panel_filter.html]. Make sure
+  that the ~KTerms Matching~E filter is selected, and enter a term search
+  text of ~Cobject~E, then press ~KEnter~E. The entry shown highlighted
+  in the [Filtered Panel xix_ref_panel_filter.html] is the filtered term.
+- Navigate to the entry you want to become a “child” entry (i.e., a
+  subentry) of the filtered term, in this case the ~Cglobal grab~E
+  entry.
+- Invoke the [Move action xix_ref_act_m_mv.html] using
+  ~KShift+F8~E or ~KEntr__y__→Mo__v__e~E or [images/move.png] to pop up
+  the [Move Entry Dialog xix_ref_dlg_move.html]. Check the ~Kunder
+  __F__iltered~E radio button, then click the ~KM__o__ve~E button.
+
+
+After making these changes the index should look like this:
+
+~C**Chess knight**, black (~k), 21, **85**, 208//tbl//~E
+
+~Cglobal modal, 119-26, 235-37~E
+
+~Cimage, 256~E
+
+~Cmodality, global, 119-26, 235-37~E
+
+~Creferences~E
+
+    ~C_function, 60-62, 70, 87~E
+
+    ~C_global modalities, 119-26, 235-37~E
+
+    ~C_object, 64-67~E
+
+        ~C=global grab, 236~E
+
+You can, of course, change your mind. For example, you could undo these
+moves by invoking the [Index→Undo action xix_ref_act_x_do.html] using
+~KF9~E or ~KInde__x__→__U__ndo~E or [images/edit-undo.png],
+one or more times. And if you undo too many times or decide you
+want to keep the last change or changes you made anyway, you can also
+redo by invoking the [Index→Redo action xix_ref_act_x_do.html] using
+~KCtrl+F9~E or ~KInde__x__→__R__edo~E or [images/edit-redo.png],
+one or more times. (Note that there are separate undo/redo actions for
+inside editors; see [Text Editing actions xix_ref_acttxt.html] and the
+[Edit→Undo and Redo actions xix_ref_act_e_do.html].)
+
+In addition to moving, ~X also supports the copying of entries, either
+on their own, or with copies of all their subentries. (See the
+[Entry→Copy action xix_ref_act_y_copy.html].)
+
+~= [Edit Entries IV (Cross-references) xix_tu_edit4.html]

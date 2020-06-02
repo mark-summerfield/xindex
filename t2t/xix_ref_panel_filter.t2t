@@ -1,0 +1,79 @@
+Main Window Filtered Panel
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_panel_filter.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]~E
+
+//To make this panel visible, if it isn't already, use the//
+[Edit→Filter action xix_ref_act_e_filter.html].
+//You can also click and drag the splitter above this panel to give//
+//it more~~~or less~~~space.//
+
+The panel provides both customizable and predefined filters.
+
+- [Customizable Filters xix_ref_p_filt_cust.html]
+- [Predefined Filters xix_ref_p_filt_pre.html]
+
+
+At the top right of this panel is a help toolbar
+button [images/help.png] which when clicked opens the online help
+browser at this page.
+
+To apply one of the filters, first make the
+[Main Window Filtered Panel xix_ref_panel_filter.html] visible if it
+isn't already with the [Edit→Filter action xix_ref_act_e_filter.html]
+using ~KCtrl+F~E or ~K__E__dit→__F__ilter~E or [images/edit-find.png].
+
+Then set the ~KFilter~E drop-down list to the filter you want to use.
+Press ~KShift+Tab~E to navigate to the drop-down list if it doesn't
+already have the keyboard focus, then press ~KSpace~E to drop down the
+drop-down list's list, then use the ~KDown~E and ~KUp~E arrow keys to
+navigate to the filter you want to use, then press ~KEnter~E. Or click
+the drop-down list, then click the filter you want.
+
+If the filter is customizable, enter your words or page numbers in the
+~KFilter Match~E editor (press ~KTab~E, or click it to give it the
+keyboard focus), then press ~KEnter~E.
+
+If there are lots of filtered entries, you can navigate amongst them by
+giving the focus to the filter view (click it or ~KTab~E into it), then
+using ~KDown~E arrow, ~KUp~E arrow, ~KPage Down~E, ~KPage Up~E,
+~KHome~E, ~KEnd~E, or by clicking the scrollbar. You can also navigate
+simply by typing a letter to be taken to the first filtered entry that
+begins with that letter.
+
+If a filter has been applied, the number of matching entries is shown
+near the right-hand end of the status bar.
+
+The filtered entry is the entry shown highlighed in the ~KFiltered
+view~E with a magenta background and a solid square bullet. If this
+entry is different from the current entry~~~which is shown highlighted
+in the [Main Window Index Panel xix_ref_panel_index.html], and also
+shown in the [Main Window Entry Panel xix_ref_panel_entry.html]~~~you
+can apply various actions. For example, you can move the current entry
+to be a subentry of the filtered entry using
+the [Move under Filtered action xix_ref_act_m_mv.html#filt],
+or swap the current entry (or the current entry's term) with the
+filtered entry using
+the [Swap Entry with Filtered action xix_ref_act_m_swap.html#filt2] or the
+[Swap Term with Filtered action xix_ref_act_m_swap.html#filt1]. You can
+also add a cross-reference from the current entry to the filtered entry
+using the [Entry→Add Cross-reference action xix_ref_act_y_xref.html].
+And to view or edit the filtered entry, use the
+[Goto→Filtered action xix_ref_act_g_filt.html].
+
+Except where stated otherwise, the filters show their entries in term
+order (strictly speaking, in [Sort As Text xix_ref_sortas.html] order),
+regardless of their level of indentation.
+
+-------------------------
+For an overview of ~X's searching
+facilities, see the [Tutorial xix_tu.html]'s
+[Finding Entries xix_tu_nav.html] page.
+
+See also the [Index→Check actions xix_ref_act_x_check.html].
+
+~= [Customizable Filters xix_ref_p_filt_cust.html]

@@ -1,0 +1,104 @@
+Main Window Search and Replace Panel
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_panel_replace.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]~E
+
+//To make this panel visible, if it isn't already, use the//
+[Edit→Search and Replace action xix_ref_act_e_search.html].
+//You can also click and drag the splitter above this panel to give//
+//it more~~~or less~~~space.//
+
+At the top right of this panel is a hide toolbar
+button [images/hide.png] which when clicked, closes this panel. And
+below this, is a help toolbar button [images/help.png] which when
+clicked opens the online help browser at this page.
+
+This panel is used to search for text (or a
+[Regular Expression xix_ref_panel_r_regex.html]) in all
+the entries (or just the filtered entries), and to optionally replace
+what's found with a given replacement. For an overview of ~X's searching
+facilities, see the [Tutorial xix_tu.html]'s
+[Finding Entries xix_tu_nav.html] page.
+
+====Search For editor====
+
+Enter the plain text or [Regular Expression xix_ref_panel_r_regex.html]
+you wish to search for.
+
+====Replace With editor====
+
+Enter the replacment text or replacement
+[Regular Expression xix_ref_panel_r_regex.html]~~~or leave empty to
+delete matches, or if you are only searching and skipping.
+
+====Consider radio buttons====
+
+Check the ~KAll Entries~E radio button to search every entry (and
+subentry, and subsubentry, and so on), in the index.
+
+Check the ~KFiltered Entries~E radio button to confine the search to
+just those entries that are shown in the
+[Main Window Filtered Panel xix_ref_panel_filter.html].
+
+====Match options====
+
+Check the ~KLiteral~E radio button to treat the ~KSearch For~E text as
+literal text to find.
+
+Check the ~KRegex~E radio button to treat the  ~KSearch For~E text as a
+[Regular Expression xix_ref_panel_r_regex.html] to find.
+
+Check the ~KIgnore Case~E checkbox to make the search case-insensitive;
+or uncheck it to make the search case sensitive.
+
+If the ~KLiteral~E radio button is checked, you can require that the
+~KSearch For~E text is matched only as whole words by checking the
+~KWhole Words~E checkbox. For example, if both the ~KLiteral~E radio
+button and the ~KWhole Words~E checkbox are checked, then a ~KSearch
+For~E text of ~Calter~E will find an entry with the word ~Calter~E, but
+not ~Calteration~E. ([Regular Expression xix_ref_panel_r_regex.html]s
+have their own syntax for whole word matches.)
+
+====Look In options====
+
+Check the ~KTerms~E checkbox to make the search look at each entry's
+term.
+
+Check the ~KPages~E checkbox to make the search look at each entry's
+pages.
+
+Check the ~KNotes~E checkbox to make the search look at each entry's
+notes.
+
+====Buttons====
+
+Click the ~KStart Search~E button (or press ~KEnter~E when the keyboard
+focus is in the ~KSearch For editor~E or the ~KReplace With editor~E),
+to start the search from the first entry in the index or in the
+[Main Window Filtered Panel xix_ref_panel_filter.html].
+
+If a match is found, either click the ~KReplace~E button, to replace the
+match with the replacement text (or
+[Regular Expression xix_ref_panel_r_regex.html]), or click the ~KSkip~E
+button, to leave the match unchanged and look for the next match.
+
+Click the ~KStop Search~E button to stop searching before the end is
+reached.
+
+Search progress is shown in the [Status Bar xix_ref_status.html].
+
+-------------------------
+You can undo the most recent replacement immediately after replacing, by
+using the
+[Index→Undo action xix_ref_act_x_do.html]. If you have done multiple
+replacements, you can do multiple undoes, right up until they've all been
+undone. When doing multiple undoes it is easy to go one undo too
+far~~~if this happens, simply use the
+[Index→Redo action xix_ref_act_x_do.html] to get to the position you
+want to be.
+
+~= [Regular Expression xix_ref_panel_r_regex.html]

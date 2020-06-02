@@ -1,0 +1,94 @@
+Next Steps
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_next.html
+
+~B[Tutorial xix_tu.html]~E
+
+This tutorial is has been kept deliberately short to minimize your
+learning time before you start on your own first index using ~X.
+Naturally, many features haven't been covered, however these should be
+easy to find and use when you need them.
+
+We suggest you review the [Key Concepts xix_key_con.html] once more, and
+then you should be ready to create your own index.
+
+The [Reference xix_ref.html] describes every action ~X is capable of
+performing, and every main window panel, and every dialog. It also has
+explanations of how to perform various tasks.
+
+If you want to be able to work as quickly as possible, you might like to
+learn some of ~X's [Keyboard Shortcuts xix_ref_keys.html], and
+how to take advantage of ~X's word completion suggestions in the
+[Main Window Suggestions Panel xix_ref_panel_sug.html].
+
+Probably the most important keyboard shortcuts to learn are these:
+
+'''
+<table>
+<tr>
+<th class="th_kb">Shortcut</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Action</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Notes</th>
+</tr>
+
+<tr>
+<td class="td_kb1a">F7</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_y_add.html">Add a Main
+Entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/add-toplevel.png"> Alt+Y,M</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+0</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_y_add.html">Cancel adding</a>
+<i>and goto the main entry whose term starts with the letters you've typed
+so far</i></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/canceladd.png"> Alt+Y,N</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">F8</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_y_copy.html">Copy Entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/copy.png"> Alt+Y,C</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Shift+F8</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_y_mv.html">Move Entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/move.png"> Alt+Y,V</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+K</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_y_xref.html">Add a
+Cross-reference</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/xref-add.png"> Alt+Y,A</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">F9</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_x_do.html">Undo the last entry
+action</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/edit-undo.png"> Alt+X,U</td>
+</tr>
+
+</table>
+'''
+
+~= [Reference xix_ref.html]

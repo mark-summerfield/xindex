@@ -1,0 +1,31 @@
+File→Save Grouped As action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_savegroupedas.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Save Grouped As action====
+
+This action is used to save a partial copy of the current index. The
+copy includes all the current index's options, spelling words, etc.,
+plus any entries that belong to the Normal Group or Groups you specify
+(see the [Entry→Group actions xix_ref_act_y_grp.html]).
+Subentries (and subsubentries, and so on), are only copied if they~~~and
+their parents and parent's parents up to the main entry~~~belong to one
+of the specified Normal Groups.
+
+Once you've chosen which Normal Group or Groups whose entries you want
+copied, and chosen a new filename, when you click ~KSave~E, the current
+index is saved and closed, and the new copy is saved and then opened.
+
+To invoke, use ~K__F__ile→Save __G__rouped As~E.
+
+This action is useful if you want to create a single index as a “master”
+index from which you split off one or more other indexes once you have
+finished: see
+[Create Two or More Indexes from One xix_tip1.html#twofromone].
+
+~= [File→Output As .rtf action xix_ref_act_f_ortf.html]

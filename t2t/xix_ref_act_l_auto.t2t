@@ -1,0 +1,28 @@
+Spelling→Auto Replace action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_l_auto.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Spelling Menu xix_ref_actspell.html]~E
+
+====Spelling→Auto Replace action====
+
+This action is used to pop up the
+[Auto Replace Dialog xix_ref_dlg_autorep.html] which is used to create,
+edit, and delete special “words” which when entered are automatically
+replaced with your chosen replacements. For example, you could make the
+word ~C$fbi~E automatically be replaced by the phrase ~CFederal Bureau of
+Investigation~E as you type. (Some word-processors and other tools call
+this a //glossary// function.)
+
+To invoke, use ~KSpe__l__ling→__A__uto Replace~E.
+
+-------------------------
+Note that ~X will automatically provide suggestions as you type in the
+~KTerm~E editor, drawing on the current language's spelling dictionary
+and the current index's custom dictionary; see the
+[Main Window Suggestions Panel xix_ref_panel_sug.html]
+
+~= [Spelling→Replace with actions xix_ref_act_l_repl.html]

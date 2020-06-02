@@ -1,0 +1,108 @@
+Output an Index
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_out.html
+
+~B[Tutorial xix_tu.html]~E
+
+% DUPLICATED IN xix_ref_act_f_oas.t2t
+~X can output indexes in the following formats:
+
+'''
+<table>
+<tr>
+<th class="th_kb">Format</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Extension</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Notes</th>
+</tr>
+
+<tr>
+<td class="td_kb1a">Rich Text Format</td>
+<td class="td_kbs"></td>
+<td class="td_kb1x">.rtf</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Word Format (OOXML)</td>
+<td class="td_kbs"></td>
+<td class="td_kb2x">.docx</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Plain Text</td>
+<td class="td_kbs"></td>
+<td class="td_kb1x">.txt</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">No styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Portable Document Format</td>
+<td class="td_kbs"></td>
+<td class="td_kb2x">.pdf</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">HyperText Markup Language</td>
+<td class="td_kbs"></td>
+<td class="td_kb1x">.html</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">XindeX XML Format</td>
+<td class="td_kbs"></td>
+<td class="td_kb2x">.ximl</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">All text styling is preserved</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Index Data Exchange Format</td>
+<td class="td_kbs"></td>
+<td class="td_kb1x">.ixml</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">Text styling is mostly preserved</td>
+</tr>
+
+</table>
+'''
+
+Output in ~F.rtf~E format with the
+[File→Output As .rtf action xix_ref_act_f_ortf.html] using
+~K__F__ile→Output As .__r__tf~E or [images/exportrtf.png], and in ~K.docx~E
+format with the
+[File→Output As .docx action xix_ref_act_f_odocx.html] using
+~K__F__ile→Output As .__d__ocx~E or [images/exportdocx.png]. In both
+cases the index will be output in the same folder and with the same name
+as the index's ~F.xix~E file, but with the appropriate extension.
+
+You can output in ~F.rtf~E or ~F.docx~E format in another folder,
+or with another name, or output in another format, with the
+[File→Output As action xix_ref_act_f_oas.html] using
+~K__F__ile→Ou__t__put As~E. This will pop up an ~KOutput As~E save
+dialog through which you can choose the folder, filename, and extension
+that you want to use.
+
+It is also possible to output using custom markup; see the
+[Index→Custom Markup action xix_ref_act_x_mark.html] and the
+[Custom Markup Dialog xix_ref_dlg_markup.html]. To output in a custom
+markup use the [File→Output As action xix_ref_act_f_oas.html],
+and type the custom markup's custom extension (e.g., ~F.ucp~E),
+after the filename.
+
+Incidentally, ~X can also import indexes: perfectly in its own ~X XML
+Format (~F.ximl~E), and (not always perfectly) in Index Data Exchange
+Format (~F.ixml~E). See the [File→Import action xix_ref_act_f_imp.html].
+
+~= [Finding Entries xix_tu_nav.html]

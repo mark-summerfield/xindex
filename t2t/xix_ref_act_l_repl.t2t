@@ -1,0 +1,35 @@
+Spelling→Replace with actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_l_repl.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Spelling Menu xix_ref_actspell.html]~E
+
+====Spelling→Replace with actions====
+
+These actions are used to replace or complete the word you are typing in
+the ~KTerm~E editor, based on the words found in the current language's
+spelling dictionary and the current index's custom dictionary of remembered
+words.
+
+To replace or complete with the first suggestion, use ~KCtrl+1~E or
+~KSpe__l__ling→__1__ Replace with «...»~E. Similarly for
+the second to ninth suggestions, but using 2...9 as appropriate. Or,
+simply double-click the suggested word in the
+[Main Window Suggestions Panel xix_ref_panel_sug.html].
+
+By default, the first suggested word is selected in the suggestions
+panel, but you can, of course, select any other word in the panel by
+navigating to it~~~and replace or complete with it by double-clicking
+it, or using ~KCtrl+M~E or ~KSpe__l__ling→Replace with __S__uggested~E
+or [images/complete.png].
+
+-------------------------
+If you want to have some short piece of text that you type in always
+replaced by a longer text (sometimes called a //glossary// function),
+use the
+[Spelling→Auto Replace action xix_ref_act_l_auto.html].
+
+~= [Format Menu's actions xix_ref_actfmt.html]

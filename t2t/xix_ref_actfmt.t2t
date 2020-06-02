@@ -1,0 +1,27 @@
+Format Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actfmt.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to style the selected text in the current editor,
+for editors that support styling. Such editors include the ~KTerm~E and
+~KPages~E editors, and some of the
+[Output Options Dialog xix_ref_dlg_output.html]'s editors. (See the
+[Text Editing actions xix_ref_acttxt.html] for how to select text.)
+
+- [Format→Bold action xix_ref_act_o_fmt.html] [images/format-text-bold.png] 
+- [Format→Italic action xix_ref_act_o_fmt.html] [images/format-text-italic.png] 
+- [Format→Underline action xix_ref_act_o_fmt.html] [images/format-text-underline.png] 
+- [Format→No Superscript or Subscript action xix_ref_act_o_s.html] [images/nosupersubscript.png] 
+- [Format→Superscript action xix_ref_act_o_s.html] [images/superscript.png] 
+- [Format→Subscript action xix_ref_act_o_s.html] [images/subscript.png] 
+- [Format→Standard Font action xix_ref_act_o_font.html] [images/font-std.png] 
+- [Format→Alternate Font action xix_ref_act_o_font.html] [images/font-alt.png] 
+- [Format→Monospace Font action xix_ref_act_o_font.html] [images/font-mono.png] 
+
+
+~= [Format→Bold, Italic, Underline actions xix_ref_act_o_fmt.html]

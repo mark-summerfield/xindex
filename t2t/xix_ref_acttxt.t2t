@@ -1,0 +1,147 @@
+Text Editing actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_acttxt.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Edit Menu xix_ref_actedit.html]~E
+
+In general, ~X's editors support all the usual keyboard actions, such as
+~KCtrl+C~E to copy text and ~KCtrl+V~E to paste text~~~see the
+[Edit→Clipboard actions xix_ref_act_e_clip.html]. The usual editing and
+selecting actions are supported, for example, ~KBackspace~E to delete
+the previous character, and selecting text with the mouse or by pressing
+the ~KLeft~E or ~KRight~E arrow keys with the ~KShift~E key held
+down~~~see the ~{#keypresses table at the end}.
+
+And if you haven't yet saved or left an editor, you can undo and redo
+your edits using the [Edit→Undo and Redo actions xix_ref_act_e_do.html].
+
+In addition, the ~KTerm~E and ~KPages~E editors support text styling
+such as **bold** and //italics//.
+
+And the ~KTerm~E editor also supports //completion//, that is, as you
+type in a word, wherever possible, ~X shows suggestions for what the word
+you have started typing might be in the
+[Main Window Suggestions Panel xix_ref_panel_sug.html]. The suggestions
+are based on the spelling dictionary, including any words you have added
+to this index's custom dictionary. (~X also supports automatic
+replacements in the ~KTerm~E editor~~~sometimes called a //glossary//
+function; see the [Spelling→Auto Replace action xix_ref_act_l_auto.html].)
+
+~Akeypresses
+'''
+<table>
+<tr>
+<th class="th_kb">Keypress</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Action</th>
+</tr>
+
+<tr>
+<td class="td_kb1a">Backspace</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Delete the character left of the cursor</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Delete</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Delete the character right of the cursor</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Home</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Move the cursor to the start of the line</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">End</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Move the cursor to the end of the line</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Left</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Move the cursor left one character</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Left</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Move the cursor left one word</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Right</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Move the cursor right one character</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Right</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Move the cursor right one word</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+A</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Select all the editor's text</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+C</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_e_clip.html">Copy the selected
+text to the clipboard</a></td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+K</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Delete to the end of the line</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+V</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_e_clip.html">Paste the
+clipboard's text into the current editor</a></td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+X</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_e_clip.html">Cut the selected
+text to the clipboard</a></td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Y</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_e_do.html">Redo the last text
+editing action</a></td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+Z</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_e_do.html">Undo the last text
+editing action</a></td>
+</tr>
+
+</table>
+'''
+
+To select text, use any of the //move// keypresses shown above while
+holding down the ~KShift~E key. Alternatively, you can select a single
+word by double-clicking it, or select all of an editor's text by triple
+clicking inside it. (See [Mouse Actions xix_ref_mouse.html].)
+
+See also [Keyboard Shortcuts xix_ref_keys.html].
+
+~= [Edit→Undo and Redo actions xix_ref_act_e_do.html]

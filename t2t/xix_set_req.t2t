@@ -1,0 +1,22 @@
+Requirements
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_set_req.html
+
+~B[Setup xix_setup.html]~E
+
+The minimum screen size needed to use ~X is 1,024x768, although a
+larger screen (e.g., 1,280x800 or 1,920x1,080), is highly recommended.
+
+For small indexes, any decent computer should be fine, but for medium-
+and large-sized indexes, a fast modern computer is recommended.
+
+~X should run on any 32- and 64-bit versions of Linux and Windows that
+use an x86-compatible processor (i.e., almost all desktop and laptop
+computers). Note though, that nowadays we only test on Linux.
+
+You will need to have a modern version of Python installed (>= 3.6), and
+the Python packages, PySide (i.e., PySide1 for Qt 4.8), APSW, and roman.
+
+~= [Download and Run xix_set_dl.html]

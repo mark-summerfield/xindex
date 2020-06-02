@@ -1,0 +1,23 @@
+Index→Combine Overlapping Pages action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_comb.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Combine Overlapping Pages action====
+
+This action is used to pop up the
+[Combine Overlapping Pages Dialog xix_ref_dlg_combpages.html] which is
+used to detect and combine overlapping pages under your control.
+
+To invoke, use ~KInde__x__→__C__ombine Overlapping Pages~E.
+
+-------------------------
+See also the [Main Window Filtered Panel xix_ref_panel_filter.html]'s
+predefined [With Overlapping Pages xix_ref_p_filt_pre.html#overlap]
+filter.
+
+~= [Index→Renumber Pages action xix_ref_act_x_ren.html]

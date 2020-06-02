@@ -1,0 +1,60 @@
+Set Index Options
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_opt.html
+
+~B[Tutorial xix_tu.html]~E
+
+The most important options that should be set at the beginning are shown
+in the [Options Dialog xix_ref_dlg_options.html]. Use
+~KInde__x__→__O__ptions~E to pop up this dialog.
+
+In many cases this dialog lets you set an option to be used for //this//
+index, and separately as the default to be used for //future// indexes.
+The most important options to set are on the
+[Options Dialog's Rules Tab xix_ref_dlg_opt_rules.html] where you can
+choose //letter-by-letter// or //word-by-word// ordering (in accordance
+with the ~cms, or with the ~niso or ~iso standards). You can also set the
+page range rules which govern how the second part of a page range is to
+be treated (e.g., whether to show it in full, or in a more compact
+form).
+
+For ~FTutorial.xix~E, why not set the ~KCreator~E name in the
+~KGeneral~E tab to your full name. You could also check or uncheck the
+~KIndex View on Left~E checkbox to see which way you prefer. (You can
+always change your mind later, of course.)
+
+At first it is probably sensible to uncheck the ~KAlways Show Sort As~E
+checkbox. If later on you find that you often need to customize the
+[Sort As Text xix_ref_sortas.html], you can always check it again.
+
+Two very important options for the ~KGeneral~E tab are the ~KLanguage,
+For This Index~E and ~KLanguage, Default~E options. The language is used
+by the spell checker and also for suggested words as you enter or edit
+term words. For this tutorial we will use //American// as the language.
+Naturally, you should set both of these to the language you normally
+index in.
+
+The ~KRules~E tab is used to tell ~X what sort rules to apply and how to
+handle the second part of page ranges. For the tutorial we'll leave
+everything at its default value, but if you normally need different
+rules, you could set the defaults to the ones you most often use.
+
+The ~KDisplay~E tab is used to set the fonts to be used when displaying
+the index on-screen and whether to show tooltips (little explanations
+that pop up when the mouse hovers over things). These fonts are //not//
+//necessarily// the same as those used in the output formats. Output is
+covered briefly later in the tutorial in the
+[Output an Index xix_tu_out.html] section, and in more detail
+in the [Output Options Dialog xix_ref_dlg_output.html] section.
+
+(In addition to setting the default options for all future indexes in
+the [Options Dialog xix_ref_dlg_options.html], you can also create
+templates: see [Creating and Using Templates xix_ref_template.html].)
+
+After setting the options you want to use for this index (and ideally,
+the defaults to use for future indexes), you are ready to start adding
+entries.
+
+~= [Add Entries xix_tu_add.html]

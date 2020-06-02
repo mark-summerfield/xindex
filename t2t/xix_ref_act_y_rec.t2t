@@ -1,0 +1,27 @@
+Entry→Recreate action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_y_rec.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Entry Menu xix_ref_actentry.html]~E
+
+====Entry→Recreate action====
+
+This action is used to pop up the
+[Recreate Entries Dialog xix_ref_dlg_recreate.html] which can be used to
+create fresh new entries which are copied from previously deleted
+entries.
+
+To invoke, use ~KEntr__y__→Recrea__t__e~E.
+
+//In Free Trial Mode, if the number of recreatable entries plus the//
+//number of entries equals or exceeds the maximum number of//
+//entries (~T), this action will not be available.//
+
+-------------------------
+You can undo the recreation of an entry or entries immediately
+afterwards, by using the [Index→Undo action xix_ref_act_x_do.html].
+
+~= [Entry→Delete action xix_ref_act_y_del.html]

@@ -1,0 +1,53 @@
+Combine Overlapping Pages Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_combpages.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Index→Combine Overlapping Pages action xix_ref_act_x_comb.html].
+
+This dialog is used to semi-automatically combine overlapping pages.
+
+[images/combinedlg.png]
+
+For example, these pages have an unwanted overlap:
+
+~C15, 21-23, 22, 31~E
+
+However, an overlap may be legitimate, for example:
+
+~C15, 21-23, 22//fig//, 31~E
+
+~X can detect overlapping pages~~~although it takes human intelligence
+to determine whether the overlaps are legitimate or not.
+
+This dialog creates a list of entries with overlapping pages, and makes
+it very easy to see the pages as they are now, and what they'd look like
+if you told ~X to automatically combine the overlaps. For each entry,
+you can either apply the changes by using the ~KCo__m__bine~E button,
+or skip them by using the ~KS__k__ip~E button. You can stop at any time
+by using the ~K__C__lose~E button.
+
+An alternative to using this dialog is to use the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s predefined
+[With Overlapping Pages xix_ref_p_filt_pre.html#overlap]
+filter which will show all the entries that have overlapping pages in
+the ~KFiltered view~E. You can then navigate to each entry in this view
+in turn (see the [Goto→Filtered action xix_ref_act_g_filt.html]), and
+make any changes you see fit~~~either manually, or using the
+[Modify→Combine Pages action xix_ref_act_m_comb.html].
+
+-------------------------
+You can undo the most recent combining of overlapping pages immediately
+after combining them, by closing the dialog, and then using the
+[Index→Undo action xix_ref_act_x_do.html]. If you have done multiple
+combines, you can do multiple undoes, right up until they've all been
+undone. When doing multiple undoes it is easy to go one undo too
+far~~~if this happens, simply use the
+[Index→Redo action xix_ref_act_x_do.html] to get to the position you
+want to be.
+
+~= [Copy Character Dialog xix_ref_dlg_copychr.html]

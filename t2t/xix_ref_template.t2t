@@ -1,0 +1,48 @@
+Creating and Using Templates
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_template.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]~E
+
+If you do multiple jobs for the same publisher using the same output
+options, it will save time to create each new index for that publisher
+with the output options set up correctly from the start. There are two
+ways of achieving this.
+
+- Use the [File→New Empty Copy action xix_ref_act_f_newcopy.html].
+
+  Create your first index for the publisher using a naming convention
+  such as //~FPublisher Name - Book Name.xix~E//. Set all the options in
+  the [Options Dialog xix_ref_dlg_options.html] and all the output
+  options in the [Output Options Dialog xix_ref_dlg_output.html], to
+  meet your and the publisher's requirements.
+
+  Now, when you are ready to create your second or subsequent index for
+  this publisher, open the (or one of the) previous index(es) you
+  created for them, and use the
+  [File→New Empty Copy action xix_ref_act_f_newcopy.html] to create a
+  copy with the name of the new index, that has all of the options and
+  output options from the original, but with no entries.
+
+- Create and use a template file.
+
+  Create a new empty index for the publisher and use a naming convention
+  such as //~FPublisher Name//~E ~F- Template.xix~E ~~~ this will be used as
+  an empty template. Set all the options in the
+  [Options Dialog xix_ref_dlg_options.html] and all the output options
+  in the [Output Options Dialog xix_ref_dlg_output.html], to meet your
+  and the publisher's requirements.
+
+  Now, when you are ready to create an index for this publisher, open
+  the template file you created for them, and use the
+  [File→Save As action xix_ref_act_f_saveas.html] to save and then open
+  a copy of the template with a new name (e.g., using the
+  //~FPublisher Name - Book Name.xix~E// naming convention). This will
+  create a copy of the template with the name of the new index, that has
+  all of the options and output options from the template, but with no
+  entries.
+
+
+~= [Coping with a Computer Crash xix_ref_crash.html]

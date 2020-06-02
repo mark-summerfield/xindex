@@ -1,0 +1,39 @@
+Format→Superscript and Subscript actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_o_s.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Format Menu xix_ref_actfmt.html]~E
+
+These actions are used to apply or unapply super- and sub-script
+styling to the selected text in the current editor, for editors that
+support styling.
+
+====Format→No Superscript or Subscript action====
+
+To unapply super- or sub-script styling from the selected text, use
+~KF__o__rmat→__N__o Superscript or Subscript~E
+or [images/nosupersubscript.png].
+
+====Format→Superscript action====
+
+To apply superscript styling to the selected text, use
+~KF__o__rmat→Su__p__erscript~E or [images/superscript.png].
+
+====Format→Subscript action====
+
+To apply subscript styling to the selected text, use
+~KF__o__rmat→Subs__c__ript~E or [images/subscript.png].
+
+-------------------------
+Any of these actions can be undone immediately after they have been
+applied, using the [Edit→Undo action xix_ref_act_e_do.html].
+
+See also the
+[Format→Bold, Italic, and Underline actions xix_ref_act_o_fmt.html], and
+the
+[Format→Font actions xix_ref_act_o_font.html].
+
+~= [Format→Font actions xix_ref_act_o_font.html]

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE indexdata [
+<!ELEMENT indexdata (source, fonts, records) >
+<!ELEMENT source EMPTY >
+<!ATTLIST source
+    creator CDATA #REQUIRED
+    version CDATA #REQUIRED
+    time CDATA #REQUIRED >
+<!-- time value is UTC in this format: 2011-03-03T03:41:14 -->
+<!ELEMENT fonts (font+) >
+<!ELEMENT font (fname, aname) >
+<!ATTLIST font
+    id CDATA #REQUIRED >
+<!ELEMENT fname (#PCDATA) >
+<!ELEMENT aname (#PCDATA) >
+<!ELEMENT records (record)* >
+<!ATTLIST records
+    type CDATA #IMPLIED >
+<!ELEMENT record (field+) >
+<!ATTLIST record
+    time CDATA #REQUIRED
+    user CDATA #IMPLIED
+    label CDATA #IMPLIED
+    deleted (y | n) #IMPLIED
+    type CDATA #IMPLIED >
+<!-- time value is UTC in this format: 2008-08-02T16:27:44 -->
+<!-- label value is integer -->
+<!-- type value can be "generated" (automatically generated) -->
+<!ELEMENT field (#PCDATA | text | esc | literal | hide | sort)* >
+<!ATTLIST field
+    class CDATA #IMPLIED >
+<!-- class value can be "locator" -->
+<!ELEMENT text EMPTY >
+<!ATTLIST text
+    font CDATA #IMPLIED
+    color CDATA #IMPLIED
+    smallcaps ( y | n ) #IMPLIED
+    style ( b | i | u | bi | bu | iu | biu ) #IMPLIED
+    offset ( u | d ) #IMPLIED
+>
+<!-- font and color attribute values are integers in range 0-31 -->
+<!ELEMENT literal EMPTY >
+<!-- literal: forces the succeeding character to be used in sort -->
+<!ELEMENT hide (#PCDATA) >
+<!-- hide: contains text to be ignored in sorting -->
+<!ELEMENT sort (#PCDATA) >
+<!-- sort: contains text to be used in sorting but not displayed -->
+]>
+<indexdata>
+<source creator="XindeX" version="0.8.0" time="2016-01-21T12:59:47"/>
+<fonts>
+<font id="0">
+    <fname>Arial</fname>
+    <aname>Arial</aname>
+</font>
+<font id="1">
+    <fname>Courier New</fname>
+    <aname>Courier New</aname>
+</font>
+</fonts>
+<records>
+<record time="2016-01-21T12:59:47">
+    <field>One</field>
+    <field class="locator">1</field>
+</record>
+<record time="2016-01-21T12:59:47">
+    <field>One</field>
+    <field class="locator">2</field>
+</record>
+<record time="2016-01-21T12:59:47">
+    <field>One</field>
+    <field class="locator"><text style="b"/>3<text/></field>
+</record>
+<record time="2016-01-21T12:59:47">
+    <field>One</field>
+    <field class="locator"><text style="i"/>15<text/><text style="i"/>–<text/><text style="i"/>20<text/></field>
+</record>
+<record time="2016-01-21T12:59:47">
+    <field>Two</field>
+    <field class="locator"><text style="i"/>15<text/><text style="i"/>–<text/><text style="i"/>20<text/></field>
+</record>
+<record time="2016-01-21T12:59:47">
+    <field>Two</field>
+    <field class="locator">17<text style="i"/>tbl<text/></field>
+</record>
+</records>
+</indexdata>

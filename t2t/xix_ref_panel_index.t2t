@@ -1,0 +1,58 @@
+Main Window Index Panel
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_panel_index.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]~E
+
+//You can click and drag the splitter at the side of this panel//
+//to give it more~~~or less~~~space.//
+
+This panel is used to view the index as a whole~~~or at least as much of
+it as can be shown at a time. The index entries are always shown in the
+correct order in accordance with the prevailing
+[Sort As Rules xix_ref_sortas_rules.html].
+
+To give the keyboard focus to this panel, press ~KAlt+I~E, or click it.
+Once it has the focus, you can easily navigate up and down using
+~KDown~E arrow, ~KUp~E arrow, ~KPage Down~E, ~KPage Up~E, ~KHome~E,
+~KEnd~E, or by clicking the scrollbar. You can also navigate simply by
+typing a letter to be taken to the first entry that begins with that
+letter. You can even navigate if this panel doesn't have the focus, as
+explained below.
+(See also [Keyboard Shortcuts xix_ref_keys.html].)
+
+% SIMILAR TO xix_tu_nav.t2t
+''<table bgcolor="lightyellow"><tr><td>''
+This panel has a ~KGoto~E editor at the top which provides a fast and
+easy way to navigate to a particular entry using the keyboard.
+(See [Finding Entries xix_tu_nav.html] for other techniques.)
+''</td></tr></table>''
+''<table bgcolor="lightyellow"><tr><td>''
+Press ~KCtrl+T~E or click the editor to give it the focus, then type in
+the first few letters of the term for the entry you want to visit. For
+small indexes, two or three letters should be sufficient, while larger
+indexes may need three or four letters. This should get you to the entry
+you want, or within easy reach of it, either by clicking it, or by
+pressing ~KTab~E (or ~KAlt+I~E), then ~KDown~E or ~KUp~E arrow until you
+reach the right entry.
+''</td></tr></table>''
+
+The current entry is shown highlighted with a yellow background and a
+solid black bullet. The current entry is also shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html], where it can be
+edited.
+
+It is possible to circle an entry using the
+[Entry→Circle action xix_ref_act_y_circ.html].
+A circled entry that is //also// the current entry is shown with a green
+background and with a hollow bullet with a dot in it. A circled entry
+that is not the current entry is shown with a cyan background and a
+hollow bullet. When the current and circled entries are different it is
+possible to do actions involving both: for example, making a cross-reference
+from the current to the circled entry, or moving the current entry to be
+a subentry of the circled entry.
+
+~= [Main Window Search and Replace Panel xix_ref_panel_replace.html]

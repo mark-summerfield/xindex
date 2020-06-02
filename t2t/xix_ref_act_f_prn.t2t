@@ -1,0 +1,26 @@
+File→Print action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_prn.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Print action====
+
+This action “prints” the index to the print device you choose, such as
+a physical printer, or a PDF writer. If you require the index in
+~F.pdf~E format and don't have a PDF writer, you can still get the
+output you want by using the
+[File→Output As action xix_ref_act_f_oas.html] and choosing PDF output.
+
+We recommend always outputting the index in Rich Text Format (~F.rtf~E)
+or Word Format (OOXML; ~F.docx~E) and using a word-processor to print or
+produce the output in PDF format, since a word-processor will give you
+much greater control over the output (e.g., page size, margins, columns).
+
+To invoke, use ~KCtrl+P~E or ~K__F__ile→__P__rint~E, and then interact
+with the ~KPrint~E dialog that pops up.
+
+~= [File→Quit action xix_ref_act_f_quit.html]

@@ -1,0 +1,33 @@
+New Empty Copy Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_newcopy.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[File→New Empty Copy action xix_ref_act_f_newcopy.html].
+
+This dialog is used to create a new empty copy of the current index.
+
+
+[images/newcopydlg.png]
+
+The new empty copy will have none of the current index's entries~~~but
+will optionally include the current index's options (for which, see the
+[Options Dialog xix_ref_dlg_options.html] and the
+[Output Options Dialog xix_ref_dlg_output.html]),
+custom spelling dictionary (see the
+[Spelling Menu's actions xix_ref_actspell.html]), groups (see the
+[Edit Groups Dialog xix_ref_dlg_groups.html]), auto-replacements
+([Auto Replace Dialog xix_ref_dlg_autorep.html]), ignored subentry
+function words
+([Ignored Subentry Function Words Dialog xix_ref_dlg_subignore.html]),
+and custom markup ([Custom Markup Dialog xix_ref_dlg_markup.html]).
+
+-------------------------
+An alternative to using this dialog is to use a template, for which, see
+[Creating and Using Templates xix_ref_template.html].
+
+~= [Options Dialog xix_ref_dlg_options.html]

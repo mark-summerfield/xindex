@@ -1,0 +1,34 @@
+File→Save As action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_saveas.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Save As action====
+
+This action is used to copy or rename an index by saving it under a new
+name and/or in a new folder. The original index in its original folder
+is left unchanged. When invoked, a ~KSave As~E save file chooser dialog
+pops up so that you can choose a folder and filename for the moved
+and/or renamed index. Then, if you click ~KSave~E, the current index is
+saved and closed and then copied to the chosen folder and filename, and
+the copy opened.
+
+To invoke, use ~K__F__ile→Save __A__s~E.
+
+-------------------------
+If you want to move an index, one approach is to use this action, and
+then delete the original index in Windows Explorer. Alternatively, you
+could quit ~X, and move or rename the index using Windows Explorer, and
+then double-click the moved or renamed index so that ~X knows about it.
+
+If you want to make a backup of the index you are working on without
+changing its name or location, use the
+[File→Backup action xix_ref_act_f_bak.html].
+
+See also [Creating and Using Templates xix_ref_template.html].
+
+~= [File→Save Grouped As action xix_ref_act_f_savegroupedas.html]

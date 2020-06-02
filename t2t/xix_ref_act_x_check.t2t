@@ -1,0 +1,86 @@
+Index→Check action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_check.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+The ~KInde__x__→Chec__k__~E action's submenu actions are used to perform
+various checks on the index. Some checks can take a few moments~~~or
+even minutes~~~on large indexes on a slow computer. However, the checks
+are done in the background (e.g., using spare processor cores), so you
+can continue working while checks are being performed.
+
+Once a check is complete, a window will appear which lists any entries
+that match the check. You can click these entries to navigate to them in
+the main window~~~for example, so that you can make any necessary
+changes.
+
+====Index→Check→All the Checks action====[all]
+
+To perform all the checks listed below, use
+~KInde__x__→Chec__k__→__A__ll the Checks~E.
+
+When this action is invoked it will invoke all the check actions listed
+below. Each check will report individually as soon as it is completed.
+
+====Index→Check→Same Term Texts action====[same]
+
+To perform this check, use ~KInde__x__→Chec__k__→__S__ame Term Texts~E.
+
+Use this check to find all the entries (at the same level, i.e., both
+main entries, or both subentries of the same parent entry), whose terms
+are the same (even if their [Sort As Text xix_ref_sortas.html]s are
+different), regardless of their case and text styling.
+
+====Index→Check→Overlapping Pages====[overlap]
+
+To perform this check, use ~KInde__x__→Chec__k__→__O__verlapping Pages~E.
+
+Use this check to find all the entries that //may// have overlapping
+pages.
+
+See the [Modify→Combine Pages action xix_ref_act_m_comb.html] and the
+[Combine Overlapping Pages Dialog xix_ref_dlg_combpages.html].
+
+====Index→Check→Too High Page Number====[high]
+
+To perform this check, use ~KInde__x__→Chec__k__→Too __H__igh Page
+Number~E.
+
+Use this check to find all the entries which have a page number higher
+than the ~KHighest Page Number~E set in the
+[Options Dialog's General Tab xix_ref_dlg_opt_gen.html].
+
+====Index→Check→Too Large Page Range====[large]
+
+To perform this check, use ~KInde__x__→Chec__k__→Too __L__arge Page
+Range~E.
+
+Use this check to find all the entries which have a page range whose
+span is greater than the ~KLargest Page Range Span~E set in the
+[Options Dialog's General Tab xix_ref_dlg_opt_gen.html].
+
+====Index→Check→Too Many Pages====[many]
+
+To perform this check, use ~KInde__x__→Chec__k__→Too __M__any Pages~E.
+
+Use this check to find all the entries which have more page numbers and
+page ranges than the ~KMost Pages per Entry~E set in the
+[Options Dialog's General Tab xix_ref_dlg_opt_gen.html].
+
+====Index→Check→Unindexed Pages====[unindexed]
+
+To perform this check, use ~KInde__x__→Chec__k__→__U__nindexed Pages~E.
+
+Use this check to find every page number between 1 and the ~KHighest
+Page Number~E set in the
+[Options Dialog's General Tab xix_ref_dlg_opt_gen.html], that isn't
+indexed.
+
+-------------------------
+See also the [Filtered Panel xix_ref_panel_filter.html].
+
+~= [Index→Options action xix_ref_act_x_opt.html]

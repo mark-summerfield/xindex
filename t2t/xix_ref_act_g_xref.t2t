@@ -1,0 +1,35 @@
+Goto→Cross-reference action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_g_xref.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Goto Menu xix_ref_actgoto.html]~E
+
+====Goto→Cross-reference action====
+
+This action is used to visit the current entry's highlighted cross-reference
+target entry (providing it isn't a generic cross-reference which, of course,
+has no associated target entry). An entry's cross-references are shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html]'s Cross-references list.
+(See also the
+[Tutorial xix_tu.html]'s
+[Edit Entries IV (Cross-references) xix_tu_edit4.html] page, the
+[Entry→Cross-reference actions xix_ref_act_y_xref.html], and the
+[Add Cross-reference Dialog xix_ref_dlg_addxref.html].)
+
+When invoked, this action will make the highlighted cross-reference target
+entry the //current// entry, so it will be shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html] where it can be
+edited, and it will also be shown highlighted in the
+[Main Window Index Panel xix_ref_panel_index.html].
+
+To invoke, use ~KCtrl+F3~E or ~K__G__oto→Cr__o__ss-reference~E
+or [images/goto-xref.png].
+
+-------------------------
+To navigate back to the “source” entry, use ~KAlt+Left~E arrow or
+~K__G__oto→__1__~E.
+
+~= [Goto→Navigation actions xix_ref_act_g_nav.html]

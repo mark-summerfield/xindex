@@ -1,0 +1,54 @@
+Goto Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actgoto.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to visit particular sections of the index or
+particular entries; to add and remove bookmarks; and to visit bookmarked
+entries.
+
+The ~KGoto~E menu has zero or more dynamically created menu actions at
+the end for navigating to particular entries. These actions are for the
+most recently visited entries. If one or more such actions is present,
+use ~KAlt+Left~E arrow or ~K__G__oto→__1__~E or [images/go-back.png] to
+navigate to the previously visited entry, or ~KAlt+G,//number//~E or
+~K__G__oto→__//number//__~E, to navigate to a numbered entry visited
+before that. (If unnumbered entries are shown in the menu, click the one
+you want to visit, or press ~KDown~E arrow until you reach the one you
+want, then click ~KEnter~E.)
+
+Dynamically created navigation actions are not preserved when ~X is
+closed~~~if you want to preserve navigation actions to particular
+entries, use bookmarks; see the
+[Goto→Bookmark actions xix_ref_act_g_book.html].
+
+When you navigate to an entry, it becomes the //current// entry. The
+current entry is shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html] where it can be
+edited, and is also shown with a solid bullet and highlighted in yellow
+(or with a hollow bullet containing a dot and highlighted in green, if
+it is also the circled entry), in the
+[Main Window Index Panel xix_ref_panel_index.html].
+
+- [Goto→Filtered action xix_ref_act_g_filt.html] [images/goto-found.png] 
+- [Goto→Circled action xix_ref_act_g_circ.html] [images/goto-circled.png] 
+- [Goto→Cross-reference action xix_ref_act_g_xref.html] [images/goto-xref.png] 
+- [Goto→First action xix_ref_act_g_nav.html] [images/go-top.png] 
+- [Goto→Previous action xix_ref_act_g_nav.html] [images/go-previous.png] 
+- [Goto→Next action xix_ref_act_g_nav.html] [images/go-next.png] 
+- [Goto→Last action xix_ref_act_g_nav.html] [images/go-bottom.png] 
+- [Goto→Letter action xix_ref_act_g_let.html] [images/goto-letter.png] 
+- [Goto→Add Bookmark action xix_ref_act_g_book.html] [images/bookmark-new.png] 
+- [Goto→Remove Bookmark action xix_ref_act_g_book.html] [images/bookmark-remove.png] 
+- [Goto→Bookmarks action xix_ref_act_g_book.html] [images/bookmark.png] 
+
+
+-------------------------
+See also the [Tutorial xix_tu.html]'s
+[Finding Entries xix_tu_nav.html] page.
+
+~= [Goto→Filtered action xix_ref_act_g_filt.html]

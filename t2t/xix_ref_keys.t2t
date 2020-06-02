@@ -1,0 +1,678 @@
+Keyboard Shortcuts
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_keys.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]~E
+
+'''
+<table>
+<tr>
+<th class="th_kb">Shortcut</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Action</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Notes</th>
+</tr>
+
+<tr>
+<td class="td_kb1a">Alt</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c" colspan="3">Press and hold the Alt key to see the
+underlined letters which are used in Alt+<i>letter</i> combinations.
+See the <a href="#keyshortnotes">Notes</a>.
+</td>
+</tr>
+
+<tr>
+<td class="td_kb2a"><b>"</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Insert <b>“</b> or <b>”</b> smart double quote; <i>see
+also</i> <a href="xix_ref_act_r_ichar.html">Insert <b>"</b>
+plain double quote</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Term editor</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>'</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Insert <b>‘</b> or <b>’</b> smart single quote;
+<i>see also</i> <a href="xix_ref_act_r_ichar.html">Insert <b>'</b>
+plain single quote</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Term editor</td>
+</tr>
+
+<tr>
+<td class="td_kb2a"><b>,</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Insert <b>,&nbsp;</b> comma followed by space</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Pages editor</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>-</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Insert <b>&ndash;</b> en-dash</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Pages editor</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Alt+Left</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_actgoto.html">Goto the previously
+visited entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"></td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Home</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Goto the first entry</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Index view or Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Home</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_g_nav.html">Goto the first
+entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/go-top.png"> Alt+G,I</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Up</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Goto the previous entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Index view or Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Up</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_g_nav.html">Goto the previous
+entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/go-previous.png"> Alt+G,P</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Down</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Goto the next entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Index view or Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Down</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_g_nav.html">Goto the next
+entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/go-next.png"> Alt+G,N</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">End</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Goto the last entry</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Index view or Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+End</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_g_nav.html">Goto the last
+entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/go-bottom.png"> Alt+G,S</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Page Down</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Go down one screen page towards the end</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Index view or Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Page Down</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Go to the bottom entry that's visible in the view</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Index view or Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Page Up</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Go up one screen page towards the start</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Index view or Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Page Up</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Go to the top entry that's visible in the view</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Index view or Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">F1</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Show this online help browser</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/help.png"> Alt+H,H</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">F2</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Initiate editing (e.g., renaming) an item</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In lists in some dialogs</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">F3</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_g_filt.html">Goto the filtered
+entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/goto-found.png"> Alt+G,F or
+double-click the entry in the Filtered view</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+F3</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_g_xref.html">Goto the
+highlighted cross-references entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/goto-xref.png"> Alt+G,O</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Shift+F3</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_g_circ.html">Goto the circled
+entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/goto-circled.png"> Alt+G,C</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">F4</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_g_book.html">Add a Bookmark to
+the current entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/bookmark-new.png"> Alt+G,A</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Shift+F4</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_g_book.html">Remove the Bookmark
+to the current entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/bookmark-remove.png"> Alt+G,R</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">F5</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_y_grp.html">Pop up a list of
+normal groups</a> (so the current entry can be added to one)</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/groupaddto.png"> Alt+Y,G</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+F5</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_dlg_groups.html">Pop up the Edit
+Groups Dialog</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/groups.png"> Alt+Y,U</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Shift+F5</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_y_grp.html">Pop up a list of
+linked groups</a> (so the current entry can be added to one)</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/groupaddtolink.png"> Alt+Y,L</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">F6</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_m_cpp.html">Merge Pages into
+the current entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/mergepages.png"> Alt+M,P</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Shift+F6</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_m_cpp.html">Copy Pages into
+the current entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/copypages.png"> Alt+M,O</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+F6</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_m_comb.html">Combine Pages in
+the current entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/combinepages.png"> Alt+M,C</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">F7</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_y_add.html">Add a Main
+Entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/add-toplevel.png"> Alt+Y,M</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+F7</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_y_add.html">Add a Sibling
+Entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/add.png"> Alt+Y,E</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Shift+F7</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_y_add.html">Add a Subentry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/add-child.png"> Alt+Y,S</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">F8</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_y_copy.html">Pop up the Copy
+Entry Dialog</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/copy.png"> Alt+Y,C</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Shift+F8</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_y_mv.html">Pop up the Move Entry
+Dialog</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/move.png"> Alt+Y,V</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">F9</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_x_do.html">Undo the last entry
+action</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/edit-undo.png"> Alt+X,U</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+F9</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_x_do.html">Redo the last undone
+entry action</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/edit-redo.png"> Alt+X,R</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+0</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_y_add.html">Cancel adding</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/canceladd.png"> Alt+Y,N</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+1...Ctrl+9</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_l_repl.html">Replace or complete
+the word typed so far with the numbered suggestion</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/complete.png"> Alt+L,1...Alt+L,9</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Alt+A</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Check or uncheck the <a
+href="xix_ref_panel_entry.html">Entry Panel</a>'s
+<span class="td_kb1c">Automatically Calculate Sort As</span> checkbox</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+A</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_acttxt.html">Select all the editor's
+text</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"></td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+B</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_o_fmt.html">Make the selected
+text bold</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/format-text-bold.png"> Alt+O,B</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Alt+C</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Give the keyboard focus to the <a
+href="xix_ref_panel_entry.html">Entry Panel</a>'s
+<span class="td_kb2c">Cross-references</span> list</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+C</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_e_clip.html">Copy the selected
+text to the clipboard</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/edit-copy.png"> Alt+E,C</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+F</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Show the <a href="xix_ref_act_e_filter.html">Filtered
+panel</a> and give the filter editor or filter drop-down list the keyboard
+focus</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/edit-find.png"> Alt+E,F</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+G,<i>letter</i></td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_g_let.html">Goto the first entry
+whose sort as text begins with <i>letter</i></a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/goto-letter.png"></td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+H</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_e_search.html">Show the Search
+and Replace panel</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/edit-find-replace.png"> Alt+E,S</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Alt+I</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Give the keyboard focus to the <a
+href="xix_ref_panel_index.html">Index Panel</a>'s
+<span class="td_kb1c">Index</span> view</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+I</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_o_fmt.html">Make the selected
+text italic</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/format-text-italic.png"> Alt+O,I</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+J</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_m_swapa.html">Swap the entry's
+term's acronym</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/swapacronym.png"> Alt+M,A</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+K</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_y_xref.html">Add a
+Cross-reference</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/xref-add.png"> Alt+Y,A</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+L</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_y_circ.html">Circle the
+Entry</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/circle.png"> Alt+Y,I or
+double-click the entry in the Index view</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+M</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_l_repl.html">Replace or complete
+the word typed so far with the first suggestion</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/complete.png"> Alt+L,S</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Alt+N</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Give the keyboard focus to the <a
+href="xix_ref_panel_entry.html">Entry Panel</a>'s
+<span class="td_kb1c">Notes</span> editor (if it is visible)</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+N</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_f_new.html">Create a new
+Index</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/document-new.png"> Alt+F,N</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+O</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_f_open.html">Open an existing
+Index</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/document-open.png"> Alt+F,O</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Alt+P</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Give the keyboard focus to the <a
+href="xix_ref_panel_entry.html">Entry Panel</a>'s
+<span class="td_kb2c">Pages</span> editor</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+P</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_f_prn.html">Print the Index</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">Alt+F,P</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Q</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_f_quit.html">Save any unsaved
+changes and quit</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">Alt+F,Q</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+R</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_l_rem.html">Remember the
+unrecognized word</a> (i.e., add it to this index's custom
+dictionary)</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/spelling-add.png"> Alt+L,R</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Alt+S</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Give the keyboard focus to the <a
+href="xix_ref_panel_entry.html">Entry Panel</a>'s
+<span class="td_kb2c">Sort As</span> editor (if it is visible)</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+S</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_f_save.html">Save any unsaved
+changes</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/filesave.png"> Alt+F,S</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Alt+T</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Give the keyboard focus to the <a
+href="xix_ref_panel_entry.html">Entry Panel</a>'s
+<span class="td_kb2c">Term</span> editor</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+T</td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Give the keyboard focus to the <a
+href="xix_ref_panel_index.html">Index Panel</a>'s
+<span class="td_kb1c">Goto</span> editor</td>
+<td class="td_kbs"></td>
+<td class="td_kb1c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Alt+U</td>
+<td class="td_kbs"></td>
+<td class="td_kb2">Give the keyboard focus to the <a
+href="xix_ref_panel_sug.html">Suggestions Panel</a>'s
+<span class="td_kb2c">Suggestions</span> list (if it is visible)</td>
+<td class="td_kbs"></td>
+<td class="td_kb2c">In the Main Window</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+U</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_o_fmt.html">Make the selected
+text underlined</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/format-text-underline.png"> Alt+O,U</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+V</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_e_clip.html">Paste the
+clipboard's text into the current editor</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/edit-paste.png"> Alt+E,P</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+X</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_e_clip.html">Cut the selected
+text to the clipboard</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/edit-cut.png"> Alt+E,T</td>
+</tr>
+
+<tr>
+<td class="td_kb2a">Ctrl+Y</td>
+<td class="td_kbs"></td>
+<td class="td_kb2"><a href="xix_ref_act_e_do.html">Redo the last text
+editing action</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb2c"><img src="images/editor-redo.png"> Alt+E,R</td>
+</tr>
+
+<tr>
+<td class="td_kb1a">Ctrl+Z</td>
+<td class="td_kbs"></td>
+<td class="td_kb1"><a href="xix_ref_act_e_do.html">Undo the last text
+editing action</a></td>
+<td class="td_kbs"></td>
+<td class="td_kb1c"><img src="images/editor-undo.png"> Alt+E,U</td>
+</tr>
+
+</table>
+'''
+
+===Notes===[keyshortnotes]
+
+This table does not include ~KAlt+//__letter__//~E keypresses for
+pulling down menus, or for inside ~X's dialogs (e.g., for moving the
+keyboard forcus, or checking and unchecking checkboxes and radio
+buttons, or for clicking buttons). These keypresses are indicated by the
+~K//__letter__//~E being underlined. Nor does it show basic editing
+keypresses~~~for these, see
+[Text Editing actions xix_ref_acttxt.html].
+
+On Windows, underlines normally appear only when the ~KAlt~E key is
+pressed. Underlines can be forced to be always visible. To set this on
+Windows 7, go to the ~KControl Panel~E, ~KEase of Access Center~E,
+~KChange how your keyboard works~E, ~KMake the Keyboard easier to use~E,
+and then scroll down to check the ~KUnderline keyboard shortcuts and
+access keys~E checkbox. (It is similar on other versions of Windows.)
+
+~= [Mouse Actions xix_ref_mouse.html]

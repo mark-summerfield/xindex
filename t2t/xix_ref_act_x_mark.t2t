@@ -1,0 +1,24 @@
+Index→Custom Markup action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_mark.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Custom Markup action====
+
+This action is used to pop up the
+[Custom Markup Dialog xix_ref_dlg_markup.html]. This dialog is used to
+view, add, and edit custom markup used when outputting an index in a
+custom format.
+
+To invoke, use ~KInde__x__→Custom __M__arkup~E.
+
+-------------------------
+This is an advanced feature that may not be needed at all, since ~X
+has built-in support for many output formats: see the
+[File→Output As action xix_ref_act_f_oas.html].
+
+~= [Index→Combine Overlapping Pages action xix_ref_act_x_comb.html]

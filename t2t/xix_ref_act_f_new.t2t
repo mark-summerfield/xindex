@@ -1,0 +1,35 @@
+File→New Index action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_new.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→New Index action====
+
+This action is used to create a new empty index with all options set to
+their default values. When invoked the current index (if any) is saved
+and closed. Then a ~KNew Index~E new file chooser dialog is popped up so
+that you can choose a folder and filename for the new index. Then, if
+you click ~KSave~E, a new empty index is created and opened.
+
+To invoke, use ~KCtrl+N~E or ~K__F__ile→__N__ew Index~E
+or [images/document-new.png].
+
+-------------------------
+Important options (e.g., the
+[Sort As Rules xix_ref_sortas_rules.html] and the
+[Page Range Rules xix_ref_prange_rules.html]), can be set in the
+[Options Dialog xix_ref_dlg_options.html]; while the output options can
+be set in the
+[Output Options Dialog xix_ref_dlg_output.html].
+
+An alternative to this action is the
+[File→New Empty Copy action xix_ref_act_f_newcopy.html].
+
+See also the [Tutorial xix_tu.html]'s
+[Create a New Index xix_tu_new.html].
+
+~= [File→New Empty Copy action xix_ref_act_f_newcopy.html]

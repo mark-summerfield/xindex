@@ -1,0 +1,29 @@
+Entry→Delete action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_y_del.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Entry Menu xix_ref_actentry.html]~E
+
+====Entry→Delete action====
+
+This action is used to delete an entry and all of its subentries (and
+subsubentries, and so on), and will also cause any cross-references to
+deleted entries to be removed.
+
+To invoke, use ~KEntr__y__→__D__elete~E or [images/delete.png].
+
+-------------------------
+You can undo deleting an entry (and its subentries, and so on)
+immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+If you delete and don't immediately undelete, and later on decide you
+want a deleted entry back, you can try using the
+[Recreate Entries Dialog xix_ref_dlg_recreate.html]. This dialog can be
+used to create fresh new entries (including their subentries), from
+previously deleted entries.
+
+~= [Entry→Cross-reference actions xix_ref_act_y_xref.html]

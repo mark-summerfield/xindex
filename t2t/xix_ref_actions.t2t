@@ -1,0 +1,22 @@
+Menu Actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actions.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]~E
+
+- [File Menu's actions xix_ref_actfile.html]
+- [Edit Menu's actions xix_ref_actedit.html]
+    - [Text Editing actions xix_ref_acttxt.html]
+- [Insert Menu's actions xix_ref_actins.html]
+- [Spelling Menu's actions xix_ref_actspell.html]
+- [Format Menu's actions xix_ref_actfmt.html]
+- [Goto Menu's actions xix_ref_actgoto.html]
+- [Entry Menu's actions xix_ref_actentry.html]
+- [Modify Menu's actions xix_ref_actmod.html]
+- [Index Menu's actions xix_ref_actindex.html]
+- [Help Menu's actions xix_ref_acthelp.html]
+
+
+~= [File Menu's actions xix_ref_actfile.html]

@@ -1,0 +1,32 @@
+Goto→Circled action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_g_circ.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Goto Menu xix_ref_actgoto.html]~E
+
+====Goto→Circled action====
+
+This action is used to visit the //circled// entry~~~which will then
+also become the current entry. The current entry is always
+shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html] where it can be
+edited, and is also shown highlighted in the
+[Main Window Index Panel xix_ref_panel_index.html].
+
+A circled entry that is //also// the current entry (which is always the
+case immediately after invoking this action), is shown with a green
+background and with a hollow bullet with a dot in it. A circled entry
+that is not the current entry (e.g., after navigating elsewhere), is
+shown with a cyan background and a hollow bullet.
+
+To invoke, use ~KShift+F3~E or ~K__G__oto→__C__ircled~E
+or [images/goto-circled.png].
+
+-------------------------
+See the [Entry→Circle action xix_ref_act_y_circ.html] for how to circle
+an entry, and for an explanation of what can be done with circled entries.
+
+~= [Goto→Cross-reference action xix_ref_act_g_xref.html]

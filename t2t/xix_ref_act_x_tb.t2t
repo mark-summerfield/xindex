@@ -1,0 +1,20 @@
+Index→Show Toolbars action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_x_tb.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Index Menu xix_ref_actindex.html]~E
+
+====Index→Show Toolbars action====
+
+This action is used to show all ~X's toolbars. This is useful if you
+have hidden them all.
+
+To invoke, use ~KInde__x__→Sho__w__ Toolbars~E.
+
+-------------------------
+See also [Main Window Toolbars xix_ref_tb.html].
+
+~= [Help Menu's actions xix_ref_acthelp.html]

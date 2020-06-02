@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="spelling-ignore.svg"
+   viewBox="0 0 110 115"
+   sodipodi:version="0.32"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:version="0.91 r13725">
+  <sodipodi:namedview
+     id="base"
+     inkscape:zoom="5.9034797"
+     height="115px"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="55.285189"
+     inkscape:cy="57.875846"
+     inkscape:object-paths="false"
+     inkscape:grid-bbox="false"
+     showgrid="false"
+     width="110px"
+     inkscape:document-units="px"
+     bordercolor="#666666"
+     inkscape:window-x="0"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:object-nodes="false"
+     inkscape:window-y="20"
+     inkscape:window-width="1024"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     pagecolor="#ffffff"
+     gridtolerance="10000"
+     inkscape:object-points="false"
+     inkscape:window-height="748">
+    <inkscape:grid
+       id="GridFromPre046Settings"
+       type="xygrid"
+       originx="0px"
+       originy="0px"
+       spacingx="10px"
+       spacingy="10px"
+       color="#3f3fff"
+       empcolor="#3f3fff"
+       opacity="0.15"
+       empopacity="0.38"
+       empspacing="5" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient8148">
+      <stop
+         id="stop8150"
+         style="stop-color:#bfbfbf"
+         offset="0" />
+      <stop
+         id="stop8152"
+         style="stop-color:#f0f0f0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7144">
+      <stop
+         id="stop7146"
+         style="stop-color:#5e411f"
+         offset="0" />
+      <stop
+         id="stop7148"
+         style="stop-color:#be843f"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9165"
+       y2="139.47"
+       xlink:href="#linearGradient7144"
+       gradientUnits="userSpaceOnUse"
+       x2="129.18"
+       gradientTransform="translate(-22.118 -21.799)"
+       y1="86.894"
+       x1="48.713"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient9168"
+       y2="107.82"
+       xlink:href="#linearGradient8148"
+       gradientUnits="userSpaceOnUse"
+       x2="139.63"
+       gradientTransform="translate(-22.118 -21.799)"
+       y1="105.83"
+       x1="133.04"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient9171"
+       y2="147.33"
+       xlink:href="#linearGradient8148"
+       gradientUnits="userSpaceOnUse"
+       x2="106.26"
+       gradientTransform="translate(-22.118 -21.799)"
+       y1="136.25"
+       x1="107.39"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient9174"
+       y2="154.3"
+       xlink:href="#linearGradient7144"
+       gradientUnits="userSpaceOnUse"
+       x2="134.56"
+       gradientTransform="translate(-22.118 -21.799)"
+       y1="82.104"
+       x1="81.779"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient9177"
+       y2="98.218"
+       xlink:href="#linearGradient7144"
+       gradientUnits="userSpaceOnUse"
+       x2="62.828"
+       gradientTransform="translate(-22.118 -21.799)"
+       y1="97.321"
+       x1="59.666"
+       inkscape:collect="always" />
+    <filter
+       inkscape:label="Soft Colors"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Adds a colorizable edges glow inside objects and pictures"
+       style="color-interpolation-filters:sRGB;"
+       id="filter3468">
+      <feColorMatrix
+         type="saturate"
+         values="1"
+         result="result91"
+         id="feColorMatrix3470" />
+      <feComposite
+         in2="result91"
+         result="result15"
+         operator="arithmetic"
+         k2="0.4"
+         k1="0.3"
+         k3="0.3"
+         id="feComposite3472" />
+      <feGaussianBlur
+         in="result15"
+         result="result8"
+         stdDeviation="5"
+         id="feGaussianBlur3474" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 "
+         id="feColorMatrix3476" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result13"
+         id="feComposite3478" />
+      <feComposite
+         in2="result13"
+         k3="0.3"
+         k1="0.3"
+         k2="0.4"
+         operator="arithmetic"
+         in="result15"
+         result="result6"
+         id="feComposite3480" />
+      <feFlood
+         flood-color="rgb(128,172,0)"
+         flood-opacity="1"
+         result="result10"
+         id="feFlood3482" />
+      <feBlend
+         in2="result10"
+         result="result12"
+         in="result6"
+         mode="darken"
+         id="feBlend3484" />
+      <feBlend
+         in2="result6"
+         result="result14"
+         mode="screen"
+         id="feBlend3486" />
+      <feComposite
+         in2="SourceGraphic"
+         in="result14"
+         operator="in"
+         id="feComposite3488"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3490" />
+      <feColorMatrix
+         id="feColorMatrix3492"
+         type="saturate"
+         values="1"
+         result="result91"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3494"
+         in2="result91"
+         result="result15"
+         operator="arithmetic"
+         k2="0.4"
+         k1="0.3"
+         k3="0.3" />
+      <feGaussianBlur
+         id="feGaussianBlur3496"
+         in="result15"
+         result="result8"
+         stdDeviation="5" />
+      <feColorMatrix
+         id="feColorMatrix3498"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 "
+         result="result92" />
+      <feComposite
+         id="feComposite3500"
+         in2="fbSourceGraphic"
+         operator="in"
+         result="result13" />
+      <feComposite
+         id="feComposite3502"
+         in2="result13"
+         k3="0.3"
+         k1="0.3"
+         k2="0.4"
+         operator="arithmetic"
+         in="result15"
+         result="result6" />
+      <feFlood
+         id="feFlood3504"
+         flood-color="rgb(128,172,0)"
+         flood-opacity="1"
+         result="result10" />
+      <feBlend
+         id="feBlend3506"
+         in2="result10"
+         result="result12"
+         in="result6"
+         mode="darken" />
+      <feBlend
+         id="feBlend3508"
+         in2="result6"
+         result="result14"
+         mode="screen" />
+      <feComposite
+         id="feComposite3510"
+         in2="fbSourceGraphic"
+         in="result14"
+         operator="in" />
+    </filter>
+  </defs>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-22.269 -20.463)">
+    <path
+       id="path4189"
+       sodipodi:nodetypes="ccccc"
+       style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;fill:url(#linearGradient9177)"
+       d="m55.76 23.935c-2.053-0.205-2.916 3.207-4.162 6.355l-25.938 83.93 5.341 3.14 24.759-93.425z" />
+    <path
+       id="path3206"
+       sodipodi:nodetypes="ccccccc"
+       style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;fill:url(#linearGradient9174)"
+       d="m29.901 109.39c-4.816-0.41-6.508 12.96-2.998 13.72l85.247 8.89 17.35-88.172-14.43-1.967-13.25 68.909-71.919-1.38z" />
+    <path
+       id="path5162"
+       sodipodi:nodetypes="cccc"
+       style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;fill:url(#linearGradient9171)"
+       d="m104.31 114.26l-72.679-6.17c-3.682 0.01-6.16 12.41-3.277 12.99l81.346 7.73" />
+    <path
+       id="path6139"
+       sodipodi:nodetypes="ccccc"
+       style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;fill:url(#linearGradient9168)"
+       d="m126.03 45.556l-16.88 83.004c-4.03-1.55-6.76-10.51-4.2-14.17l16.6-83.31c-1.24 3.888 1.31 13.362 4.48 14.476z" />
+    <path
+       id="path4187"
+       style="fill-rule:evenodd;stroke:#000000;stroke-width:1px;fill:url(#linearGradient9165);filter:url(#filter3468)"
+       d="m107.32 117.17l-77.623-7.78 26.009-85.404 69.014 4.916-17.4 88.268z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.5px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="54.901619"
+       y="49.236355"
+       id="text3354"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.99285411,0.11933449,-0.11933449,0.99285411,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3356"
+         x="54.901619"
+         y="49.236355">Abc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:127.64630127px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#c837ab;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="68.476654"
+       y="113.27394"
+       id="text3354-5"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.85720578,0.13821855,-0.10303046,1.1499681,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3356-8"
+         x="68.476654"
+         y="113.27394">~</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:127.64630127px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e9afdd;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="63.258163"
+       y="109.32638"
+       id="text3354-5-9"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.85720578,0.13821855,-0.10303046,1.1499681,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3356-8-6"
+         x="63.258163"
+         y="109.32638">~</tspan></text>
+  </g>
+  <metadata
+     id="metadata26">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Book</dc:title>
+        <dc:date>2007-12-03T18:49:27</dc:date>
+        <dc:description>A simple SVG book based on a drawing made on Gimp by Sam Switzer.</dc:description>
+        <dc:source>https://openclipart.org/detail/9358/book-by-crazyterabyte</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>CrazyTerabyte</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>book</rdf:li>
+            <rdf:li>how i did it</rdf:li>
+            <rdf:li>remix</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

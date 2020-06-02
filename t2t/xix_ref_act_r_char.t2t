@@ -1,0 +1,22 @@
+Insert→Copy Character action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_r_char.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Insert Menu xix_ref_actins.html]~E
+
+====Insert→Copy Character action====
+
+This action is used to pop up the
+[Copy Character Dialog xix_ref_dlg_copychr.html] which can be used to
+find and copy characters that are not on the keyboard.
+
+To invoke, use ~KInse__r__t→__C__opy Character~E.
+
+-------------------------
+This action can be undone immediately after it has been applied, using
+the [Edit→Undo action xix_ref_act_e_do.html].
+
+~= [Spelling Menu's actions xix_ref_actspell.html]

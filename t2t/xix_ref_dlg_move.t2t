@@ -1,0 +1,28 @@
+Move Entry Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_move.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Entry→Move action xix_ref_act_y_mv.html].
+
+This dialog is used to move an entry (along with its subentries,
+subsubentries, and so on), to be a main entry, or to be a subentry of
+another entry.
+
+[images/movedlg.png]
+
+The move ~Kup under Grandparent~E option is used to move a subentry up
+one level, i.e., to be promoted to become a sibling of its parent
+
+If you move an entry to be a main entry, any leading ignored subentry
+function words are removed from moved entry's term. (See the
+[Ignored Subentry Function Words Dialog xix_ref_dlg_subignore.html].)
+
+-------------------------
+To copy rather than move, see the [Copy Entry Dialog xix_ref_dlg_copy.html].
+
+~= [New Empty Copy Dialog xix_ref_dlg_newcopy.html]

@@ -1,0 +1,31 @@
+Coping with a Computer Crash
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_crash.html
+
+~B[Reference xix_ref.html]→[General xix_ref_gen.html]~E
+
+
+If your computer ever crashes when using ~X, the most you are likely to
+lose is the edit you are doing to the current entry's term or pages.
+(However, making regular backups to memory sticks and cloud storage is
+strongly recommended.)
+
+Once you restart your computer you may notice an additional file is
+present. For example, if you were working on ~FMyPublisher - MyIndex.xix~E, in rare
+cases, you may find another file called ~FMyPublisher - MyIndex.xix-journal~E.
+
+You should not move or copy or delete either file. Instead, start ~X and
+open ~FMyPublisher - MyIndex.xix~E in ~X; this will cause the
+~FMyPublisher - MyIndex.xix-journal~E
+to be removed if it is present.
+
+At this point it would be a good idea to make an extra backup using the
+[File→Backup action xix_ref_act_f_bak.html].
+
+Now, if you want to copy or move your index, it is safe to do so,
+providing you quit ~X first. Or, more likely, simply carry on working as
+usual.
+
+~= [Main Window xix_ref_mainwin.html]

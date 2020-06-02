@@ -1,0 +1,62 @@
+Add Cross-reference Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_addxref.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Entry→Add Cross-reference action xix_ref_act_y_xref.html].
+
+This dialog is used to add a cross-reference from the current entry (the
+“source”) to an existing entry (the “target”)~~~or even to multiple
+entries; or a generic cross-reference
+
+[images/addxrefdlg.png]
+
+You can choose whether the cross-reference should be a //see// or //see//
+//also// cross-reference, and either to which entry (or entries) it should
+refer to, or the generic term you want to use.
+
+For generic cross-references, simply pop up this dialog, check the
+~K__G__eneric Term~E radio button, and enter the (optionally styled)
+text you want.
+
+For a cross-reference to another entry, the most common pattern is to
+use the [Main Window Filtered Panel xix_ref_panel_filter.html] to find
+the target entry, and make it the filtered entry, and then pop up this
+dialog.
+
+An alternative is to navigate to the target entry and circle it with the
+[Entry→Circle action xix_ref_act_y_circ.html], then navigate back to
+the original entry (which should be show in the
+[Goto Menu's actions xix_ref_actgoto.html]~~~or which you have
+bookmarked), and then pop up this dialog.
+
+If you want to add more than one cross-reference to an entry, there are two
+approaches you can use.
+
+If there are just a couple of targets, then an ad hoc approach is
+probably easiest. First, bookmark the source entry (see the
+[Goto→Bookmark actions xix_ref_act_g_book.html]), then for each target,
+find the target, or navigate to and circle the target, then return to
+the source using its bookmark, then pop up this dialog and add the
+cross-reference as described above.
+
+If there are three or more targets, then it is easiest to add all the
+targets to a new group, and then add cross-references to them all in one go.
+First, create a normal group using the
+[Edit Groups Dialog xix_ref_dlg_groups.html], then find or navigate to
+each target, and add the target to the new normal group. Once all the
+targets have been added to the group, invoke this dialog, choose the
+normal group (this will automatically check the ~KAll in Group~E
+checkbox), then click the ~KAdd~E button. This will add a cross-reference to
+every entry in the normal group to the source entry.
+
+-------------------------
+See also the
+[Main Window Entry Panel xix_ref_panel_entry.html]'s
+[Cross-references list xix_ref_panel_entry.html#xreflist].
+
+~= [Auto Replace Dialog xix_ref_dlg_autorep.html]

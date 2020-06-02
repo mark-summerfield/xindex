@@ -1,0 +1,138 @@
+Main Window Entry Panel
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_panel_entry.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]~E
+
+//You can click and drag the splitter at the side of this panel//
+//to give it more~~~or less~~~space.//
+
+This panel is used to view and edit the current entry. This entry is
+also shown highlighted in the
+[Main Window Index Panel xix_ref_panel_index.html].
+
+====Term editor====
+
+This is used to view and edit the entry's term. The term should by
+styled (e.g., **bold**, //italic//), as it should appear in the output
+index.
+
+Press ~KAlt+T~E, or click it, to give this editor the keyboard focus.
+
+When a term is entered for the first time, or edited subsequently, ~X
+will automatically calculate a corresponding
+[Sort As Text xix_ref_sortas.html] (providing that the ~KAutomatically
+Calculate Sort As~E checkbox is checked). And this may result in the
+[Sort As Dialog xix_ref_dlg_sortas.html] popping up.
+
+When //Adding// a new entry, as you type in this editor~~~where
+possible, ~X will show the main entry whose term starts with what
+you've typed so far, above this editor. If you discover that you're
+adding an entry that's already present, invoke the
+[Entry→Cancel Add action xix_ref_act_y_add.html] with ~KCtrl+0~E
+(//control// //zero//), or ~KEntr__y__→Ca__n__cel Add~E
+or [images/canceladd.png], which will not only cancel the add, but will
+also navigate to the existing entry.
+
+====Pages editor====[pages]
+
+This is used to view and edit the entry's pages. The pages should by
+styled (e.g., **bold**, //italic//), as they should appear in the output
+index.
+
+Press ~KAlt+P~E, or click it, to give this editor the keyboard focus.
+
+You can enter additional pages anywhere in the existing pages, so long
+as they are separated from the others by commas. For example, if you add
+a new page at the beginning, make sure you follow it with a comma, or if
+you add a new page at the end, make sure you precede it with a comma. ~X
+will automatically rearrange the pages in the correct numerical order,
+put a space after each comma (so you don't have to~~~but it is harmess
+if you do), and will replace hyphens with en-dashes.
+
+See [Pages xix_ref_pages.html] for more about entering pages and page
+ranges. And see the [Page Range Rules xix_ref_prange_rules.html] for how
+~X formats page ranges (no matter how they are entered).
+
+====Automatically Calculate Sort As checkbox====
+
+If this checkbox is checked (the default), ~X will automatically
+calculate a corresponding [Sort As Text xix_ref_sortas.html] whenever a
+new entry's new term is entered, or an existing entry's term is edited.
+And this may result in the [Sort As Dialog xix_ref_dlg_sortas.html]
+popping up.
+
+If you uncheck this checkbox, you can enter your own custom
+[Sort As Text xix_ref_sortas.html]. See
+[Force A Particular Sort Order xix_ref_sortas_force.html].
+
+If you want to force the [Sort As Dialog xix_ref_dlg_sortas.html] to
+appear (e.g., if you have a term with a Roman or decimal number and want
+~X to calculate the [Sort As Text xix_ref_sortas.html] differently from
+before), //uncheck// this checkbox, and then //check// it again.
+
+Press ~KAlt+A~E, or click it, to check or uncheck this checkbox.
+
+====Sort As editor====
+
+This editor is only visible if the ~KAutomatically Calculate Sort As~E
+checkbox is //unchecked//, or if the
+[Options Dialog's Display Tab xix_ref_dlg_opt_disp.html]'s ~KAlways Show
+Sort As~E checkbox is checked.
+
+This is used to view the entry's [Sort As Text xix_ref_sortas.html], and
+to edit this text if the ~KAutomatically Calculate Sort As~E checkbox is
+unchecked. The text in this editor cannot be styled and is never seen in
+the output index~~~it is used purely to determine the entry's position
+in the index (if it is a main entry), or amongst its siblings (if it is
+a subentry).
+
+Press ~KAlt+S~E, or click it, to give this editor the keyboard focus.
+
+See [Force A Particular Sort Order xix_ref_sortas_force.html], and
+also [Ignoring Subentry Function Words xix_ref_subfunc.html].
+
+====Cross-references list====[xreflist]
+
+This list shows the entry's cross-references (if any). Any of the
+cross-references may be changed from //see// to //see// //also// or vice
+versa, or deleted. And, of course, new cross-references may be added.
+
+Press ~KAlt+C~E, or click it, to give this list the keyboard focus.
+
+See the
+[Entry→Cross-reference actions xix_ref_act_y_xref.html], the
+[Add Cross-reference Dialog xix_ref_dlg_addxref.html], and the
+[Goto→Cross-reference action xix_ref_act_g_xref.html].
+
+====Notes editor====
+
+This editor is only visible if the
+[Options Dialog's Display Tab xix_ref_dlg_opt_disp.html]'s
+~KShow Notes~E checkbox is checked. It is used to view and edit any
+private notes you may want to add to the entry, and supports text
+styling (e.g., **bold**, //italic//).
+
+Press ~KAlt+N~E, or click it, to give this editor the keyboard focus.
+
+If you use the
+[Entry→Merge into Parent action xix_ref_act_m_mrg_p.html], or the
+[Entry→Merge Subentries action xix_ref_act_m_mrg_s.html], these actions
+will add their own notes to show the term texts of the entries that were
+deleted as part of the merge.
+
+-------------------------
+All the editors support some or all of the
+[Text Editing actions xix_ref_acttxt.html]. The ~KTerm~E and ~KPages~E
+editors also support the styling offered by the
+[Format Menu's actions xix_ref_actfmt.html].
+
+All the editors support the
+[Edit→Undo and Redo actions xix_ref_act_e_do.html], until the entry is
+saved. After saving, you can still immediately undo and redo your
+editing, using the [Index→Undo and Redo actions xix_ref_act_x_do.html].
+
+~= [Filtered Panel xix_ref_panel_filter.html]

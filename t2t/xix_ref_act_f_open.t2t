@@ -1,0 +1,27 @@
+File→Open action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_f_open.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[File Menu xix_ref_actfile.html]~E
+
+====File→Open action====
+
+This action saves and closes the current index (if any), then pops up an
+~KOpen Index~E existing file chooser dialog from which you can choose an
+index (a ~F.xix~E) file to open.
+
+To invoke, use ~KCtrl+O~E or ~K__Fi__le→__O__pen~E
+or [images/document-open.png].
+
+-------------------------
+If you want to open a recently used index, it is quicker to use the
+[File→Open Recent action xix_ref_act_f_rec.html].
+
+If you want to import an index in ~X's XML Interchange Format
+(~F.ximl~E) or in Index Data Exchange Format (~F.ixml~E), use the
+[File→Import action xix_ref_act_f_imp.html].
+
+~= [File→Open Recent action xix_ref_act_f_rec.html]

@@ -1,0 +1,34 @@
+Create a New Index
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_tu_new.html
+
+~B[Tutorial xix_tu.html]~E
+
+When ~X is started, it tries to open the index you were working on the
+last time you used it. Naturally, if this is the first time you've used
+~X, it will start up with no index.
+
+Invoke the [File→New Index action xix_ref_act_f_new.html] using
+~KCtrl+N~E or ~K__F__ile→__N__ew Index~E or [images/document-new.png] to
+create a new index. This will pop up the ~KNew Index~E file chooser
+dialog~~~use this dialog to choose the folder where you want to store
+your index and to give it a name. When you click ~KSave~E, a new empty
+index in the given folder and with the given name will be created, and
+will have sensible default options for everything.
+
+~X keeps each index~~~including all its options~~~entirely in a single
+~F.xix~E file, so there is no problem keeping indexes in the same
+folder. And if you do keep all your indexes in one easy-to-backup
+folder, you might find it helpful to give them two part names of form:
+~FPublisher - Title.xix~E, for example, ~FPrentice Hall - Advanced Qt
+Programming.xix~E.
+
+If you want to follow along with this tutorial, you might like to create
+a new index called ~FTutorial.xix~E.
+
+As soon as the new empty index has been created, we recommend setting
+your options where they differ from the defaults.
+
+~= [Set Index Options xix_tu_opt.html]

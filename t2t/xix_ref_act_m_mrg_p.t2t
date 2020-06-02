@@ -1,0 +1,28 @@
+Modify→Merge into Parent action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_m_mrg_p.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Modify Menu xix_ref_actmod.html]~E
+
+====Modify→Merge into Parent action====
+
+This action is used to merge the current entry's pages and cross-references
+into it's parent entry, and to move the current entry's subentries to be
+subentries of its parent entry (with their subentries and subsubentries,
+and so on, coming with), and then deleting the current entry.
+
+To invoke, use ~K__M__odify→Merge into __P__arent~E.
+
+A note of the entry that was merged is added to the end of the parent
+entry's notes.
+
+-------------------------
+You can undo the merge immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+See also [Modify→Merge Subentries action xix_ref_act_m_mrg_s.html].
+
+~= [Modify→Merge Subentries action xix_ref_act_m_mrg_s.html]

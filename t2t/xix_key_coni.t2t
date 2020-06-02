@@ -1,0 +1,63 @@
+Key Index Concepts
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_key_coni.html
+
+~B[Tutorial xix_tu.html]~E→~B[Key Concepts xix_key_con.html]~E
+
+- ~X always shows the index in the correct order in the
+  [Main Window Index Panel xix_ref_panel_index.html], so sorting is
+  never necessary. The index is shown indented, although it can be
+  output indented or in various run-in styles. Each entry's term and
+  pages are shown, followed by ~C☞ …~E if the entry has a cross-reference
+- It is possible to view specific subsets of the index (e.g., all the
+  entries that contain particular words or page numbers, or all the
+  entries created or edited today, and so on). See the
+  [Main Window Filtered Panel xix_ref_panel_filter.html].
+- ~X works in terms of a hierarchy of entry, subentry, subsubentry, and
+  so on (i.e., like a real index, not like a database), so creating a
+  subentry (at any level of depth), is simply a matter of adding a new
+  subentry rather than the copying and modifying technique used by some
+  other tools: see the
+  [Entry→Add Entry ... actions xix_ref_act_y_add.html].
+- An index may have any number of //normal groups// and //linked//
+  //groups//. A group is created and named by you.
+  - A normal group has no effect on the entries that belong to it. The
+    purpose of a normal group is to allow you to see all the group's
+    entries together. Any entry can belong to any number of normal
+    groups.
+  - A linked group is like a normal group, except that the pages of all
+    the entries in a linked group are automatically kept synchronized.
+    This means that double-posting (or triple-posting, and so on), can
+    be achieved by adding two (or more) entries to a linked group, since
+    any change to the pages of one entry in a linked group, will be
+    automatically applied to all the other entries in that linked group.
+    An entry may belong to at most one linked group.
+  - All the entries in a particular normal group can be viewed using the
+    [Main Window Filtered Panel xix_ref_panel_filter.html]'s
+    [Normal Group xix_ref_p_filt_cust.html#normal] filter, and all those
+    in a linked group using the
+    [Linked Group xix_ref_p_filt_cust.html#linked] filter. See also, the
+    [Entry→Group actions xix_ref_act_y_grp.html] and the
+    [Main Window Groups Panel xix_ref_panel_grp.html].
+- ~X automatically saves whenever the focus leaves an entry's term,
+  pages, or sort as editor, that is, whenever you navigate (e.g.,
+  press ~KTab~E, ~KShift+Tab~E, or click another editor, or click
+  another entry, and so on). Even so, you can explicitly save by
+  pressing ~KCtrl+S~E which is often useful~~~for example, to see where
+  ~X puts an entry, or to see how ~X formats page ranges~~~see the
+  [File→Save action xix_ref_act_f_save.html].
+  (See also the [Main Window Entry Panel xix_ref_panel_entry.html].)
+- All of an index's data~~~its entries, options, custom spelling dictionary,
+  etc., are all stored in a single ~F.xix~E file that's easy to backup,
+  copy, or move. This is covered later in this tutorial
+  ([Save and Backup an Index xix_tu_save.html]).
+- A //session// is the period from when an index is created or opened,
+  until another index is created or opened, or until ~X is quit. In
+  general, it is always possible to use the
+  [Index→Undo and Redo actions xix_ref_act_x_do.html] during a session,
+  even if the index has been saved.
+
+
+~= [Key Entry Concepts xix_key_cone.html]

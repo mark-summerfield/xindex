@@ -1,0 +1,26 @@
+Delete or Unlink Linked Group Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_unlink.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, click the//
+[Edit Groups Dialog xix_ref_dlg_groups.html]//'s//
+~K__U__nlink~E //or// ~K__D__elete~E //button.//
+
+This dialog is used to unlink or delete a linked group and specify what
+happens to the group's entries (if anything).
+
+[images/dellinkdlg.png]
+[images/unlinkdlg.png]
+
+If you delete an empty linked group, you'll simply be asked to confirm
+or not. Similarly, if you unlink an empty linked group, ~X will apply
+the change immediately, since there are no entries to be affected.
+
+But if you delete or unlink a linked group that has one or more entries,
+this dialog will appear.
+
+~= [Edit Groups Dialog xix_ref_dlg_groups.html]

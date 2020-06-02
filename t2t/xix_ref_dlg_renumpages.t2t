@@ -1,0 +1,35 @@
+Renumber Pages Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_renumpages.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Index→Renumber Pages action xix_ref_act_x_ren.html].
+
+This dialog is used to renumber pages.
+
+[images/renumberdlg.png]
+
+Unfortunately, it is possible that the book you are indexing has a
+last-minute change that affects its pagination. Perhaps the insertion of
+some vital new pages, or the deletion of one or more pages for legal
+reasons.
+
+This dialog can be used to renumber both Roman and decimal page numbers
+within given ranges and by given amounts (either positive or negative).
+For example, you could add ~CI~E to every Roman page from ~CVII~E to
+~CXXII~E, or subtract ~C2~E from every decimal page from ~C357~E to
+~C482~E.
+
+-------------------------
+You can undo renumbering immediately afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html].
+
+It is wise to backup the index before renumbering, just in case a
+mistake is made that isn't noticed immediately. See the
+[File→Backup action xix_ref_act_f_bak.html].
+
+~= [Sort As Dialog xix_ref_dlg_sortas.html]

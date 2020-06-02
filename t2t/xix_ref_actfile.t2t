@@ -1,0 +1,29 @@
+File Menu's actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_actfile.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]~E
+
+These actions are used to create, open, save, backup, and output
+indexes, and to quit the current ~X session.
+
+- [File→New Index action xix_ref_act_f_new.html] [images/document-new.png] 
+- [File→New Empty Copy action xix_ref_act_f_newcopy.html]
+- [File→Open action xix_ref_act_f_open.html] [images/document-open.png] 
+- [File→Open Recent action xix_ref_act_f_rec.html]
+- [File→Import action xix_ref_act_f_imp.html]
+- [File→Backup action xix_ref_act_f_bak.html]
+- [File→Save action xix_ref_act_f_save.html] [images/filesave.png] 
+- [File→Save As action xix_ref_act_f_saveas.html]
+- [File→Save Grouped As action xix_ref_act_f_savegroupedas.html]
+- [File→Output As .rtf action xix_ref_act_f_ortf.html] [images/exportrtf.png] 
+- [File→Output As .docx action xix_ref_act_f_odocx.html] [images/exportdocx.png] 
+- [File→Output As action xix_ref_act_f_oas.html]
+- [File→Print action xix_ref_act_f_prn.html]
+- [File→Quit action xix_ref_act_f_quit.html]
+
+
+~= [File→New Index action xix_ref_act_f_new.html]

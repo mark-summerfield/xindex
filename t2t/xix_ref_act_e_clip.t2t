@@ -1,0 +1,40 @@
+Edit→Clipboard actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_e_clip.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Edit Menu xix_ref_actedit.html]~E
+
+The clipboard actions allow you to copy or cut the selected text from
+the current editor (e.g., the ~KTerm~E or ~KPages~E editor) into the
+clipboard, and to paste text from the clipboard into the current editor.
+(See the [Text Editing actions xix_ref_acttxt.html] for how to select
+text.)
+
+====Edit→Copy action====
+
+To copy the selected text to the clipboard, use ~KCtrl+C~E or
+~K__E__dit→__C__opy~E or [images/edit-copy.png].
+
+====Edit→Cut action====
+
+To cut the selected text to the clipboard~~~i.e., copy the text to the
+clipboard and delete it from the editor~~~use ~KCtrl+X~E or
+~K__E__dit→Cu__t__~E or [images/edit-cut.png].
+
+====Edit→Paste action====[paste]
+
+To paste the clipboard's text (if any), into the current editor at the
+cursor position, use ~KCtrl+V~E or ~K__E__dit→__P__aste~E
+or [images/edit-paste.png].
+
+-------------------------
+Any of these actions can be undone immediately after they have been
+applied, using the [Edit→Undo action xix_ref_act_e_do.html].
+
+You can also copy entire entries (and optionally, their subentries),
+using the [Copy Entry Dialog xix_ref_dlg_copy.html].
+
+~= [Edit→Filter action xix_ref_act_e_filter.html]

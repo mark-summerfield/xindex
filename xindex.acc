@@ -1,0 +1,271 @@
+#MainWindow
+&File
+&Edit
+Insert
+Spelling
+Format
+&Goto
+Entry
+&Modify
+Inde&x
+Help
+&Term
+&Pages
+&Automatically Calculate Sort As
+&Sort As
+Cross Refs
+Notes
+&Index
+#Filter
+#Suggestions
+Groups
+
+# File
+New Index
+New Empty Copy
+&Open
+Open Recent
+Import
+Backup
+Save
+Save &As
+Output .&rtf
+Output .&docx
+Ou&tput As
+Print
+Quit
+
+# Edit
+Undo
+Redo
+Copy
+Cut
+Paste
+Filter
+Search and Replace
+
+# Insert
+Ellipsis
+E&n-dash
+E&m-dash
+Copy Character
+
+# Spelling
+&Remember Word
+Ignore Word
+Forget Words
+Auto Replace
+Show Suggestions and Groups
+Replace with Suggested
+
+# Format
+Bold
+Italic
+Underline
+No Superscript or Subscript
+Superscript
+Subscript
+&Standard Font
+Alternative Font
+Monospace Font
+
+# Goto
+&Found
+Circled
+Cross Ref.
+First
+Previous
+Next
+Last
+&Letter
+Add Bookmark
+Remove Bookmark
+Bookmarks
+
+# Entry
+Add &Main Entry
+Add &Sub-Entry
+Add Sibling &Entry
+Cancel Add
+&Copy
+Mo&ve
+Recreate
+&Delete
+&Add Cross Ref.
+Change Cross Ref.
+Delete Cross Ref.
+Circle
+Add to Normal &Group
+Add to &Linked Group
+&Remove from Group
+Filter by Group
+Edit Groups...
+
+# Modify
+Swap Acronym
+Copy Pages
+Combine Pages
+Swap Term with Filtered
+Swap Term with Circled
+Swap Entry with Filtered
+Swap Entry with Circled
+Merge into Parent
+Merge Sub-entries
+
+# Index
+&Undo
+&Redo
+Groups
+Options
+Output Options
+Ignored Subentry Function Words
+Custom Markup
+Combine Overlapping Pages
+Renumber Pages
+Optimi&ze
+Information
+Sho&w Toolbars
+
+# Help
+Help
+About
+License
+Register
+
+# Options General
+Creator
+Initials
+Language
+&Close
+
+# Options Algorithms
+Calculate Sort As Algorithm
+Page Range Algorithm
+&Close
+
+# Options Display
+Index View on Left
+Show Notes
+Always Show Sort As
+Show Menu Tooltips
+Show Main Window Tooltips
+Show Dialog Tooltips
+&Std. Font
+&Alt. Font
+&Mono. Font
+&Close
+
+# Output Options General
+Index Title
+Index Note
+Blank Lines Before
+Blank Lines After
+Output Titles
+Special Section Title
+&Std. Font
+&Alt. Font
+&Mono. Font
+Output Mono Font as Strikeout
+Style
+Term-Pages Separator
+Indent
+Run-in Separator
+&Close
+
+# Output Options XRefs
+Text
+Prefix
+Separator
+Suffix
+Put Before Pages
+Put After Pages
+Text
+Prefix
+Separator
+Suffix
+Position
+Generic Conjunction
+Cross-Ref. to Subentry style
+&Close
+
+# Break Pages Link Form
+keep the same pages in both
+replace the pages in
+replace the pages in
+OK
+Cancel
+
+# Custom Markup Doc.
+&Suffix
+&Add
+&Delete
+&Close
+D&ocument
+C&haracter
+Note
+Document
+Section
+Main
+Sub 1
+Sub 2
+Sub 3
+Sub 4
+Sub 5
+Sub 6
+Sub 7
+Sub 8
+Sub 9
+
+# Custom Markup Char.
+&Suffix
+&Add
+&Delete
+&Close
+D&ocument
+C&haracter
+Escape
+Page Range Separator
+Std. Font
+Alt. Font
+Mono. Font
+Bold
+Italic
+Subscript
+Superscript
+Underline
+Strikeout
+
+# Find and Replace Form
+Search For
+Replace With
+All Entries
+Found Entries
+Literal
+Rege&x
+Ignore Case
+Whole Words
+Mor&e
+Terms
+Pages
+Notes
+&Replace
+Next
+Undo
+Replace All
+&Close
+
+# Copy Entry
+to be a &Main Entry
+to be a &Subentry of itself
+to be a Si&bling of itself
+under &Filtered
+under C&ircled
+under &Recent
+Copy &All
+Cross-references
+Groups
+S&ubentries
+Link Pages between
+Add a see cross-reference
+&Cancel
+C&opy

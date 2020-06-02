@@ -1,0 +1,24 @@
+Output Options Dialog's Entry Cross-references Tab
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_out_xref.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]→
+[Output Options Dialog xix_ref_dlg_output.html]~E
+
+~@ [General xix_ref_dlg_out_gen.html]
+~@ Entry Cross-references
+~@ [Subentry Cross-references xix_ref_dlg_out_subxref.html]
+~@ [Format Specific xix_ref_dlg_out_fmt.html]
+
+This tab is used to set the options controlling how cross-references from
+main entries are output.
+
+[images/outxreftab.png]
+
+If you choose to output main entry cross-references as the last subentry
+using the ~KPosition~E drop-down list, you will probably want to delete
+any ~KPrefix~E and ~KSuffix~E.
+
+~= [Subentry Cross-references xix_ref_dlg_out_subxref.html]

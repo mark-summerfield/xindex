@@ -1,0 +1,24 @@
+Spelling→Forget Words action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_l_forg.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Spelling Menu xix_ref_actspell.html]~E
+
+====Spelling→Forget Words action====
+
+This action is used to pop up the
+[Forget Spelling Words Dialog xix_ref_dlg_spelldel.html] which can be
+used to forget any words remembered into the current index's custom
+dictionary, and any words ignored for this session.
+
+To invoke, use ~KSpe__l__ling→__F__orget Words~E.
+
+-------------------------
+If you want to ignore a word for this session without remembering it,
+use the
+[Spelling→Ignore Word action xix_ref_act_l_ig.html].
+
+~= [Spelling→Auto Replace action xix_ref_act_l_auto.html]

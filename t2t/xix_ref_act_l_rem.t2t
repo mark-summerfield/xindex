@@ -1,0 +1,33 @@
+Spelling→Remember Word action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_l_rem.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Spelling Menu xix_ref_actspell.html]~E
+
+====Spelling→Remember Word action====
+
+This action remembers the unrecognized word that's nearest the cursor's
+left in the ~KTerm~E editor, into the index's custom dictionary.
+Unrecognized words are indicated by a red wavy underline; this underline
+is never output.
+
+To invoke, use ~KCtrl+R~E or ~KSpe__l__ling→__R__emember Word~E
+or [images/spelling-add.png].
+
+-------------------------
+If you want a remembered word to be forgotten (e.g., if it was
+remembered by mistake), use the
+[Spelling→Forget Words action xix_ref_act_l_forg.html].
+
+If you don't want a word remembered, and don't want it shown as
+unrecognized, use the
+[Spelling→Ignore Word action xix_ref_act_l_ig.html].
+
+If you want a new index to have the same remembered words as the current
+index, create the new index using the
+[File→New Empty Copy action xix_ref_act_f_newcopy.html].
+
+~= [Spelling→Ignore Word action xix_ref_act_l_ig.html]

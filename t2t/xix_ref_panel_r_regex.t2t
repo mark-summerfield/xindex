@@ -1,0 +1,198 @@
+Regular Expression
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_panel_r_regex.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]
+→[Main Window Search and Replace Panel xix_ref_panel_replace.html]~E
+
+~X's [Main Window Search and Replace Panel xix_ref_panel_replace.html]
+supports regular expression searches and replacements when the panel's
+~KRegex~E radio button is checked.
+
+The supported regular expression syntax is a subset of that provided by
+the [Python www.python.org] language's
+[re https://docs.python.org/3/library/re.html#module-re] module.
+
+There are two kinds of match: zero length matches which match //at//
+particular places (e.g., ~C\b~E, which matches //at// the beginning or
+end of a word, but not any actual text); and matches which match
+characters (e.g., ~C\d+~E, which matches a whole number).
+
+'''
+<table>
+<tr>
+<th class="th_kb">Expression</th>
+<th class="th_kbs"></th>
+<th class="th_kb">Notes</th>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>.</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Matches any character</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>^</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match <i>at</i> the start of the text</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>$</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match <i>at</i> the end of the text</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>*</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Greedily match the preceding expression zero or more
+times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>*?</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Non-greedily match the preceding expression zero or more
+times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>+</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Greedily match the preceding expression one or more
+times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>+?</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Non-greedily match the preceding expression one or more
+times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>?</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Greedily match the preceding expression zero or one
+times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>??</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Non-greedily match the preceding expression zero or one
+times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>{<i>m<i>}</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match the preceding expression exactly <i>m</i>
+times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>{<i>m<i>, <i>n</i>}</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Greedily match the preceding expression at least <i>m</i>
+times, and at most <i>n</i> times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>{<i>m<i>, <i>n</i>}?</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Non-greedily match the preceding expression at least
+<i>m</i> times, and at most <i>n</i> times</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Escape the following expression character to make it
+a plain character. For example, use <b>\+</b> for a plain plus sign</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>[<i>chars</i>]</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match any character in the set of <i>chars</i>. For
+example, <b>[0-9]</b> to match a digit (and <b>[0-9]+</b> to match a
+whole number)</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b><i>expr1</i>|<i>expr2</i></b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match either <i>expr1</i> or <i>expr2</i></td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>(<i>expr<i>)</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match the <i>expr</i> normally, and remember the
+matched text. Every remembered match is numbered counting from 1.
+To insert remembered matched text in the replacement use the syntax
+<b>\1</b> for the first match, <b>\2</b> for the second, and so on
+</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\b</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match <i>at</i> the beginning or end of a word</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\B</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match when <i>not</i> <i>at</i> the beginning or end of a
+word</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\d</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match a digit. This is almost the same as
+<b>[0-9]</b> except that it matches any Unicode digit</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\D</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match a <i>non</i>-digit</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\s</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match a whitespace character (e.g., space)</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\S</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match a <i>non</i>-whitespace character</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\w</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match a “word” character (a letter, digit, or
+underscore)</td>
+</tr>
+
+<tr>
+<td class="td_kb1a"><b>\W</b></td>
+<td class="td_kbs"></td>
+<td class="td_kb1">Match a <i>non</i>-word character</td>
+</tr>
+
+</table>
+'''
+
+~= [Main Window Suggestions Panel xix_ref_panel_sug.html]

@@ -1,0 +1,33 @@
+Dialogs
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlgs.html
+
+~B[Reference xix_ref.html]~E
+
+~X has a number of dialogs for setting options or performing actions, or
+both, and where some human intervention is needed to ensure that the
+right things are done.
+
+- [Add Cross-reference Dialog xix_ref_dlg_addxref.html]
+- [Auto Replace Dialog xix_ref_dlg_autorep.html]
+- [Combine Overlapping Pages Dialog xix_ref_dlg_combpages.html]
+- [Copy Character Dialog xix_ref_dlg_copychr.html]
+- [Copy Entry Dialog xix_ref_dlg_copy.html]
+- [Custom Markup Dialog xix_ref_dlg_markup.html]
+- [Delete or Unlink Linked Group Dialog xix_ref_dlg_unlink.html]
+- [Edit Groups Dialog xix_ref_dlg_groups.html]
+- [Forget Spelling Words Dialog xix_ref_dlg_spelldel.html]
+- [Ignored Subentry Function Words Dialog xix_ref_dlg_subignore.html]
+- [Information Dialog xix_ref_dlg_info.html]
+- [Move Entry Dialog xix_ref_dlg_move.html]
+- [New Empty Copy Dialog xix_ref_dlg_newcopy.html]
+- [Options Dialog xix_ref_dlg_options.html]
+- [Output Options Dialog xix_ref_dlg_output.html]
+- [Recreate Entries Dialog xix_ref_dlg_recreate.html]
+- [Renumber Pages Dialog xix_ref_dlg_renumpages.html]
+- [Sort As Dialog xix_ref_dlg_sortas.html]
+
+
+~= [Add Cross-reference Dialog xix_ref_dlg_addxref.html]

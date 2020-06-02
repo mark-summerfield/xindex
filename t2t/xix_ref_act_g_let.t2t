@@ -1,0 +1,39 @@
+Goto→Letter action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_g_let.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Goto Menu xix_ref_actgoto.html]~E
+
+====Goto→Letter action====
+
+These actions are used to navigate to the first entry that has a
+[Sort As Text xix_ref_sortas.html] starting with a given letter.
+
+When one of these actions is invoked, the navigated-to entry will become
+the current entry. This current entry will be shown in the
+[Main Window Entry Panel xix_ref_panel_entry.html] where it can be
+edited, and it will also be shown highlighted in the
+[Main Window Index Panel xix_ref_panel_index.html].
+
+To visit the first entry whose
+[Sort As Text xix_ref_sortas.html] starts with a given letter, //L//,
+use ~KCtrl+G,//L//~E or ~K__G__oto→__L__etter→//__L__//~E, or click the
+letter //L// in the “Goto Letter” toolbar.
+
+If the keyboard focus is already in the
+[Index Panel xix_ref_panel_index.html], you can get the same effect as
+these actions simply by typing the letter, e.g., //L//.
+
+(Similarly, if the focus is in the
+[Filtered Panel xix_ref_panel_filter.html], you can navigate to the
+first entry shown that starts with a particular letter, simply by typing
+that letter.)
+-------------------------
+See also the [Tutorial xix_tu.html]'s
+[Finding Entries xix_tu_nav.html] page which shows how to navigate to
+the first entry starting with one or more letters of your choice.
+
+~= [Goto→Bookmark actions xix_ref_act_g_book.html]

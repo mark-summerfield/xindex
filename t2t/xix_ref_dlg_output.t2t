@@ -1,0 +1,28 @@
+Output Options Dialog
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_output.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]~E
+
+//To pop up this dialog, use the//
+[Index→Output Options action xix_ref_act_x_outopt.html].
+
+This dialog is used to set the output options for the current index.
+
+In some of the dialog's editors, spaces are shown as solid cyan
+bullets~~~this is to make them stand out so that you can clearly see if
+you have leading or trailing spaces. They are always output as plain
+spaces though.
+
+- [General Tab xix_ref_dlg_out_gen.html]
+- [Entry Cross-references Tab xix_ref_dlg_out_xref.html]
+- [Subentry Cross-references Tab xix_ref_dlg_out_subxref.html]
+- [Format Specific Tab xix_ref_dlg_out_fmt.html]
+
+-------------------------
+If you change an output option, and then change your mind~~~simply
+change the output option back to what you want it to be.
+
+~= [General Tab xix_ref_dlg_out_gen.html]

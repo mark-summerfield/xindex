@@ -1,0 +1,26 @@
+Entry→Move action
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_y_mv.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Entry Menu xix_ref_actentry.html]~E
+
+====Entry→Move action====
+
+This action is used to pop up the [Move Entry Dialog xix_ref_dlg_move.html]
+which is used to move an existing entry, along with all of its
+subentries.
+
+If you want to copy rather than move, use the
+[Entry→Copy action xix_ref_act_y_copy.html].
+
+To invoke, use ~KShift+F8~E or ~KEntr__y__→Mo__v__e~E
+or [images/move.png].
+
+-------------------------
+You can undo moving an entry (and its subentries) immediately
+afterwards, by using the [Index→Undo action xix_ref_act_x_do.html].
+
+~= [Entry→Recreate action xix_ref_act_y_rec.html]

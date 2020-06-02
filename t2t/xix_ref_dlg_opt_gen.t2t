@@ -1,0 +1,28 @@
+Options Dialog's General Tab
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_dlg_opt_gen.html
+
+~B[Reference xix_ref.html]→[Dialogs xix_ref_dlgs.html]→
+[Options Dialog xix_ref_dlg_options.html]~E
+~@ General
+~@ [Rules xix_ref_dlg_opt_rules.html]
+~@ [Display xix_ref_dlg_opt_disp.html]
+
+This tab is used to set some general options for the current index, and
+the default language for future indexes.
+
+[images/optgentab.png]
+
+This tab is used to set the language used for spelling and suggestions
+for the current index and as the default for new indexes. It is also
+used to set some publisher's limits for the current index. These limits
+are advisory, not enforced, but you can see any entries that break them
+using three of the
+[Main Window Filtered Panel xix_ref_panel_filter.html]'s predefined
+filters: [Too High Page Number xix_ref_p_filt_pre.html#high],
+[Too Large Page Range xix_ref_p_filt_pre.html#large], and
+[Too Many Pages xix_ref_p_filt_pre.html#many].
+
+~= [Rules xix_ref_dlg_opt_rules.html]

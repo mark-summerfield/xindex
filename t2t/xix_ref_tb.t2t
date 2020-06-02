@@ -1,0 +1,39 @@
+Main Window Toolbars
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_tb.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]~E
+
+Every toolbar button has a corresponding menu action~~~although not
+every menu action has a corresponding toolbar button. To see the menu
+actions and their toolbar buttons (where available), see the main
+window's [Menu Actions xix_ref_actions.html].
+
+To show or hide a toolbar, right click anywhere in any toolbar area or
+on any toolbar's handle (at its left edge), but not on an actual toolbar
+button. This will pop up a menu listing the toolbars, with the visible
+toolbars shown checked and the hidden ones shown unchecked. Click the
+name of toolbar you want to show or hide to change its state.
+
+If you hide all the toolbars, there is no toolbar area through which you
+can pop up the toolbar menu. So, in this case, if you need to make a
+toolbar visible, use the
+[Index→Show Toolbars action xix_ref_act_x_tb.html].
+
+Toolbars can also be moved. To do this, click and drag the toolbar
+handle at the left edge (or top edge, for vertical toolars), of the
+toolbar you want to move, and drop it in the position you want it to
+occupy.
+
+By default, all the toolbars are shown at the top of the main window in
+horizontal rows. However, you can drag them to the left, right, or
+bottom of the main window. For example, you might like to drag the
+~KA...Z~E “Goto Letter” toolbar to the main window's right edge so that
+it is vertical. In fact, if your screen is much wider than it is tall,
+you might prefer to drag many toolbars to the left and/or right edges.
+
+Toolbar settings are preserved across sessions.
+
+~= [Main Window Panels xix_ref_panels.html]

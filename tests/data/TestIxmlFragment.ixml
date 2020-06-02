@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE indexdata [
+<!ELEMENT indexdata (source, fonts, records) >
+<!ELEMENT source EMPTY >
+<!ATTLIST source
+	creator CDATA #REQUIRED
+	version CDATA #REQUIRED
+	time CDATA #REQUIRED >
+<!-- time value is UTC in this format: 2011-03-03T03:41:14 -->
+<!ELEMENT fonts (font+) >
+<!ELEMENT font (fname, aname) >
+<!ATTLIST font
+	id CDATA #REQUIRED >
+<!ELEMENT fname (#PCDATA) >
+<!ELEMENT aname (#PCDATA) >
+<!ELEMENT records (record)* >
+<!ATTLIST records
+	type CDATA #IMPLIED >
+<!ELEMENT record (field+) >
+<!ATTLIST record
+	time CDATA #REQUIRED
+	user CDATA #IMPLIED
+	label CDATA #IMPLIED
+	deleted (y | n) #IMPLIED
+	type CDATA #IMPLIED >
+<!-- time value is UTC in this format: 2008-08-02T16:27:44 -->
+<!-- label value is integer -->
+<!-- type value can be "generated" (automatically generated) -->
+<!ELEMENT field (#PCDATA | text | esc | literal | hide | sort)* >
+<!ATTLIST field
+	class CDATA #IMPLIED >
+<!-- class value can be "locator" -->
+<!ELEMENT text EMPTY >
+<!ATTLIST text
+	font CDATA #IMPLIED
+	color CDATA #IMPLIED
+	smallcaps ( y | n ) #IMPLIED
+	style ( b | i | u | bi | bu | iu | biu ) #IMPLIED
+	offset ( u | d ) #IMPLIED
+>
+<!-- font and color attribute values are integers in range 0-31 -->
+<!ELEMENT literal EMPTY >
+<!-- literal: forces the succeeding character to be used in sort -->
+<!ELEMENT hide (#PCDATA) >
+<!-- hide: contains text to be ignored in sorting -->
+<!ELEMENT sort (#PCDATA) >
+<!-- sort: contains text to be used in sorting but not displayed -->
+]>
+<indexdata>
+<source creator="cindex" version="3.0" time="2013-11-14T15:40:02"/>
+<fonts>
+<font id="0">
+	<fname>Arial</fname>
+	<aname>Arial</aname>
+</font>
+</fonts>
+<records>
+<record time="2013-11-14T15:29:59">
+	<field>alpha breaks</field>
+	<field class="locator">see index groups</field>
+</record>
+<record time="2013-10-25T07:48:05" user="GMB">
+	<field>alternate style sheets</field>
+	<field class="locator">C.6</field>
+</record>
+<record time="2013-10-20T21:49:12" user="GMB">
+	<field>Canonical Fragment Identifiers (CFIs)</field>
+	<field>code example</field>
+	<field class="locator"><text style="i"/>21<text/></field>
+</record>
+<record time="2013-11-14T15:31:52">
+	<field>child entries</field>
+	<field>defined</field>
+	<field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>collection element</field>
+	<field class="locator">2.3.2.2</field>
+</record>
+<record time="2013-10-20T21:25:36" user="GMB">
+	<field>collection element</field>
+	<field>code examples</field>
+	<field class="locator"><text style="i"/>38-39<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>conformance criteria</field>
+	<field class="locator">3</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>conformance criteria</field>
+	<field>content</field>
+	<field class="locator">3.1</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>conformance criteria</field>
+	<field>reading system</field>
+	<field class="locator">3.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>conformance statements</field>
+	<field class="locator">1.3</field>
+</record>
+<record time="2013-10-20T21:26:50" user="GMB">
+	<field>content documents</field>
+	<field>code examples</field>
+	<field class="locator"><text style="i"/>5-8<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>content documents</field>
+	<field>content conformance criteria</field>
+	<field class="locator">3.1</field>
+</record>
+<record time="2013-11-14T15:31:53">
+	<field>content documents</field>
+	<field>defined</field>
+	<field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>content documents</field>
+	<field>indexes as components of</field>
+	<field class="locator">2.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>content documents</field>
+	<field>schema for indexes in</field>
+	<field class="locator">A</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>cross-reference targets</field>
+	<field class="locator">see also generic cross-reference targets</field>
+</record>
+<record time="2013-10-20T21:25:57" user="GMB">
+	<field>cross-reference targets</field>
+	<field>code example</field>
+	<field class="locator"><text style="i"/>25<text/></field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>index groups</field>
+	<field class="locator">2.2.2</field>
+</record>
+<record time="2013-10-25T08:04:40" user="GMB">
+	<field>index groups</field>
+	<field>code examples</field>
+	<field class="locator"><text style="i"/>9<text/></field>
+</record>
+<record time="2013-10-25T08:04:56" user="GMB">
+	<field>index groups</field>
+	<field>code examples</field>
+	<field class="locator"><text style="i"/>39-40<text/></field>
+</record>
+<record time="2013-11-14T15:31:54">
+	<field>index groups</field>
+	<field>defined</field>
+	<field class="locator">1.2</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>index groups</field>
+	<field>improved index navigation using</field>
+	<field class="locator">C.9</field>
+</record>
+<record time="2013-11-14T15:29:59">
+	<field>index groups</field>
+	<field>index group role</field>
+	<field class="locator">2.3.2.2</field>
+</record>
+</records>
+</indexdata>
+

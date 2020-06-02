@@ -1,0 +1,31 @@
+Main Window Panels
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_panels.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]~E
+
+~X's main window has six panels, of which the entry panel and index
+panel are always visible, and the suggestions, groups, and filtered
+panels are normally visible. The search and replace panel can be shown
+by using the [Edit→Search and Replace action xix_ref_act_e_search.html].
+
+The panels are separated by //splitters//, these are indicated by
+horizontal or vertical tear lines. To resize a panel, click and drag the
+appropriate splitter until you achieve the layout you want. ~X
+remembers the layout between sessions, so you need do this only once.
+
+By default, the index panel is on the right, but you can change this by
+checking the [Options Dialog's General Tab xix_ref_dlg_opt_gen.html]'s
+~KIndex View on Left~E checkbox.
+
+- [Entry Panel xix_ref_panel_entry.html]
+- [Filtered Panel xix_ref_panel_filter.html]
+- [Groups Panel xix_ref_panel_grp.html]
+- [Index Panel xix_ref_panel_index.html]
+- [Search and Replace Panel xix_ref_panel_replace.html]
+- [Suggestions Panel xix_ref_panel_sug.html]
+
+
+~= [Entry Panel xix_ref_panel_entry.html]

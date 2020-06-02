@@ -1,0 +1,46 @@
+Main Window Suggestions Panel
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_panel_sug.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]~E
+
+//To make this panel visible, if it isn't already, use the//
+[Spelling→Show Suggestions and Groups action xix_ref_act_l_show.html].
+//You can also click and drag the splitters to the side and below this//
+//panel to give it more~~~or less~~~space.//
+
+This panel shows suggested completions of the word you are typing or the
+word to the left of the cursor, when entering or editing text in the
+~KTerm~E editor. The panel's tab shows the number of suggestions.
+
+The first nine suggestions are numbered, 1-9.
+
+To complete or replace the word to the left of the cursor with one of
+the numbered suggestions, use ~KCtrl+//__n__//~E (e.g., ~KCtrl+1~E),
+or ~KSpe__l__ling→//__n__//~E, where //n// is the number of the
+suggestion you want to use. Alternatively, double-click any suggestion
+in the list to complete or replace with it.
+
+If the suggestion isn't numbered, press ~KAlt+U~E (or ~KAlt+D~E, then
+~KAlt+U~E), or click the ~KSuggestions~E panel's suggestions list, then
+click the suggestion you want~~~or navigate to it using the ~KDown~E
+arrow~~~then use ~KCtrl+M~E or ~KSpe__l__ling→Replace with
+__S__uggested~E or [images/complete.png], to complete or replace the
+word with the highlighted suggestion.
+
+By default the first suggestion is highlighted, so using ~KCtrl+M~E or
+~KSpe__l__ling→Replace with __S__uggested~E or [images/complete.png],
+will normally complete or replace with the first suggestion.
+
+-------------------------
+The suggested words are taken from the dictionary for the current
+language (which is set in the
+[Options Dialog's General Tab xix_ref_dlg_opt_gen.html]'s ~KLanguage~E
+drop-down list), plus any words in the current index's custom dictionary
+(for which, see the
+[Spelling→Remember Word action xix_ref_act_l_rem.html]).
+
+~= [Status Bar xix_ref_status.html]

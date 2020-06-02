@@ -1,0 +1,33 @@
+Main Window Groups Panel
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_panel_grp.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]
+→[Panels xix_ref_panels.html]~E
+
+//To make this panel visible, if it isn't already, use the//
+[Spelling→Show Suggestions and Groups action xix_ref_act_l_show.html].
+//You can also click and drag the splitters to the side and above this//
+//panel to give it more~~~or less~~~space.//
+
+This panel shows the groups that the current entry belongs to, and can
+be used to add the entry to additional groups or remove the entry from
+the groups it currently belongs to, or to view all the entries in one of
+the groups it shows.
+
+For viewing the entries in a group that's shown in this panel, use the
+[Entry→Filter by Group action xix_ref_act_y_grp.html]. To view the
+entries in a normal group, use the
+[Normal Group xix_ref_p_filt_cust.html#normal] filter, and to view the
+entries in a linked group, use the
+[Normal Group xix_ref_p_filt_cust.html#linked] filter.
+
+For adding and removing an entry to or from a group, see the
+[Entry→Group actions xix_ref_act_y_grp.html].
+
+For adding, renaming, linking, unlinking, and deleting groups, see the
+[Edit Groups Dialog xix_ref_dlg_groups.html].
+
+~= [Main Window Index Panel xix_ref_panel_index.html]

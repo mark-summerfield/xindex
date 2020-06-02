@@ -1,0 +1,40 @@
+Entry→Cross-reference actions
+
+
+%!includeconf: t2t.conf
+%!options(html): --outfile ../doc/xix_ref_act_y_xref.html
+
+~B[Reference xix_ref.html]→[Main Window xix_ref_mainwin.html]→
+[Menu Actions xix_ref_actions.html]→[Entry Menu xix_ref_actentry.html]~E
+
+These actions are used to add, change, or delete cross-references from the
+current entry, whether generic, or to other entries.
+
+====Entry→Add Cross-reference action====
+
+To add a cross-reference from the current entry, use ~KCtrl+K~E or
+~KEntr__y__→__A__dd Cross-reference~E or [images/xref-add.png]. This
+will pop up the [Add Cross-reference Dialog xix_ref_dlg_addxref.html]
+through which you can add a cross-reference to the filtered or circled
+or most recently visited entry (as available), or add a generic
+cross-reference
+
+====Entry→Change Cross-reference action====
+
+To change a //see// cross-reference into a //see// //also//
+cross-reference, or vice versa, use ~KEntr__y__→C__h__ange
+Cross-reference~E or [images/xref-change.png].
+
+====Entry→Delete Cross-reference action====
+
+To delete a cross-reference, use ~KEntr__y__→Delete Cr__o__ss-reference~E
+or [images/xref-delete.png].
+
+-------------------------
+You can undo adding, changing, or deleting a cross-reference immediately
+afterwards, by using the
+[Index→Undo action xix_ref_act_x_do.html]. However, for changing a
+cross-reference back, it is just as easy to reapply the ~KEntry→Change
+Cross-reference action~E.
+
+~= [Entry→Circle action xix_ref_act_y_circ.html]
